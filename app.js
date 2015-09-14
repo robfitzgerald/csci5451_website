@@ -1,13 +1,14 @@
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
-var logger = require('morgan');
+var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
-var resources = require('./routes/resources');
+var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
+var Users = require('./users.js');
+var session = require('express-session');
+var connectFlash = require('connect-flash');
 
 var app = express();
 
@@ -15,48 +16,55 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
+// config section
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
+app.use(morgan('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
-app.use('/resources', resources);
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  var err = new Error('Not Found');
-  err.status = 404;
-  next(err);
+app.use(session({
+  secret: 'look at this graph',
+  resave: true,
+  saveUninitialized: true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(connectFlash());
+passport.use('local', new LocalStrategy(
+  function(username, password, done) {
+    if (Users[0].username == username) {
+      if (Users[0].password == password) {
+        return done(null, {username:username, id: username});
+      }
+      else {
+        return done(null, false, {message: 'Incorrect password.'});
+      }
+    }
+    else {
+      return done(null, false, {message: 'Incorrect username.'});
+    }
+}));
+passport.serializeUser(function(user, done) {
+  done(null, Users[0].id);
+});
+passport.deserializeUser(function(id, done) {
+  done(null, Users[0]);
 });
 
-// error handlers
 
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err
-    });
-  });
-}
+console.log('U/Ps are: student:' + Users.student + ', admin:' + Users.admin);
 
-// production error handler
-// no stacktraces leaked to user
-app.use(function(err, req, res, next) {
-  res.status(err.status || 500);
-  res.render('error', {
-    message: err.message,
-    error: {}
-  });
-});
 
+//var index = require('./routes/index');
+//var loginPage = require('./routes/loginPage');
+//var resources = require('./routes/resources');
+//app.use('/login', loginPage)(app,passport);
+//app.use('/', index)(app,passport);
+//app.use('/resources', resources)(app,passport);
+
+var routes = require('./routes/routes.js')(app,passport);
 
 module.exports = app;

@@ -1,7 +1,8 @@
 (function() {
 
-  angular
-    .module('site', [])
+  angular.module('algoSite', []);
+
+  angular.module('algoSite')
     .controller('viewController',['$http', listViewController]);
 
   function listViewController($http) {
@@ -32,6 +33,10 @@
         })
     }
   }
+
+  angular.element(document).ready(function() {
+    angular.bootstrap(document, ['algoSite']);
+  });
 
 }());
 

@@ -1,14 +1,20 @@
-extends layout
-
-block content
-  div(class='top' ng-controller='viewController as ctrl') {{ctrl.test}}
-    div(class='assignments' ng-repeat='arr in ctrl.assignments')
-      a(href="{{arr.link}}") {{arr.name}}
-    div(class='notebooks' ng-repeat='arr in ctrl.notebooks')
-      a(href="{{arr.link}}") {{arr.name}}
-    div(class='articles' ng-repeat='arr in ctrl.articles')
-      a(href="{{arr.link}}") {{arr.name}}
-    div(class='people' ng-repeat='arr in ctrl.people')
-      a(href="mailto:{{arr.link}}") {{arr.name}}
-    div(class='slides' ng-repeat='arr in ctrl.slides')
-      a(href='{{arr.link}}') {{arr.name}}
+doctype html
+html(ng-app="algoSite")
+  head
+    title algorithms
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div
+      div(class='top' ng-controller='viewController as ctrl')
+        div(class='assignments' ng-repeat='arr in ctrl.assignments')
+          a(href="{{arr.link}}") {{arr.name}}
+        div(class='notebooks' ng-repeat='arr in ctrl.notebooks')
+          a(href="{{arr.link}}") {{arr.name}}
+        div(class='articles' ng-repeat='arr in ctrl.articles')
+          a(href="{{arr.link}}") {{arr.name}}
+        div(class='people' ng-repeat='arr in ctrl.people')
+          a(href="mailto:{{arr.link}}") {{arr.name}}
+        div(class='slides' ng-repeat='arr in ctrl.slides')
+          a(href='{{arr.link}}') {{arr.name}}
+    script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
+    script(src='site-module.js')
