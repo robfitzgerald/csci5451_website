@@ -17,7 +17,6 @@
     activate();
 
     function activate() {
-      //$http.get('/resources/assignments').then(function(res) { console.log('quick way') });
       call('assignments').then(function() { console.log('done getting assignments') });
       call('articles');
       call('notebooks');

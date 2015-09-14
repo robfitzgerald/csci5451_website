@@ -25,6 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// authentication section
 app.use(session({
   secret: 'look at this graph',
   resave: true,
@@ -53,18 +54,5 @@ passport.serializeUser(function(user, done) {
 passport.deserializeUser(function(id, done) {
   done(null, Users[0]);
 });
-
-
-console.log('U/Ps are: student:' + Users.student + ', admin:' + Users.admin);
-
-
-//var index = require('./routes/index');
-//var loginPage = require('./routes/loginPage');
-//var resources = require('./routes/resources');
-//app.use('/login', loginPage)(app,passport);
-//app.use('/', index)(app,passport);
-//app.use('/resources', resources)(app,passport);
-
 var routes = require('./routes/routes.js')(app,passport);
-
 module.exports = app;
