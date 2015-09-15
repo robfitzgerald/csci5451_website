@@ -32,3 +32,6 @@ node_modules
 # secret stuff
 users.js
 resources/people.json
+
+# mac os x
+.DS_Store
