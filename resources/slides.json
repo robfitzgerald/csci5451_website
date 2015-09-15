@@ -8,11 +8,15 @@
     "link": "slides/GradAlgorithmsWeek2.pdf"
   },
   {
-  "name": "Week 3",
-  "link": "slides/GradAlgorithmsWeek3.pdf"
+    "name": "Week 3",
+    "link": "slides/GradAlgorithmsWeek3.pdf"
   },
   {
-  "name": "Week 4",
-  "link": "slides/GradAlgorithmsWeek4Notes.pdf"
+    "name": "Week 4 (revised 9/14)",
+    "link": "slides/GradAlgorithmsWeek4Notes.pdf"
+  },
+  {
+    "name": "Week 5",
+    "link": "slides/GradAgorithmsWeek5Notes.pdf"
   }
 ]
