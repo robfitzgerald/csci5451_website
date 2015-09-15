@@ -1,6 +1,14 @@
 [
   {
-    "name": "Homework 1",
-    "link": "assignments/gradAlgorithmsHW1Fall2015.pdf"
+    "name": "Homework 0",
+    "link": "assignments/GradAlgorithmsHW0Fall2015.pdf"
+  },
+  {
+  	"name": "Homework 1 (Due Sept 17th)",
+  	"link": "assignments/gradAlgorithmsHW1Fall2015.pdf"
+  },
+  {
+  	"name": "Some Projects Part 1 (Due Sept 24th) ",
+  	"link": "assignments/gradAlgorithmsMiniProjectsFall2015.pdf"
   }
 ]

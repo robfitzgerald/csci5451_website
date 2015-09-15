@@ -28,3 +28,7 @@ node_modules
 
 # JetBrains
 .idea
+
+# secret stuff
+users.js
+resources/people.json
