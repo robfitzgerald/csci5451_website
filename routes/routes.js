@@ -1,24 +1,22 @@
 // app/routes.js
 module.exports = function (app, passport) {
 
-  // =====================================
-  // HOME PAGE (with login links) ========
-  // =====================================
+
   app.get('/', isLoggedIn, function (req, res) {
-    res.render('index'); // load the index
+    res.render('index');
   });
 
-  // =====================================
-  // LOGIN ===============================
-  // =====================================
-  // show the login form
-  app.get('/login', function (req, res) {
 
-    // render the page and pass in any flash data if it exists
+  app.get('/people', isLoggedIn, function (req, res) {
+    res.render('people');
+  });
+
+
+  app.get('/login', function (req, res) {
     res.render('login', {message: req.flash('loginMessage')});
   });
 
-  // process the login form
+
   app.post('/login',
     passport.authenticate('local', {
       successRedirect: '/',
@@ -27,9 +25,7 @@ module.exports = function (app, passport) {
     })
   );
 
-  // =====================================
-  // LOGOUT ==============================
-  // =====================================
+
   app.get('/logout', function (req, res) {
     req.logout();
     res.redirect('/');

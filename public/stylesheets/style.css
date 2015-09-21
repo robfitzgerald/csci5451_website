@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fff;
 }
 
 a {
@@ -10,4 +11,25 @@ a {
 div#top > p {
   font-size: large;
   font-weight: bold
+}
+
+.splash {
+  position: relative;
+  /*background: #5C97FF;*/
+  overflow: hidden;
+}
+.splash h6 {
+  text-align: left;
+  z-index: 2;
+  position: relative;
+  color: #333;
+}
+.splash img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  opacity: 0.6;
 }
