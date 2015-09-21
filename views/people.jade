@@ -22,28 +22,14 @@ html(ng-app="algoSite")
         h6 Graduate Algorithms (Fall 2015)
         h6 TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
         img(src="https://linhartphotography.files.wordpress.com/2013/09/dsc_003001.jpg")
-    p website v2
-    div.row.link-categories
-      div.col.s12.m6.l3
-        ul.collection.with-header.teal.lighten-2
-          li.collection-header.teal Weekly Classroom Slides
-          div(ng-repeat='arr in ctrl.slides')
-            a.collection-item.waves-effect.waves-light.teal.white-text.hoverable(href='{{arr.link}}') {{arr.name}}
-      div.col.s12.m6.l3
-        ul.collection.with-header.teal.lighten-2
-          li.collection-header.teal Assignments
-          div(ng-repeat='arr in ctrl.assignments')
-            a.collection-item.waves-effect.waves-light.teal.white-text.hoverable(href='{{arr.link}}') {{arr.name}}
-      div.col.s12.m6.l3
-        ul.collection.with-header.teal.lighten-2
-          li.collection-header.teal Classroom Slides
-          div(ng-repeat='arr in ctrl.notebooks')
-            a.collection-item.waves-effect.waves-light.teal.white-text.hoverable(href='{{arr.link}}') {{arr.name}}
-      div.col.s12.m6.l3
-        ul.collection.with-header.teal.lighten-2
-          li.collection-header.teal Articles
-          div(ng-repeat='arr in ctrl.articles')
-            a.collection-item.waves-effect.waves-light.teal.white-text.hoverable(href='{{arr.link}}') {{arr.name}}
+    div.row
+      div
+        div.collection.with-header.teal.lighten-2
+          div.s12.m12.l12
+            h5.collection-header.teal People
+          div.row
+            div.people(ng-repeat='arr in ctrl.people')
+              a.collection-item.col.s12.m6.l4.waves-effect.waves-light.teal.white-text.center-align.card.hoverable(href="mailto:{{arr.link}}") {{arr.name}}
 
 
     script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
