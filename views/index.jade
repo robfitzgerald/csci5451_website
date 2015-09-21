@@ -8,12 +8,13 @@ html(ng-app="algoSite")
     meta(name="viewport" content="width=device-width, initial-scale=1.0")
   body.container(ng-controller='viewController as ctrl')
     div.row
-      div.col.s12.l8
-        p UC Denver
-        p Dr Ellen Gethner
-        p CSCI-5451
-        p Graduate Algorithms (Fall 2015)
-        p TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
+      div.col.s12.l12.splash
+        h6 UC Denver
+        h6 Dr Ellen Gethner
+        h6 CSCI-5451
+        h6 Graduate Algorithms (Fall 2015)
+        h6 TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
+        img(src="https://linhartphotography.files.wordpress.com/2013/09/dsc_003001.jpg")
         //
           img.responsive-img(src="http://i.ytimg.com/vi/MKMbASI2Up0/maxresdefault.jpg")
     //
@@ -24,30 +25,27 @@ html(ng-app="algoSite")
           div.people(ng-repeat='arr in ctrl.people')
             a.col.s12.waves-effect.waves-light.btn-large(href="mailto:{{arr.link}}") {{arr.name}}
     p website v2
-    div
-      div.row.link-categories
-        div.col.s12.l3
-          div.container
-            div.row
-              h5.card-panel.col.s12 Weekly Classroom Slides
-            div(ng-repeat='arr in ctrl.slides')
-              a.col.s12.waves-effect.waves-light.btn-large.hoverable(href='{{arr.link}}') {{arr.name}}
-        div.col.s12.l3
-          div.container
-            div.row
-              h5.card-panel.col.s12 Assignments
-            div(ng-repeat='arr in ctrl.assignments')
-              a.col.s12.waves-effect.waves-light.btn-large.hoverable(href="{{arr.link}}") {{arr.name}}
-        div.col.s12.l3
-          h5.card-panel Mathematica Notebooks
-          div.notebooks(ng-repeat='arr in ctrl.notebooks')
-            a.card-panel.hoverable(href="{{arr.link}}") {{arr.name}}
-          i Mathematica resources available
-            a.card-panel.hoverable(href="http://sitelic.colorado.edu/mathematica/algorithms") here
-        div.col.s12.l3
-          h5.card-panel Articles
-          div.articles(ng-repeat='arr in ctrl.articles')
-            a.card-panel.hoverable(href="{{arr.link}}") {{arr.name}}
+    div.row.link-categories
+      div.col.s12.m6.l3
+        ul.collection.with-header
+          li.collection-header Weekly Classroom Slides
+          div(ng-repeat='arr in ctrl.slides')
+            a.collection-item.waves-effect.waves-light(href='{{arr.link}}') {{arr.name}}
+      div.col.s12.m6.l3
+        ul.collection.with-header
+          li.collection-header Assignments
+          div(ng-repeat='arr in ctrl.assignments')
+            a.collection-item.waves-effect.waves-light(href='{{arr.link}}') {{arr.name}}
+      div.col.s12.m6.l3
+        ul.collection.with-header
+          li.collection-header Classroom Slides
+          div(ng-repeat='arr in ctrl.notebooks')
+            a.collection-item.waves-effect.waves-light(href='{{arr.link}}') {{arr.name}}
+      div.col.s12.m6.l3
+        ul.collection.with-header
+          li.collection-header Articles
+          div(ng-repeat='arr in ctrl.articles')
+            a.collection-item.waves-effect.waves-light(href='{{arr.link}}') {{arr.name}}
 
 
     script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
