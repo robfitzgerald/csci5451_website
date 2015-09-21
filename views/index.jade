@@ -1,34 +1,56 @@
 doctype html
 html(ng-app="algoSite")
   head
-    title algorithms
+    title CSCI 5451 Graduate Algorithms Course Website
+    link(href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    h2
-      p UC Denver
-      p Dr Ellen Gethner
-      p CSCI-5451
-      p Graduate Algorithms (Fall 2015)
-    h3
-      p TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
-    p website v1
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  body.container(ng-controller='viewController as ctrl')
+    div.row
+      div.col.s12.l8
+        p UC Denver
+        p Dr Ellen Gethner
+        p CSCI-5451
+        p Graduate Algorithms (Fall 2015)
+        p TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
+        //
+          img.responsive-img(src="http://i.ytimg.com/vi/MKMbASI2Up0/maxresdefault.jpg")
+    //
+      div.col.s12.l4
+        div.container
+          div.card-panel.s12.teal
+            span.white-text People
+          div.people(ng-repeat='arr in ctrl.people')
+            a.col.s12.waves-effect.waves-light.btn-large(href="mailto:{{arr.link}}") {{arr.name}}
+    p website v2
     div
-      div(class='top' ng-controller='viewController as ctrl')
-        p Weekly Classroom Slides
-          div(class='slides' ng-repeat='arr in ctrl.slides')
-            a(href='{{arr.link}}') {{arr.name}}
-        p Assignments
-          div(class='assignments' ng-repeat='arr in ctrl.assignments')
-            a(href="{{arr.link}}") {{arr.name}}
-        p Mathematica Notebooks
-          div(class='notebooks' ng-repeat='arr in ctrl.notebooks')
-            a(href="{{arr.link}}") {{arr.name}}
-        p Articles
-          div(class='articles' ng-repeat='arr in ctrl.articles')
-            a(href="{{arr.link}}") {{arr.name}}
-        p People
-          div(class='people' ng-repeat='arr in ctrl.people')
-            a(href="mailto:{{arr.link}}") {{arr.name}}
+      div.row.link-categories
+        div.col.s12.l3
+          div.container
+            div.row
+              h5.card-panel.col.s12 Weekly Classroom Slides
+            div(ng-repeat='arr in ctrl.slides')
+              a.col.s12.waves-effect.waves-light.btn-large.hoverable(href='{{arr.link}}') {{arr.name}}
+        div.col.s12.l3
+          div.container
+            div.row
+              h5.card-panel.col.s12 Assignments
+            div(ng-repeat='arr in ctrl.assignments')
+              a.col.s12.waves-effect.waves-light.btn-large.hoverable(href="{{arr.link}}") {{arr.name}}
+        div.col.s12.l3
+          h5.card-panel Mathematica Notebooks
+          div.notebooks(ng-repeat='arr in ctrl.notebooks')
+            a.card-panel.hoverable(href="{{arr.link}}") {{arr.name}}
+          i Mathematica resources available
+            a.card-panel.hoverable(href="http://sitelic.colorado.edu/mathematica/algorithms") here
+        div.col.s12.l3
+          h5.card-panel Articles
+          div.articles(ng-repeat='arr in ctrl.articles')
+            a.card-panel.hoverable(href="{{arr.link}}") {{arr.name}}
+
 
     script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js")
+    script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js")
     script(src='site-module.js')
