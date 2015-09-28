@@ -1,0 +1,3583 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    159490,       3574]
+NotebookOptionsPosition[    148144,       3217]
+NotebookOutlinePosition[    150455,       3279]
+CellTagsIndexPosition[    150375,       3274]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[1, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Graduate Algorithms Week 7: Part 2
+\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.6370754096560097`*^9, 3.637075422221675*^9}, {
+   3.6372561890853167`*^9, 3.637256189629949*^9}, {3.652103912329049*^9, 
+   3.652103924325053*^9}, {3.652447823843995*^9, 3.652447825708084*^9}}],
+
+Cell[TextData[StyleBox["Planar Graphs and Graph Coloring", "Subsubtitle",
+ FontSlant->"Italic"]], "Title",
+ CellChangeTimes->{{3.637075425486156*^9, 3.63707543108524*^9}, {
+  3.637246414870865*^9, 3.637246419478127*^9}, {3.63752655373825*^9, 
+  3.6375265603990107`*^9}, {3.65210392750072*^9, 3.652103929518813*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[" The Art of Graph Coloring: Another Example", "Section",
+ CellChangeTimes->{{3.637241766098854*^9, 3.637241774569717*^9}, {
+  3.6521040229425507`*^9, 3.6521040298142853`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Section 6.1. Graph coloring as an aesthetic euphemism for scheduling. \
+\>", "Subsection",
+ CellChangeTimes->{{3.637241785056489*^9, 3.637241821511318*^9}, {
+  3.63724211033088*^9, 3.63724211055168*^9}}],
+
+Cell[TextData[{
+ StyleBox["Motivation. ",
+  FontWeight->"Bold"],
+ "Suppose Crayola Airlines of Aspen ",
+ StyleBox["Color",
+  FontColor->RGBColor[0, 1, 1]],
+ "ado wishes to run seven flights every week, all originating in Aspen as \
+shown below."
+}], "Text",
+ CellChangeTimes->{{3.637241826955031*^9, 3.637241893099659*^9}}],
+
+Cell[TextData[StyleBox["Flight\t\tRoute",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.637241915365719*^9, 3.6372419537605886`*^9}}],
+
+Cell["\<\
+A\t\t     Burley \[RightArrow] Twin Falls \[RightArrow] Boise \[RightArrow] \
+Lewiston\t
+B\t\t     Billings \[RightArrow] Great Falls \[RightArrow] Missoula \
+\[RightArrow] Lewiston
+C\t\t     Idaho Falls \[RightArrow] Boise \[RightArrow] Lewiston \
+\[RightArrow] Pullman
+D\t\t     Idaho Falls \[RightArrow] Yellowstone \[RightArrow] Great Falls
+E\t\t     Idaho Falls \[RightArrow] Sun Valley \[RightArrow] Boise
+F\t\t     Butte \[RightArrow] Missoula \[RightArrow] Lewiston
+G\t\t     Butte \[RightArrow] Helena \[RightArrow] Great Falls\
+\>", "Text",
+ CellChangeTimes->{{3.6372419423599854`*^9, 3.637242099761278*^9}, {
+  3.637242136141056*^9, 3.63724221690722*^9}}],
+
+Cell[TextData[{
+ "\n",
+ StyleBox["Scheduling Contraints.",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.637242227747059*^9, 3.637242240618112*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Flights only occur on Monday, Wednesday, and Friday, and", "Item",
+ CellChangeTimes->{{3.637242253240542*^9, 3.637242270734276*^9}}],
+
+Cell["no more than one flight per day can visit any given town.", "Item",
+ CellChangeTimes->{{3.637242253240542*^9, 3.637242281888027*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Graph Coloring", "Section",
+ CellChangeTimes->{{3.637242292374276*^9, 3.637242311742346*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Big Question: ",
+ FontSize->72,
+ FontWeight->"Bold"]], "Subsection",
+ CellChangeTimes->{{3.637242319277298*^9, 3.637242331757382*^9}}],
+
+Cell[TextData[StyleBox["Is such a schedule possible? How can we tell?",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.63724233571481*^9, 3.637242346620549*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["One Possible Method:",
+ FontSize->72,
+ FontWeight->"Bold"]], "Subsection",
+ CellChangeTimes->{{3.6372423599955*^9, 3.6372423690197783`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Let\[CloseCurlyQuote]s model the problem by creating a simple graph H with \
+one vertex representing each route.\
+\>", "Item",
+ CellChangeTimes->{{3.6372423798726683`*^9, 3.6372424227939*^9}, {
+  3.637242490070819*^9, 3.6372425015554132`*^9}}],
+
+Cell["\<\
+Join two vertices in H by an edge if and only if the two correponding routes \
+share a town.\
+\>", "Item",
+ CellChangeTimes->{{3.6372423798726683`*^9, 3.637242449941298*^9}, {
+   3.637242506606646*^9, 3.63724250730847*^9}, {3.637242919705585*^9, 
+   3.637242919719441*^9}, 3.6519402651525497`*^9}],
+
+Cell["\<\
+For example vertices C and D are neighbors in graph H because routes C and D \
+both go to Idaho Falls.\
+\>", "Item",
+ CellChangeTimes->{{3.6372423798726683`*^9, 3.637242449941298*^9}, {
+  3.637242506606646*^9, 3.63724250730847*^9}, {3.637242919705585*^9, 
+  3.637242953136777*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{$CellContext`A, $CellContext`B, C, D, 
+       "E", $CellContext`F, $CellContext`G}, {
+      Null, {{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 1}, {6, 7}, {7, 2}, {6, 2}, {
+       1, 3}, {7, 4}, {1, 6}, {2, 4}, {5, 3}}}, {
+      ImageSize -> 600, VertexLabels -> {"Name"}}]]}, 
+    TagBox[GraphicsGroupBox[{
+       {Hue[0.6, 0.7, 0.5], Opacity[0.7], 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {0.6458934304016033, 
+          0.727430195990787}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {1.5850542732787023`, 
+          0.7262048244201066}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {2.207697675649727, 
+          0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {0.00047790977352724084`, 
+          0.17352300243201513`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          1.5850542732787023`, 0.7262048244201066}}, 
+          0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          1.2056948532749456`, 1.453877706769194}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          0.00047790977352724084`, 0.17352300243201513`}}, 
+          0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.5850542732787023`, 0.7262048244201066}, {
+          1.2056948532749456`, 1.453877706769194}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.5850542732787023`, 0.7262048244201066}, {
+          2.207697675649727, 0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2056948532749456`, 1.453877706769194}, {
+          2.207697675649727, 0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2056948532749456`, 1.453877706769194}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.00047790977352724084`, 0.17352300243201513`}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}}, 
+       {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[
+        0.7]}], {DiskBox[{1.2059303737089335`, 0.}, 0.024274703933967412`], 
+         InsetBox["A", 
+          Offset[{2, 2}, {1.230205077642901, 0.024274703933967412`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0.6458934304016033, 0.727430195990787}, 
+          0.024274703933967412`], 
+         InsetBox["B", 
+          Offset[{2, 2}, {0.6701681343355708, 0.7517048999247544}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{1.5850542732787023`, 0.7262048244201066}, 
+          0.024274703933967412`], 
+         InsetBox["C", 
+          Offset[{2, 2}, {1.6093289772126698`, 0.7504795283540739}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{1.2056948532749456`, 1.453877706769194}, 
+          0.024274703933967412`], 
+         InsetBox["D", 
+          Offset[{2, 2}, {1.229969557208913, 1.4781524107031614`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{2.207697675649727, 0.7275313107502466}, 
+          0.024274703933967412`], 
+         InsetBox["\<\"E\"\>", 
+          Offset[{2, 2}, {2.231972379583694, 0.751806014684214}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0.00047790977352724084`, 0.17352300243201513`}, 
+          0.024274703933967412`], 
+         InsetBox["F", 
+          Offset[{2, 2}, {0.024752613707494653`, 0.19779770636598254`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0., 1.2800316572939652`}, 0.024274703933967412`], 
+         InsetBox["G", 
+          Offset[{2, 2}, {0.024274703933967412`, 1.3043063612279326`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}}}],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FrameTicks->None,
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->15,
+  ImageSize->600]], "Output",
+ CellChangeTimes->{{3.637242616327334*^9, 3.63724268105752*^9}, {
+   3.637242781864748*^9, 3.6372428076744967`*^9}, 3.6372430375520906`*^9, 
+   3.637243155261496*^9, {3.637243238785309*^9, 3.637243271441205*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Crayola Airlines Scheduling Problem, continued", "Section",
+ CellChangeTimes->{{3.637243320843795*^9, 3.637243329298682*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+If there is a solution to the scheduling problem then we should be able to \
+assign labels Monday, Wednesday, and Friday to the vertices of H so that not \
+two vertices with the same label are joined by an edge (an edge represents a \
+scheduling conflict).\
+\>", "Item",
+ CellChangeTimes->{{3.637243338761273*^9, 3.637243401152117*^9}}],
+
+Cell[TextData[{
+ "For convenience, let Monday = ",
+ StyleBox["R",
+  FontColor->RGBColor[1, 0, 0]],
+ ", Wednesday = ",
+ StyleBox["G, ",
+  FontColor->RGBColor[0, 1, 0]],
+ StyleBox["and",
+  FontColor->GrayLevel[0]],
+ StyleBox[" ",
+  FontColor->RGBColor[0, 1, 0]],
+ StyleBox["Friday = ",
+  FontColor->GrayLevel[0]],
+ StyleBox["B",
+  FontColor->RGBColor[0, 0, 1]],
+ StyleBox[".",
+  FontColor->GrayLevel[0]]
+}], "Item",
+ CellChangeTimes->{{3.637243338761273*^9, 3.6372435021729097`*^9}}],
+
+Cell[TextData[StyleBox["Can we \[OpenCurlyDoubleQuote]3-color\
+\[CloseCurlyDoubleQuote] the graph H???",
+ FontColor->GrayLevel[0]]], "Item",
+ CellChangeTimes->{{3.637243338761273*^9, 3.637243521497223*^9}}]
+}, Open  ]],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{$CellContext`A, $CellContext`B, C, D, 
+       "E", $CellContext`F, $CellContext`G}, {
+      Null, {{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 1}, {6, 7}, {7, 2}, {6, 2}, {
+       1, 3}, {7, 4}, {1, 6}, {2, 4}, {5, 3}}}, {
+      ImageSize -> 600, VertexLabels -> {"Name"}}]]}, 
+    TagBox[GraphicsGroupBox[{
+       {Hue[0.6, 0.7, 0.5], Opacity[0.7], 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {0.6458934304016033, 
+          0.727430195990787}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {1.5850542732787023`, 
+          0.7262048244201066}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {2.207697675649727, 
+          0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2059303737089335`, 0.}, {0.00047790977352724084`, 
+          0.17352300243201513`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          1.5850542732787023`, 0.7262048244201066}}, 
+          0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          1.2056948532749456`, 1.453877706769194}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {
+          0.00047790977352724084`, 0.17352300243201513`}}, 
+          0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.6458934304016033, 0.727430195990787}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.5850542732787023`, 0.7262048244201066}, {
+          1.2056948532749456`, 1.453877706769194}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.5850542732787023`, 0.7262048244201066}, {
+          2.207697675649727, 0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2056948532749456`, 1.453877706769194}, {
+          2.207697675649727, 0.7275313107502466}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{1.2056948532749456`, 1.453877706769194}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}, 
+        {Arrowheads[0.], 
+         ArrowBox[{{0.00047790977352724084`, 0.17352300243201513`}, {0., 
+          1.2800316572939652`}}, 0.024274703933967412`]}}, 
+       {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[
+        0.7]}], {DiskBox[{1.2059303737089335`, 0.}, 0.024274703933967412`], 
+         InsetBox["A", 
+          Offset[{2, 2}, {1.230205077642901, 0.024274703933967412`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0.6458934304016033, 0.727430195990787}, 
+          0.024274703933967412`], 
+         InsetBox["B", 
+          Offset[{2, 2}, {0.6701681343355708, 0.7517048999247544}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{1.5850542732787023`, 0.7262048244201066}, 
+          0.024274703933967412`], 
+         InsetBox["C", 
+          Offset[{2, 2}, {1.6093289772126698`, 0.7504795283540739}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{1.2056948532749456`, 1.453877706769194}, 
+          0.024274703933967412`], 
+         InsetBox["D", 
+          Offset[{2, 2}, {1.229969557208913, 1.4781524107031614`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{2.207697675649727, 0.7275313107502466}, 
+          0.024274703933967412`], 
+         InsetBox["\<\"E\"\>", 
+          Offset[{2, 2}, {2.231972379583694, 0.751806014684214}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0.00047790977352724084`, 0.17352300243201513`}, 
+          0.024274703933967412`], 
+         InsetBox["F", 
+          Offset[{2, 2}, {0.024752613707494653`, 0.19779770636598254`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}, {
+         DiskBox[{0., 1.2800316572939652`}, 0.024274703933967412`], 
+         InsetBox["G", 
+          Offset[{2, 2}, {0.024274703933967412`, 1.3043063612279326`}], 
+          ImageScaled[{0, 0}],
+          BaseStyle->"Graphics"]}}}],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FrameTicks->None,
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->15,
+  ImageSize->600]], "Output",
+ CellChangeTimes->{{3.637242616327334*^9, 3.63724268105752*^9}, {
+   3.637242781864748*^9, 3.6372428076744967`*^9}, 3.6372430375520906`*^9, 
+   3.637243155261496*^9, {3.637243238785309*^9, 3.637243271441205*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Definitions", "Section",
+ CellChangeTimes->{{3.637243547232088*^9, 3.6372435508874187`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Definition 6.1 [k-coloring, proper k-coloring, color class, chromatic number]\
+\
+\>", "Subsection",
+ CellChangeTimes->{{3.637243563541884*^9, 3.637243587045691*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "A ",
+ StyleBox["k-coloring ",
+  FontWeight->"Bold"],
+ "of a graph G is a labeling f: V(G) \[RightArrow] S, where S = {1,2,\
+\[Ellipsis],k} and the function f is onto S. The labels are called ",
+ StyleBox["colors; ",
+  FontWeight->"Bold"],
+ "the vertices of one color form a ",
+ StyleBox["color class.",
+  FontWeight->"Bold"]
+}], "Item",
+ CellChangeTimes->{{3.6372436025733547`*^9, 3.637243715863269*^9}}],
+
+Cell[TextData[{
+ "A k-coloring is called ",
+ StyleBox["proper",
+  FontWeight->"Bold"],
+ " if adjacent vertices have distinct labels. A graph is ",
+ StyleBox["k-colorable",
+  FontWeight->"Bold"],
+ " if it has a proper k-coloring."
+}], "Item",
+ CellChangeTimes->{{3.6372436025733547`*^9, 3.637243679848001*^9}, {
+  3.63724371904591*^9, 3.637243794199551*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["chromatic number ",
+  FontWeight->"Bold"],
+ "of a graph G, written \[Chi](G), is the smallest k such that G is properly \
+k-colorable."
+}], "Item",
+ CellChangeTimes->{{3.6372436025733547`*^9, 3.637243679848001*^9}, {
+  3.63724371904591*^9, 3.637243859632064*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Some Facts about the Chromatic Number Function", "Section",
+ CellChangeTimes->{{3.637243955355383*^9, 3.6372439723102503`*^9}, {
+  3.637244305656259*^9, 3.637244306200426*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["If |V(G)| = n, then \[Chi](G) \[LessEqual] n.", "ItemNumbered",
+ CellChangeTimes->{{3.63724398812178*^9, 3.637244013663824*^9}}],
+
+Cell["If H < G then  \[Chi](H) \[LessEqual] \[Chi](G).", "ItemNumbered",
+ CellChangeTimes->{{3.63724398812178*^9, 3.637244042447207*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Chi]", "(", 
+    SubscriptBox["K", "n"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ") = n \[ForAll] n \[GreaterEqual] 1."
+}], "ItemNumbered",
+ CellChangeTimes->{{3.63724398812178*^9, 3.637244093310898*^9}}],
+
+Cell[TextData[{
+ "If ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["K", "n"], TraditionalForm]]],
+ " < G, then \[Chi](G) \[GreaterEqual] n."
+}], "ItemNumbered",
+ CellChangeTimes->{{3.63724398812178*^9, 3.6372441249558983`*^9}}],
+
+Cell[TextData[{
+ "If G has connected components ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["G", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["G", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", \[Ellipsis], ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["G", "r"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", then \[Chi](G) = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["max", 
+    RowBox[{"1", "\[LessEqual]", "i", "\[LessEqual]", "r"}]], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "{\[Chi](",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["G", "i"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ")}."
+}], "ItemNumbered",
+ CellChangeTimes->{{3.63724398812178*^9, 3.637244232852933*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Map Coloring in the plane and the Four Color Theorem", "Section",
+ CellChangeTimes->{{3.637245039756662*^9, 3.637245064682674*^9}, {
+  3.652103852923903*^9, 3.6521038568022957`*^9}}],
+
+Cell[TextData[{
+ StyleBox["Motivation. ",
+  FontWeight->"Bold"],
+ "What is the minimum number of colors needed to color the states of the U.S. \
+so that every two states that share a common border receive different colors?\
+\n\n",
+ StyleBox["Note. ",
+  FontWeight->"Bold"],
+ "If two states share only a common point (as opposed to a piece of a Jordan \
+Curve) then they are allowed to be labeled with the same color."
+}], "Text",
+ CellChangeTimes->{{3.637245072887877*^9, 3.637245177244028*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Correspondence between maps drawn in the plane and planar graphs\
+\>", "Section",
+ CellChangeTimes->{{3.637245191556891*^9, 3.637245227834443*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Given a cartographers map M, we assume that each country (or state or \
+territory or ...) is a connected region. \
+\>", "Item",
+ CellChangeTimes->{{3.637245391884282*^9, 3.6372454396888447`*^9}}],
+
+Cell[TextData[{
+ "With each such map there is an associated graph G called the ",
+ StyleBox["dual ",
+  FontWeight->"Bold"],
+ "of M "
+}], "Item",
+ CellChangeTimes->{{3.637245391884282*^9, 3.6372454841512337`*^9}, 
+   3.652103877665105*^9}],
+
+Cell["\<\
+The vertices of G correspond to the regions of M; two vertices are adjacent \
+if and only if the corresponding regions share a non-trivial border (i.e., \
+more than just a point).\
+\>", "Item",
+ CellChangeTimes->{{3.637245391884282*^9, 3.637245537574044*^9}}],
+
+Cell[TextData[{
+ StyleBox["Fact: ",
+  FontWeight->"Bold"],
+ "The dual of a cartographers map is a planar graph."
+}], "Item",
+ CellChangeTimes->{{3.637245391884282*^9, 3.637245554009803*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Big Problem", "Section",
+ CellChangeTimes->{{3.637245570257206*^9, 3.6372455812723494`*^9}}],
+
+Cell[TextData[StyleBox["What is the largest chromatic number of any planar \
+map/graph?",
+ FontSize->72,
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.6372455847576113`*^9, 3.637245596991686*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["If G is planar how big can \[Chi](G) be?", "Section",
+ CellChangeTimes->{{3.637245644749838*^9, 3.637245658340694*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Theorem 6.3 [The 6-color theorem for planar graphs]", "Subsection",
+ CellChangeTimes->{{3.637245670267166*^9, 3.637245688347166*^9}}],
+
+Cell["Let G be a planar graph. Then \[Chi](G) \[LessEqual] 6.", "Text",
+ CellChangeTimes->{{3.637245691670706*^9, 3.6372457066743593`*^9}}],
+
+Cell[TextData[{
+ StyleBox["Proof ",
+  FontWeight->"Bold"],
+ "(by induction on the number of vertices)."
+}], "Text",
+ CellChangeTimes->{{3.637245712093807*^9, 3.637245729641098*^9}, 
+   3.6372457949338923`*^9}],
+
+Cell[CellGroupData[{
+
+Cell["You derive the base cases-- what are they??????", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245842579315*^9}}],
+
+Cell[TextData[{
+ StyleBox["Induction Hypothesis: ",
+  FontWeight->"Bold"],
+ "Assume that all planar graphs with fewer than n vertices can be properly \
+vertex colored with six or fewer colors."
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245909167118*^9}}],
+
+Cell[TextData[{
+ StyleBox["Inductive Step. ",
+  FontWeight->"Bold"],
+ "Show that any planar graph G on n vertices can be properly colored with six \
+or fewer colors."
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.63724601693082*^9}}],
+
+Cell["\<\
+Recall that by Lemma A, every planar graph has a vertex of degree 5 or less. \
+Find such a vertex in G and call it v.\
+\>", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372460414238853`*^9}, {3.6521043711957293`*^9, 
+  3.65210437535216*^9}, {3.6521046685389833`*^9, 3.652104668549303*^9}, {
+  3.652104772170499*^9, 3.6521047721805067`*^9}}],
+
+Cell["Zoom in on v and its neighbors.", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372460414238853`*^9}, {3.6521043711957293`*^9, 
+  3.65210437535216*^9}, {3.6521046685389833`*^9, 3.652104668549303*^9}, {
+  3.652104772170499*^9, 3.652104778967176*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006], 
+    LineBox[{{-95.10565162951538, 30.90169943749484}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{-58.77852522924726, -80.90169943749468}, {0, 0}}]}, 
+   {Thickness[0.006], LineBox[{{-7.044813998280223*^-14, 100.}, {0, 0}}]}, 
+   {Thickness[0.006], LineBox[{{0, 0}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{58.77852522924738, -80.90169943749481}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{95.10565162951534, 30.901699437494635`}, {0, 0}}]}, 
+   {GrayLevel[1], DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+   {GrayLevel[1], DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+   {GrayLevel[1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+   {GrayLevel[1], DiskBox[{0, 0}, 20]}, 
+   {GrayLevel[1], DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+   {GrayLevel[1], DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], CircleBox[{0, 0}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+   {GrayLevel[0], InsetBox["v", {0, 0},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> 
+       "Arial"}]}}]], "Output",
+ CellChangeTimes->{{3.651938257399362*^9, 3.651938288183138*^9}, 
+   3.651939066232505*^9, 3.651939098533139*^9, 3.651939144483602*^9, {
+   3.6519392221608458`*^9, 3.651939226328333*^9}, {3.651939262080543*^9, 
+   3.65193926799739*^9}, {3.6519394148104153`*^9, 3.651939448692474*^9}, 
+   3.652104468728148*^9, {3.652104583022524*^9, 
+   3.652104653880739*^9}}]], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372460414238853`*^9}, {3.6521043711957293`*^9, 
+  3.65210437535216*^9}, {3.6521046685389833`*^9, 3.652104672608514*^9}}],
+
+Cell["", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372460414238853`*^9}, {3.6521043711957293`*^9, 
+  3.65210437535216*^9}, {3.6521046685389833`*^9, 3.652104668816258*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell["Six-color Theorem for Planar Graphs, continued", "Title",
+ CellChangeTimes->{{3.652104745003929*^9, 3.652104757376985*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Delete v and all edges incident with v and call the new graph G\
+\[CloseCurlyQuote]. That is, G\[CloseCurlyQuote] = G\\v. \
+\>", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.637246087120655*^9}, {3.652104794480708*^9, 
+  3.6521047944888153`*^9}, {3.6521049039825697`*^9, 3.65210494381048*^9}}],
+
+Cell["Zoom in on the neighbors of v.", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.637246087120655*^9}, {3.652104794480708*^9, 
+  3.6521047944888153`*^9}, {3.6521049039825697`*^9, 3.6521049438017*^9}}],
+
+Cell[TextData[{
+ "                                        ",
+ Cell[BoxData[
+  GraphicsBox[{
+    {GrayLevel[1], DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[1], DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[1], DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[1], DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-7.044813998280223*^-14, 100.}, 20]}}]], "Output",
+  CellChangeTimes->{{3.652104887219164*^9, 3.652104895435536*^9}}]
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+   3.637245977364472*^9, 3.637246087120655*^9}, 3.652104794480708*^9, {
+   3.652104910841621*^9, 3.652104921855444*^9}}],
+
+Cell["\<\
+By the induction hypothesis, G\[CloseCurlyQuote], which has n-1 vertices, can \
+be properly colored with six or fewer colors. \
+\>", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.637246134559992*^9}}],
+
+Cell["Do so and call the colors 1,2,3,4,5,6.", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.637246146047254*^9}}],
+
+Cell[TextData[{
+ "Consider the (at most) five neighbors of v in G: WLOG they are ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Ellipsis]", ",", 
+    SubscriptBox["v", "5"]}], TraditionalForm]]],
+ " and suppose WLOG that ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "i"], TraditionalForm]]],
+ " has been colored with color ",
+ StyleBox["i ",
+  FontSlant->"Italic"],
+ "for i = 1,\[Ellipsis],5."
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.63724616039959*^9}, {3.637246226894869*^9, 
+  3.637246293812558*^9}, {3.652104957080688*^9, 3.652104957090893*^9}}],
+
+Cell[TextData[{
+ "                                        ",
+ Cell[BoxData[
+  GraphicsBox[{
+    {RGBColor[1, 0, 0], DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {RGBColor[0, 1, 0], 
+     DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {RGBColor[0.5, 0, 0.5], 
+     DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {RGBColor[1, 0.5, 0], 
+     DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {RGBColor[0, 0, 1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-7.044813998280223*^-14, 100.}, 20]}}]], "Output",
+  CellChangeTimes->{{3.652104887219164*^9, 3.652104895435536*^9}, {
+   3.652105014032277*^9, 3.652105153140266*^9}}]
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+   3.637245977364472*^9, 3.63724616039959*^9}, {3.637246226894869*^9, 
+   3.637246293812558*^9}, 3.652104957080688*^9, 3.652105161921631*^9, {
+   3.6521052148851967`*^9, 3.652105218883947*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell["Six-Color Theorem, continued", "Title",
+ CellChangeTimes->{{3.65210518242597*^9, 3.652105182710473*^9}, {
+  3.65210523311499*^9, 3.652105238249755*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Return vertex v to G with its associated edges and now color 6 is available \
+for v we are done.\
+\>", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372461603701363`*^9}, {3.6372463059708443`*^9, 
+  3.6372463386144867`*^9}, {3.637246376071159*^9, 3.637246386087994*^9}, {
+  3.652105267640892*^9, 3.6521052676501713`*^9}}],
+
+Cell[TextData[{
+ "                                             ",
+ Cell[BoxData[
+  GraphicsBox[{
+    {Thickness[0.006], 
+     LineBox[{{-95.10565162951538, 30.90169943749484}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{-58.77852522924726, -80.90169943749468}, {0, 0}}]}, 
+    {Thickness[0.006], LineBox[{{-7.044813998280223*^-14, 100.}, {0, 0}}]}, 
+    {Thickness[0.006], LineBox[{{0, 0}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{58.77852522924738, -80.90169943749481}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{95.10565162951534, 30.901699437494635`}, {0, 0}}]}, 
+    {RGBColor[1, 0, 0], DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {RGBColor[0, 1, 0], 
+     DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {RGBColor[0.5, 0, 0.5], 
+     DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {RGBColor[1, 0.5, 0], 
+     DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {RGBColor[0, 0, 1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {RGBColor[0, 1, 1], DiskBox[{0, 0}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], CircleBox[{0, 0}, 20]}, 
+    {GrayLevel[0], InsetBox["v", {0, 0},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}}]], 
+  "Output",
+  CellChangeTimes->{{3.652104887219164*^9, 3.652104895435536*^9}, {
+    3.652105014032277*^9, 3.652105153140266*^9}, 3.652105318922147*^9, {
+    3.652105349380945*^9, 3.6521054047908278`*^9}}]
+}], "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+   3.637245977364472*^9, 3.6372461603701363`*^9}, {3.6372463059708443`*^9, 
+   3.6372463386144867`*^9}, {3.637246376071159*^9, 3.637246386087994*^9}, 
+   3.652105267640892*^9, {3.6521054186371107`*^9, 3.6521054261337147`*^9}}],
+
+Cell["\<\
+Note that if deg(v) < 5 a similar and even easier argument holds.\
+\>", "Item",
+ CellChangeTimes->{{3.63724581521084*^9, 3.637245923359071*^9}, {
+  3.637245977364472*^9, 3.6372461603701363`*^9}, {3.6372463059708443`*^9, 
+  3.637246356279106*^9}, {3.6521044099360847`*^9, 3.652104415804906*^9}}]
+}, Open  ]],
+
+Cell["\<\
+Thus by induction, if G is any planar graph, then \[Chi](G) \[LessEqual] 6. \
+QED\
+\>", "Text",
+ CellChangeTimes->{{3.637246358421871*^9, 3.637246396959199*^9}, {
+  3.652105441004283*^9, 3.652105442497373*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The 5-Color Theorem for Planar Graphs", "Section",
+ CellChangeTimes->{{3.637509497819479*^9, 3.637509506433507*^9}}],
+
+Cell["\<\
+Next we\[CloseCurlyQuote]ll prove the 5-color theorem for planar graphs, but \
+first we need a gadget called a \[OpenCurlyDoubleQuote]Kempe Chain.\
+\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.637509511759734*^9, 3.6375095435279303`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Definition 6.2 [Kempe Chain]", "Subsection",
+ CellChangeTimes->{{3.637509551992988*^9, 3.63750956067911*^9}}],
+
+Cell[TextData[{
+ "Let G be a connected graph that has been properly vertex colored. Suppose \
+",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " are two of the colors used in the vertex coloring of G. Let v \[Element] \
+V(G) be colored ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ".  Then the ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontWeight->"Bold"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm",
+  FontWeight->"Bold"],
+ StyleBox["-Kempe Chain containing v ",
+  FontWeight->"Bold"],
+ "is the maximal connected component of G that contains v and only vertices \
+colored ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " or ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.637509563352129*^9, 3.637509719457165*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Examples of Kempe Chains", "Section",
+ CellChangeTimes->{{3.637509745232358*^9, 3.637509749158595*^9}}],
+
+Cell[GraphicsData["PDF", "\<\
+9E14ARda;S<:9LCUl^G[Yo>Pd<C62S@P<21_HVX:?3`P;daUKVMdJ20e830PDR0_
+AVU/M6Eb82m6K65dIDAUHfmTIB0n?PYcM79UHFd:N06]Vef?9CLAQ^om:gaimR:m
+KK_M7kN981:82lPPQ28^XR49X6`PF@CTgo>DfeEfmcTcNfIf]MXiLlYfOK`^Ul]U
+cdonmohW?o9_3]4_Fo@oOn_oi7odWcoh<0kK^8GBZ[o7:@oS4_flc_kQWGokl4_`
+`CmlikmfUboNn76Ho>D[n@cN_[omWA2B_gcckcOn/g68o_8gOTU[73IoVJIaOI_i
+lLKoaCola_oZ`CdU>c8PngV9`i@ANQ3_;gn/DWj/h_mJ?]gUfb8DOGhF0_Zm[inV
+cCO78Okbmc:4[][`OM4g^L]_]LFh_R/D[?^Gm0URT[BUMNXa`>22bCNE]C?FJ5?]
+;U<ADQcF67d:61^CCe<LU/P/992OlSC[18e3m_oeKkml7mcgknDcNSjIbf5N@e[:
+[>W_0KfV_2DO]fF8>FCon<i?h9mmC_cP2n:b3e/H/__Qe9AGV^:flO?L];<XHdm=
+4Kj^<3leQ3G3Z?`h]JAEM0TA7A0T35@k/<`^9=7Sf;1gZ_;k4K=X6fLaBTNDG^nl
+];RK;AF@0kLj:8`;W:Ii;_bjKli`[<>j=V0=^Ha;<UTo/:0JUedADk7CjSbZ<nEM
+LHO/db;P`;1SOe24>Cbfa@;>SS20M=l>h`B/@i^hGgHZ[dN8LKLLX`:FR[_4JMNc
+6`MPJA=Z6ZoJ0:c8<o]j2C:^C:[b5>U^Md]d:G:;of93ohea1klj]SE_5;O_V;cc
+hWANWNkHM=BToeJ]LfYMKn/k5Y4h@UcgYGA/>hS[>PYP<PT6B]L6H8MQOLMCDkN4
+L;1n3GIOcUQmADP:o_fSWaJR5eShU=:`Q7DB_fndK@Q;3:b?C?1IIQAVK[Le@B7L
+Yk@e2[cb=2c[B8R[_MbDfAkb17=UI8AMVYMA]DmLQcQ?BlL6QegC:/]c5nJBDQQV
+:RV]ZFfLVR4VkS_omP/Rjn?kOONkRH64cCIDECN1I`bLfU^/>F7@k7/11P2WK<`j
+0e`YMf7P>T>>64@?1/D7k]aJ75^;K>2bNRB_:;m<BhUllZ=/f`leJkR4=okQ7nci
+hVP4/cA?n4[c/HiFl@fIOC6]N:;R6jIUV5HB0Z<l8S@>H`ZhU?XHFn8`SaV_Dh0k
+RYWLJ>XLSE<5e3Ei3N:VUM:Ji/KYb[i7_k^I@0a@o6NY]H4EQ[Z=E6RNPZ5CBh6i
+0@?ak8<`><II;e?N03D33GJUR>hj>IGVVSG6j@`3bj70D3b]@?0aWQHTBD2e/j?5
+c]4><<oC?4cTU4@dDgK>i744=;=Wc_>@YPF:FVfD3VFUTJYDU8fA4JXdS6jMYS2<
+8Lg=JnM4X[4^ThUcA^U0=U[CfcPYb6ZMPW`<JMg07HCNedagWE@e[m=:HKT1@VNO
+X_T<26hfeMGCVWV6^L;b70PMYjM0n3@a[GQJ7RDU?<Jde5`]4_eVSUJIgG>L@KL@
+g1c90nJ9O9acEESHEnLh3M/fTQb<Q?C8kVPDS2GaRO?<dDMkQFdJeVU<SI=BVS0I
+]oOblkP=c=kFLAXc6o>hV3a7L=`YSieFBZ]f:9^CFJLhi/XR?_FYYV?2BdagCi_N
+>3Dc5NLKYWNLc2R3FRWgV^i/AUlK^n@0M[E;QU7b?4US/S^je=ALZ^c5HEgaTS0C
+jFIL:`AI^4IK>D7=d`YU6^:F9lOfR7LA_IHE]`TTCiD0D1`UI3]EBYSGHI_31T6i
+6:G:TPfRdCQSIXUDbXLcD^C`f/UB2/>Z@]Rhmg9=JC:YWI6IXJKekRFKi;i=W[]9
+o3JJjFh2Ghh0Z3f5P4C_Eb0P`9U2RTYCnX<8M77;jM5Nh=3OKakc[ka/U/`/4[T]
+K[UB`KWTiVAaFYT=L[4/9aKZ2A:j6VdV^H;7Q7_5MB6lD5NILL;84GeI<[6T4UQ@
+I34Y`/1X31WFSD`/KiE?8eAQ3:/dUiVh43UC6:>lS/<bT]]EJMh835>ES=Jd[XaL
+XjQ]_H>EU5DBQ>]^ea30j`T8V[T_P/0IgPd2k7/=122W>=W46B>SW23X?<bljUT?
+^iW]BmY476>c<QOKRhBG^G<aZP1cc<UW>LP_HfH1Aj?QY6>LHST[/`L4WeU_W06I
+MDkcbiBY3BT5Z8Q[e<QFXkU8>5[IlZ0X9j=DNBcReX]:EF19Mi`4XVfLGI=G:C:>
+4ob^UM:Ji/K9K57kNSNc>=H=g66@UFI3CGTCF8g^e7X6Q/i0hgB6PJ1d1``Mk6[b
+3APXamRT:Z2=D^g[]lb??US6TXFUL[`lKYU;LcDkg6Xfg5L_=<feBX6U^EY?l4KY
+RQM:/n:5lJV52YF5^fS]`W9L>kMKSZ^bnTBoJJAiKfM8?C9dU9[1ZiM9kH8MOml]
+[k]e]@_CG4/GJU^[Z1SU1P;=_9[W=g==YDKJmFjERb/4_56jbXGA>T>DTiIP>/0o
+hGUb[ecLB_>i/;3BAJT?/O8G<VfOac0TjUWRIHdfDo@RSTgCAR?eZac240?aKn:l
+_Zi4>2EP=o_Xa:XdVY/BHF`T[A9=MTJ=/X/CAe?J]6GQBEZWW2I:ndC=fJTh9LP`
+eLUXYWMSe2aALNi6mL86:PR4/hjV^Z]0]MVdDT8aiPA2<nli41YDCOLc28Ji6O`L
+2:ha^PKQDmH^12SB:R;VNMoLc[k6EMPdLX34BmP=BKV0fFRTG55lQDaof1ILJi:C
+]oQC:F>C]3@:QW<[<BhL1KFGVcR7c=?45VjLS5;UbO`dFVCgiA3K>25hWANLCB[Z
+AEjUb3SCBVU=LdcH>IT]JYn6]KdLZF7]g4flcFRV_0V/<7AZ:C0gH>P<=4k=i0[k
+GC1d/:_9=f1`CO<WH@2nCaWK>01caD5FN?Jg<9hM;^2D:C;7<a/k=hSRL8e6[SAB
+PIdX453WT6=YT_X[3/L]ci`SadVU?7:?/d[fQ7mFVY>KT6E9LX=@>GFDGAjF=aZ5
+WAW7kSRaL^8BL3RCEbW5DED[YCG=UE>SZ7e7Qi<TF>i1V/UE[K]Pj=Aj1XK>`2MQ
+85^k0hH>MSEI7?D40l]09oE960h>mm7IFY;kILi]enGId5d4R:;Ca4dgjCiNU6Ka
+]DJSLIE@A]5Vi3S=7YV6;G0N;OM`LSET506;JgQ>YTYbRDajGRV>I>4XS3[:;TiL
+CG]=n6XFAm_IC?:IiAi<kR:AaMi@:@9`eLQXYWEUHmoE<XDg4=HXVfUHJlIFSEh6
+P5=[aI8C0<fd^`30_^L1l6K/7@2`3TiCZ`1lV^8o]h3RGcab^0YXioZoG0=5S2_j
+ig4=>5U7fj@8aSBCD:ghJg75L^/DBMoJEo3UYV<;<jTJcUYj14cLaP1bbZABC9A<
+Rm7`]36c8a^SRA;A75M^ZWIInUfF_ZZS]4iUhg<fC24F7b/N=SXRFFL[V`3f/gEf
+=5EM1IYe9o_;GN]=nk5FVIR]n68AmIcmU=e^fbnXZCZ]SeWkY?gPe_K<UhB`VcEJ
+9TILC9hDW6ZdXJ_kYhDZOY;b0fNRIDYAd6fdQOf?JWcRj9;6SA0f1jHl>NkhQSEW
+o6/WR<TIMn8j@2VL:lSY<ZL<H_K>YE6Z;1Vemg8l61ZXEQ0LU@og;>^L27/VBbT<
+<hFDeYB^S7P;LSJ]gbT]QUeg^h40c8h8M5Zm0P5WJ3L4o>/@03S5bN`e:8fRTm]k
+f4OOH8ZC<eocSB1fM@e0L=hV;RYUHie74Vj:h8e6GSnCPlWmB9Jk0/jUk7RBlA5c
+l;M6TL8dRM[8Zck]iL92_[168Q?aM6OD:;/ho;?eF[V9b3ce<4j9n_TBUhDROiFW
+51UGUC9Bdm/H=D]Dg>78:KhV5nIGgNh1XBVU1X]BIa0jlih4POQb1`P=M;?h6P@^
+ZGA2W`7QUN7/IZVF>aIii2@akEPn2oe]0;jhC1:`<_/[CX:KAJ=aGKF9<dDbia@i
+AbKZB>b4A4U25<O0AZ1TB6VH]5?2cmj94SZ7e9DWYLTH6JF:HfIJ;lY[k9MKahV7
+TNbGZc=aUB33C2NU=Kf=TEURhPi^EY>bK^0>0R6mdDag4fSfg@52Iiha^PJQPlYd
+=cS=?QFWQ>M0L<THGH?@^MU7akA@2[B4Sb/gjfh4bVX^E@E^W<QCVNRdK2GiYaja
+dgP3BkI1B:;PcjhZNO[6[BH4W/T^_3Pc2U_0bX>Rb3U2JBCo?:kM>3=8X[PcJYAM
+74kCNQ7XldZEYG6BHR>JL69ENIDRhe@Y9CEKU56SE>_lHnM[hVWk<E?Z33d8D]MX
+==EMiED@>ZDDUQ/PM>Hm2H:TVPJ<jWh5@PNjFW`=`Ui<:[HXXlhB`oae6M[=T9HF
+>@@4gP9L>E]g9g1jm^jNOoHN>=Z5a>FCn36A[LC:GkST;ToOoBD<??VFQ7OeUeno
+hG:F=njlm2jOi@diKlUiSoiI8];>o/;;lo8J_;`:YjTl66OKimLod:^dOEjj4e;;
+Xo?2JGmcCZO3Vg<ZI;3LFBAQ`C]lNfEO7[c;Xo>ZRU<E7T/WN_lCoF31KjYEemfC
+<EaKDUk3YlUMo/=@5^8^_HPZKnai3:nlC>Go5G=HO_jb09HnNGoRZKoQCDPNifg?
+]3^lh`7_gKQV9=oAnRKNC0e=cn;]iI7o7GP;U1o4fjKlNKagSf4VW/?KghFgHnha
+/L<k_`1_b@BhTjSn_Cl<n=YOdV_agZORfcL2eQ?nOBoN0REhUklcNM:oklAkWmlO
+gkR?ae_FF/5kGe[hmo`2_7Wo=E9>>/HCMiTn5Vo10KcMiLmOeXFg_13WZcSR;WeP
+P7l9ILok]N9lm^]m6MHhLYmO6lkk58?c:SRklRM3CofiT/JA@2Z@nJ^J8lkn8T_S
+dlC]8lkkN[KPmoYhGOgIGEj7lkklcSS[gdCQ]_O4J`VfMlK[@=HkS/]E_9HUdG3N
+_N;ElI[MRSnbN[5Ogaf_>@Sk4mkLA;HmSFEPlKZ/oK<U>mk/P_O/ShMhcDf`_f`O
+aU_n_4C^l`;gJc>_k`ka^W]DognI^QmM2VE^I7=dLVEQK@YUKVA_HVX:=B0`86mR
+JPXc=ST`2VE^I6mRJPXb830PKf9Z2S`l82mDNG1U82m@HFMU82m@HG9UKW@P<b0`
+858P;e9ULfmeLV=ULb0f830PDR0_@fm^M6E^M7<P=20`858P;deUI6UQ@Vmh85/`
+830P=S4b83Li<Ud:;d=bKg12KgPPFc4a=Rha<34f83<`=bhf<c<c83@i=bhf>3@c
+83Hf=Bhc<S8iGB0_@VaUIFA2KgPPFc0P<20f<C8P=cTbGB0_E79YKD9_N0YK<20`
+83Ha<R0g>C9M82m1LWA2KgPPFc0P<20f<C8P=cTbGB0n?PYUKVA_HVX:=R0`86mR
+JPXl?20_D79_He=UM21K82m@A4HP;eAUN7@PGB0_@fm/Kg9CL65SIB0l?20_@g<a
+83PP<21B82m3Lc8P>B0`858P?ShP;dEhM4MCM65dI@Xl?20_Ag<b834b830PDR0_
+Ag<a834c830PDR0n?R0_AVm^M20l?20_E5@a834`830PDR0_E7Ta83LP<21B82mD
+NC8P<C4P<21B2Shn83hn2VE^I6mRJPXa<R0`86mRJPXl?20_E7U`IB0_AGQdAe=d
+HGAU82m?D4dP<B0n?PYUKVA_HVX:<C<P<21_HVX:?3`P;eAiL6DP;dEhM4MCM65d
+IB0_DddP<2h`<R0n?PYUKVA_HVX:<C@P<21_HVX:?3`P;daUKVMdJ20a=B0`858P
+;dhP<b0_@FadIG9^HGAU82m4IGIYHfEBAd8P;dIYK7AULR0_AVaQM6E4IF=_I6DP
+?Sh:LgAbIF5]2WP1QI9?B1AA7<No/bE2[0EU9U;`C[J7GAVdPgD`g5EGDkIUGC=5
+R7GVkNkXk>`d<k^EN0PQ^PAIanQRABOY61hlM0PlA0R:MHVPXf@@25i2]]nKFGO7
+D7X`nckcNmoio_jl1AY26M?D0``X68jERTOIkHU9e[R11S@Q25XIaCIkTlTAUdT[
+m/=[k`/T4MV<2:o3IommJk8X8B0aDSKW?;hRN=[S@L7g7=<QcIAP9ImARDgR/9E>
+aHQO4Yo>nGSJabZg5M8/TnJjHU[T4dPC3iJEW?3L8IH=EC<XOY6hFkFE0S5i1Yj8
+FE2<US<<m5`2CWbZabI]H?T]L:6m7P^e0^O7PIF^NV`giLi7JUVg/efM[YdDS08=
+gb^EgGJPlCV`ojaBnO>ZD]UoCCVn0AmdYFBEGBdE:Gd6_3kLB7>L6mcB52K^:fTE
+/i[>Ze:a7Gg/mN_:j;IFDPMd77/cLEGM`1;M`oPYH?PAl>87L?TML>hmT6`2dULA
+N4SSlQj7gjNi0[6RnL3BLWV7MLYb9h^8[H_edSn4/eRaH9HLK[4Q@nT8/hb^<eMZ
+<h_Kg2Yc]@<5_DCgiZhcm1_Ta]PXkCB_@9KKoEFFI]A<7md=>VQ<6b[_jbL>4bmV
+]H4QhQ0m7k?F`9S7dUW=6A;gCo50Sj4WAZX<XiRhBDcnf36MZ9P?/CASUdN5Ya^O
+bMa84[MAo=Y/LEQXF/PW=9M?did;U]9cnERRbZ^HP0h>3@Km6V188HhX8S1QXHP/
+WFRTd2PZcSU5=MRH?E:Y8eWkBRM57=_dcKKkcEfDj6_QO`_A11K2=@LVOiEobE_b
+T_a6o[WHEP[ECaJ/>iZbo_@gnH[<XQ[QjmDXo4E=W[m2eOKBZHhLA@_dN3gI=Gg4
+GegFF6b[WC2APcm>k?Vji;i<4DbCWnQJM5lVe^V=^oT>/Qdg?M:^cJnfeW=]WEbI
+fPb^cO^[XM[okLZK]>S:?gW5Yo??V_l5cK01J0YUKVAcM79UHFd:IFiTKf9Z2S4e
+830PKf9Z2SLc>0YUKVA_HVX:>20`86mRJPYK82m9@d=2HG=UI20a=20`858PG@YU
+KVA_HVX:<CHP<21_HVX:?3`P;daUKVMdJ20a=b0`858P;dhP<B0_@FadIG9^HGAU
+82m4IGIYHfE7LV5i82m6JFadIG8P;dI/HGAUA6ESKfAU83hn2W=dLVEQK@Yh0HEA
+cf/C@AAn6b]N@QGADWZJHi4T[3l>eU]<fSBYa9RVJ4C@MC=YY]W/[[>KJ49?_GPA
+kDTlN17l0g[dd8>7@Rn:@ZWn1CgD7b0:?H[Ok:KY]TDb<3_O__WNmkiiSfQTcG1M
+:lJ8F[H_LnEdmDke;S_eVF8dBW72<Tc?CIM:=aBf7I^[lo3Jnd:JRV`UUMKQ^j5o
+9f_L<l5jSndlmUfOB=>1ccD[i@a`5WSDM:F:Eh1WJikI0Wi=M>9/?aMQ>YoS=YO2
+I3UYM5U9>WEQAKd>^eLJ@iOZCDSjLb]h/cKf`Fc;CSmAdchBnO`9_19U7;L[aF;3
+IaNWYZjb9;^TjiMI6QgR;>>dg;K?9L_KIR[13<]R0MESTW]LMWP]ABf[[OZReVW/
+>;LGiW5>4/FnLFnjScFgIVCW4;n2n5R=IjN1[j4o6gDaT`M>HFoDiL`2cP^8<n7W
+EAlASjgKEU7=5O5H`GJ:=h4Ch;aboN]UH<`Qm/c[c2]=YO=kbBRDL8j1DfPjLhXc
+3XkOJeA^0im1o46_TBV6LNd_ELTRCX9/O6eR=4/6BF[QJe2BG627j[PGh0W:1Bb>
+Z22?V^3WP7L2K0A:1aTFU@KIE/3LAHGM8?LA]J4DIT>YB2/9ODgoXKoE_nXomFgm
+3M3geHWfY>^nO;hRk`_cdh]Od5>EUI]@;gBQE9CgD=V4gonim76WgQWeV8JFAH^8
+][33?WQmI`ILN^CSF`lZ9:<_Z]^[4`=NUiQbb9lFmb;EnL3W3UC2fPnQY3ZW_7N0
+;OaaDRkf?HAcD7dE]8CK0kMPKbj_SdN[KXnl^kLEge`ndY/J=1UUP_Od<<WS?H[>
+a^T[2WP@l;W?3^Ml]:=VWfd@GQg]26[B?inal54:IFiTLgAbIF5]2VE^I6mRJPXa
+=b0`86mRJPXf=CL:IFiTKf9Z2STP<21_HVX:Fb0_BD=3@V5cIF@P<CHP<21B85d:
+IFiTKf9Z2S<P<21_HVX:?3`P;eAiL6DP;e1QIfEc82m=IFAYHD9_N21K<20`83Ha
+<R0g>C9M82m3KgE^M20a82m;JFAc85/P<R0`858PGB0n?PYUKVA_HVX:<CPP<21_
+HVX:?3`P;eAiL6DP;d=QM65/KfLP;e1QIfEc83<P<21B83hn2VE^I6mRJPXa<20`
+86mRJPXl?20_E7U`IB0_AVm^M20_DgERM7U`IB0_E79eIEAiL6DP;d9QLfE6Kfid
+82mHBdm=B4l[B6E/MVEdJF=Q82m6KfidA6EcHg9YL7A_LPXa>B0`858P;dE^HfmT
+JFiW82m=HF=BKfeQKTE^HfmTJFiW82m6JG9cM4=XHG8P=3PP;daQLgA3J65b83Dg
+82mGJFAdJ7<PFb0e=CH:=CDf83De=R0e=CHP=CDf83De=R0e=CHP=CDf83De=R0e
+=CHPGB0n?PYUKVA_HVX:<CTP<21_HVX:?3`P;eAiL6DP;dI_KWA4IG=SLVU`M6mb
+82m6KfidCV5]IB0_F4]?CDQ?:dQUK7IUM6USHB0_AVaQIg<P<c8P;dI_KWA2@Vmh
+85/b=20]<S0P=S@h83La=ed:;dUdHFaYHd5^IfaU830P;d5cHfE^M20g=c0P;dAU
+Lf=UKW@P;C8c<20_@f5`B6EYIfQd83Hh=20_DgAUKEHP<20_F4QUJFMXM0Xe<C<P
+;deQN5MYI7AX834e<30P;dI_KWA6JFaU<R0b<20`858P?Sh:IFiTKf9Z2S8`830P
+Kf9Z2S`l82m<IFiWM6PP<S4P<21B82m<IFiWM6Pa83La>CHP;dIYK7AULR0_AVaQ
+M6E4IF=_I6DP?Sh:LgAbIF5]2WP1_EUiM5A5e[og;KdUWOBBYC]KMjOCBdQ2j2@M
+>Y0QSm2MQK148]2=84TPV;16314@<2Q[F8hcB6A01EbHHI=>0>W89dK5PgjXhc;^
+c775HNJKj2cPLD_gMmo[4<4cN_S3HmNYZW^[jUGMn]gUeJ]^FkZ/2F:Q0eP@iRaZ
+J0GYYffV:WM>Ni/ib_=I0>clNJfg;H[bR_/058M^FkQRGYCG7P5@9C@g=Lb=l_0m
+eLG=e13U/HSZ[>I5KL^S_;JDj]b5BnH<mV__9mj`Z67ih?Y`PGSchXI5CM7aZEmC
+WMFji8jf@Kj?JTo[dZK1lNPWnLhSAW^7BY6?P@Fd]hFP00HdU>X0i9LDQh03Y2Cm
+]Zcnh^3/n=8[X5E8o7=CNZAeY=XENHO?iinV3^GElF8]b`iW0lARn?K_o:Xo3oE4
+9jAE@e2M4h8bbVk:>CUS3M211n0nb_/X/m22Ff05iLfDOdnI6j8>4]N;FgXhQO0D
+[X0D72o4L:JK4h`VPb[6m4H8IBLN=[eWn?@d6T4=7j>aA`g:/B[LQg]Q;YS`LK3Q
+BZP29nhnW[g@E4mM1j6ELPMUERXA3oIT59S>H2kH>:AWk931hI>V_k[bC1MM8@Ik
+C<li@QaEcfH@9lBKn]8O=SfCOY_Y3>G3dJi3fCCRBM?1m8FV7ATQg=eSnUej2>VI
+gdJ[INWdj9>VAMUMY[T^ZGm2EhPig6<ZXOiY@XbYf6<a^M<o<nDk@PXT?RmmPVVH
+jaEC5Se8`l`dZDg@V];BMiQ6DEM6^/laR_9Y?8AkH1S^jK6==ce596ggN7FfYb^4
+Maf_L[Y/8E`Y55Li^k:[7;K/2BIKMXG3@OBd5nG[i;O8alX;i3UbYm`^]lQCi@T:
+WD:SR5?4:U@:QD8N`R<mIBKIJC`<I@C;hN<:VH8?hA?Db9g6Xe;SdE<:C/4X@94@
+RWad0TSg2B4lO48SDT@l:I<XF@R?7Xlf7AE<W4QaDXN64FTZZ0@65@b<Qb1^2lUP
+OE9kVJ5<=dIKD^7mZJ9Nj[UJi_cdch3Y`JjJ>Wo`D7XPF20BTOC0eN66ZlA?eVg;
+Z:^Y?2NWI/Z:hnf]lnOiVZbnNZ^_RG9mL4]k/b7HdFPfMlm_5C_<@MINgcRWFJ`K
+VX:]eRI_L;kEJni^UikkDOLl/K_Mj^f6NKjKoMgcQ2I_Ck_@k[<fN0?76l^Gc[Y^
+[Le3Jbd]obm[UH^C;AGGJYBNnm5J/lC^AW6]FN9J/lBe6XE6JBealkjF^_8kf/Pj
+cKjF6W?@FAN/_VV6?fQ^27Q3N80J_L^0k`<=A@0Wg`4YG3jH02;_DGiO[<=C8ioc
+id0CGQCi5c^JU=X[IRILEPYm/0gf`36@`An9M/:]/0]N`_WTfc?Q1;b=6C2LhRh7
+8IP0;f<TlS[<PlMXO1/l1c^QVj:b4aI18_E^Ae]T9O42dHf`;_88I847=/3CD4:c
+KXOnb<78LNZM0U?Q41bVilnSUNWVm94W8YmAi;^9iUa7?Jm79TB>P@ibXAaZZGDM
+W44KngjT6@``VZAk4?K2OWPFoX7gh8U8Lj@mlU[THc9E0jAAg:b3eGP2?fJ?LA/R
+3dKn7PTC4ThHAZ_F``ihU>HoAZV?`ZX?5f0Kk/2MS<3L`icPe_?9h@728A/Z:EG1
+4]Q42?C2FOPgO8=O<PIF`kJa;dCLTOm@_:jQGHXkJH9fBQ/YKJLmWDHIS/1aF8^[
+lGkLRFlb`iRYS9niTeW>O<i>HVNb:mPg^C^h7Wh[_d/F4khB>Adi5gT;TR4MKX6U
+/8Ifmabl1YOQFfAY[SBdhFP/ae/YMN0NYQOgHbmCRggh6W<8?lA?lD_lS^6IF2JA
+bF7JV1g<HNHiiUFfQMg9oYkmT;g2SN4IOSmoDFJCOa1^36l>_aXI7OThlSF5F0EH
+B3?U<0UV@`?]]QF:h6kJaE5:adQ[In45N4U:Wf8Jm<?GQ0:P3U>`02MBVXBCLAjf
+h<?h5:DcTRaO<J@8A/UXVF@VSJUS6YU5C0Oc5]?1Y[;3f?7/3?HHYAOI]mW_f>lh
+W]=cRE`UE`eK^DGLKTX7^3mb?MbOn19n33n9WlIgl9_i[N`LoWGnKMTJfGIISna;
+fClY;4j@;i5_9NflA3Kkk=GGVEAcV4GB5l1RV8=NK8@^d/InK81>/Zji^8W`JPEW
+I1JkQZeTAY0eW86kb5Yg`f[Hc<j4oI5gfD?`3UW:@YZ]0ok0UD<jo`1YiahH@EHD
+CB1T3l]f>^bf;6^VaD`Q?bdeaFQ8CTY<d>^d6WE/S4ZYT<]hSVD@LWgFRWYcd5hO
+i>cFZZXlTKLfD4?3=@gei<[VH<GeHh9VlKT6j[Y^Y40SioeXY10M:@b=A8fi54[c
+L/dnZcWhR]MZ3^6<Voa4Ko=J0nIP_dA?U>Sk95Y=]<E23iQmQVJ_>HSeIUn`X[fi
+deO_cL_5GX7PD>GURX53P1QahR2<JeQ=0AK6RB=l`AB[eaLdFXVV?]KVJiPK[;g9
+ko>VFR`1JZ>V:GiJ8bng9DQb`YKH^MJiFd82==J;E<=<Oi1]20BINW4^KDh`fNX=
+9ZnlJ?R1_D[i]UkC6FA/5@e=WAE1XGh;PB^bmB;G/9FhVSXcCL^/3oR3^7i@2576
+nBBY:6kdWF2[Wfl>:ZgUe^K>nOD4;Tcamj@8:E;`3D:]_lLX62DV;kOG/6JdQGKO
+VcLfKjaHSkHHeTC[_mhKKGnSCj`=JlinA7G=U240D4C0FTeb1/ecY4F/9:a7;9Xl
+d3W7@cSA;h2dcAJBIeb@8I]QKD7NE]d@k:Rk:TJc=bYLoGa_Sm:H8[f4bP<d_[iC
+<hXdAN<eEW?W5GYKee_kog5mBl=PRlbV^@9RYjSX8E/9H/=E^UelFMYXeld6Jk>X
+ggI9YlAK3Ki[6XPGXA5U3RK@2kcFK`VJ0mA0YlWLVQ0XJogMR=/38Hb/3h4g_IO>
+Ync/FjTkEcBe5Rn]CdaN;SD</a0e?=ML@B]GR;IRkSAgE/o]=5NHVlVH>9]DDdMC
+Ib2O4:cc4di`<jdX15:7b:I0H1C=Tbo>@ho@l<h0cC1oL0JZYJKl0AXd8YMNYZbm
+eWnC?mSQC@d:gP1YPLbg[mHOk2?;3@AXU6]8DY9hMH]QD>H2T]TeS?X;Xk?@fJF3
+YPQdMXYce_V]UV1OIfMZYnQ_DCj4l><6HK0Q1>8@4O8@M]CB/eAI;JVB3RaF2hTE
+434]8Y>nJU5dI_miQ8^7i:HWAi:daA;2WUl8hI8K@GSD3B4lNTSBja0^9IU7R`So
+i]M3N<ae29Om?<;2T=`Ti5RBEY0@;_n541ig8`QkK`QQgi2Teb5L@C;kA8@[Ocf4
+Zji3^?[W4Aho93L9FD?BSYL@W_0;8CcaAQ2NM4<8CajBm3Z4JdWVbB;2=oej24ni
+1V40>_O_inh0PO;I`MY5MA7UL/XC:ML<d]GdT[mjga1;9n4<hTN0B_X@I>TKP:Lf
+>IdKUM@VoX[P4GPAKjHCgbCV4gHinacGaZ_X0;ROEQE_8ePJ?DJ`l;9l>PQalW`F
+E3bGck9<RU8VcdL`:YBK;7?^X^nlBIM;9`jDC]9lECYA<e0:IJD3YF9fSBSDF[@>
+b_^ikJ7_?n6OoWILR9_h7GfbdULY297g^3An5lCCbOmf8GTSSaF:A7LlWnJFZgDN
+MXW14i=AVJiY?f_hLom0?iCeUoFkAXaK8AA1Z]Z>]QBkd/KKTn8<CTP0WA=C5DAY
+I4@UabHjDLm@HEBU>D7;DB5nQj5HB;ne<0^BTk@J>F<a>ncJXY4jRjiHFlAH<aU]
+@W9B8B^/ZYnn9_a9>;bVYJ`MgId7UQoM^b>ojPUnelG^l<_Q2ln4_oSX=8jnO0`[
+_[gh=DjiS:?3KhGol/7jln;NT4kO`;c5ohk@]WH[<8B5@Rc7bF<iNAL?ZTZU^:Vc
+K`fD@5WIiEML8oC^<CRbD6_EWWen]gek7o]EYci`h=_5k5OBG080Ul4o19U`@9QD
+c5E`doT5jH/cEVJ/`hf<HYQRQW61LIEaEMY98`nI6<nUaAT]lS@SgKW`Y_ShC;g:
+[NO=YVFFc5S;gG9?dY;<>4OlFY<W<j_B6PGgL[oVB_mWDKGeJgDUnK[T4ZAJEe:R
+Y@9VBK2WLLIHVmHNXh]cPS91C^1bJXg:RHY4:PQOSDK2Uj0]eYEQlLQRMi7MVRVG
+bJe4F`YdR@UbFCc:Z<6BJ1Voo]Vn]DEC^UKgE]ZiDfci<WAnmNV:RY>K6cecDmRh
+kk=kDMNjY<IM]f3eSZdejdng_aKnj]4S:b^K9QBkY/lo9>7R8_]9hGN32lh:Y^[H
+^[bVk3Uibk:GiLVjk5RSb54ILQ;Dk3N^1;NJ3]1F8D7[e]b]E[]BgEVlg>eB6kXL
+GVf8K[kREIkQBaQC]WT]jf0::`^^@JGoL]C`29C;0im[nSDR?R8f4RC5nB><MU3b
+mWAKYUd6[1<hES62h4RcVYb@HS<hTD<i`IE?AHHUUC2cDc5TS9YBdA[G[RG<L1K7
+^0^Cb?H:X/39i>h<;2bh1/HR4DKjBR44<c0a0JbHM?5oHYdEYkHO>KUOIm>WfI>J
+aRkMeGC2InMkQ<FHn<4o:g<[K[lko>n_7ISlhYJbfgL]_klMLBo;V3gg;FQKG[ib
+Gn^;coN^Ve:HK^[^N2DL9US9;h_8g_;i1hUB`d`QDlVX56YTV3<jVDc>b92G:nSK
+EZiRU/G`Gk:aLXh=HO99k58[SZQ2j3o>aeO6B@QN^E`j@5IEAUFY]TA2SH0[fCPl
+Qe^]NB7N=@:eB]AJg5RX;DbdJYW7`filMF0[Lmn^=mnTcn;=0gN6NK`eb6koO_I3
+hDM4fA3:8aLXIWB06Dh;>EFjCBJV9;I2?eeoVihKYHQEbb5F5AlG]dbWen_Rh/dj
+_AcdbJYT=`VF:JBXkhj;BmN=R^Lh]oUL^UX[mj@/0Hli/m8BeOREo[<DIO[;1TSK
+WefnZVWA3DQV4QVRZROM6bP<>@dVE39f=X<^:>QjdlbWTDlX3EBPRG>2;9D:QC7Z
+6f;XdIB:jQIe?D]oWIhMNW88UYbT/81;C60/VEV>0MeZhNIm^dmec5ZOon0Ri];0
+g]lDi=Ff_82jkl;mal;odN2RgJ<cGUkEmEREX6CI9l9;kGY;n?WchOmmhFE9Qa<S
+7g1FoV581@LL54[^C<5TQDgQ<?Z=6f0SKU;::aDZRl?RSX];H<o9gJVl`dfnT/f/
+cO1XUbB[V59EUR/i^m8Y0C=@/ZYVb_:En@H:4h?nd4l@R@150k;=WVJ>C`8IKcO7
+IcSAWYSUQ3@mDJ9?8<NJ=1HWfY8LCTSGDB7jQ1@[<>X0XPN/aETDTi<B[GH7A@gV
+1cR/VJ3EB?5IRRNba0@:ciE?mfR/HmLmd:<JLn^dnBL`=_ao;hD_S5f=4mI^Fg>P
+kMSNKOc3gjbK>V96n6oQkfo9LgknfO?Q=m55eadaCn7LKoobc3f;cngN/dVlAd>j
+2a;]_H?N@gE2<AmSI3`aXf9;e>?EDiUYG2=cBZiJYCjQOT7=<TYDahf2N4hIbjSY
+6Wm9W<:S?1:W[MA8<54H_BPJ>9TlFCbI3E;PW8F9<XHlU/:PCUlld^;VlWdGoM?c
+dXNOlekJo<3gUoR>QlJ5CoBMgSgW0^k6[Rn>WZBo6LS>gj7HmR3ME2GCKLQiXG8J
+CUO>R0oXif:CLT5lRoi>Vk9JLiNagK[DMXMSUF]E`BKSA_=6ajKQVebkS>Y:AH72
+5/OH2V;LFVd^klkPTmfiJ/I37bHKC/Ei/YOT:cbYA9m<l>@GEAI6cEmj3O`@koZS
+;S^XHoN`hFUVGA:[C/Y;L49/CY`CECX5VGTj5Ib9LF;Rl6@WZ8MA8DoSWLRJZAR:
+M5:DRnYh<;b9N]AM@h?3kRhR5hP6>78@LPE[IQJeSF@Nfm1akce]GO<f?GiXoMY7
+MchH?SU/lZFgG_fkeehK:9`M__Ajn<=E:eUQoLcJ3A]V=2dM6;ea`iKkM]cCnRRc
+;jNfHmoWkoef@eenG[Ikk[jW`mmln^kM_BhacUE7g^Fdm?h@ONB`<=c8io3>Y2ZI
+WfoV=a/gYNa:DEHXi1J7`jeB6Ba^3LniDllIe7:VE9kQX]_hZD:<6[9CefIie5LM
+QKa3LfFPI7GDFjAHL[fSV>c6U1Pm/SXKHln<9blaJlU;F2>547/</MHhLQBCWPY<
+XO1QRbE_4ElAPbNGZ9mP=7[Xhi0LaEfT:cC[Ta;5XdbVg@gG88XJaH:A_[E?fT^k
+iogYGemL`Y8kbbOO6ckga_]<@OON^mK]fK@CIn`/bGP7ZfM?A>KllnP<OkkWKn5_
+cXNO^700kM^23noY_Wo[hb9FdRoBA?NUondG@hej>XDU@Q;IZ`6<T4:XYU4[dTd`
+BXo8j7lal=M<WUPe>JNZJF5kDe_;W0J0o`L2j74W2VE^I7=dLVEQK@YUKVA_HVX:
+<S4P<21_HVX:=3Lf<`YUKVA_HVX:=b0`86mRJPXl?20_E7U`IB0_AVm^M20_DgER
+M7U`IB0_E7U`IC4P;d9QLfE6Kfid82mED5=?Ad4[@de2F34`82m6KfidA6EcHg9Y
+L7A_LR0b<R0`858:;dE^HfmTJFiW82m=HF=BKfeQKTE^HfmTJFiW82m6JG9cM4=X
+HG8P=3LP;daQLgA3J65b834a=R0_EfUTM6Qc85/P=CLe83Dg=@X`830P<20e=cDP
+=CLe830P<20e=cDP<20`830P<20`830P<20`830P<20h<c4P<20`830P<20`830P
+<20i<34P<20a<3Tb830P<0X`830P<20f<cTP<20h>3DP<20`830P<20`830P<20`
+830P<20`83De>B0`830P=S<i83Db=b0`83Dg=B0f<cTP<c4i830P<20`2STe>20f
+<cTP<20f<cTP<20d=c@P=3Dd83@d=b1M83hn2VE^I6mRJPXb<R0`86mRJPXl?20_
+E7U`IB0_AVm^M4AULf=bJG1dKg8P;dI_KWA>HFeU82mED5=?Ad4[@de2F34`82m6
+K65WLb0c<R0_AVm^M492KgPPFbdc<c8P;C8h<B0a<CTe83Tg=ed:;dUdHFaYHd5^
+IfaU830P;d5cHfE^M20i=3HP;dAULf=UKW@P;C8e<20_@f5`B6EYIfQd83Pd<20_
+DgAUKEHP<C4d82mHB6EYIfQd2SHc<20_DgAUKDPP=3LP;deQN5MYI7AX834e<SLP
+;dI_KWA6JFaU838c830PDR0n?PYUKVA_HVX:<S<P<21_HVX:?3`P;daUKVMdJ20b
+=20`858P;daUKVMdJ34P<SDP<21B82m<IFiWM6Pb838f830PDR0_C6E^IgAX<b0b
+=b0`858P;dIYK7AULPX_AVaQM6E4IF=_I6DP?Sh:LgAbIF5]2WP1kEEUF9A]]aF@
+6Q@9@D9`J50H^T^6A^T>P@4666YTJ:Bk@G:T^d5J6ZBT4JBET9K^53bSkoOjnKgW
+aoUcOYg[c<b?InfmW[gG_OJn[f6PDE5WTc23Vd1Uh7J>K9`PCR6PY29HQi<3b0WR
+h00361PT4E288`a^9`EaQ0X1>@D5^H0bD1?D0nXWa</Sa<47H01:`Unj8F0FUXi0
+ITVFWbAnX8@]504cQMP15B6>UU1KE0eCR0e@7Fh:PcZjPH0B=SI0]Im_>03EX0i@
+Q3?D30CPi0BJ`D`MPBI@2iPMP?fW9WTkLcR@ojn`VM?;_e?>D8@3BQB@nIM<5R1:
+Y1WLc/H=J0He1k0[`E7MX2P]oa^boUULa/W6APURnk?l;jOnFaiR2k=anaL3K__B
+bA6:02[2cJ08^gmB]J5oN@J6fiSm<bO_2;61VD[HFMQ0PAao7@_V80=cQIZY`1a=
+;H7V41/7j:lhe<k/7nOoJM`_0NaBfW[Z:]Y?oSGCGnJX@61fSQY^;gnGoLWnQE7^
+ogC_9dH=3@5c1NYcX;J04mDOmOgkjLDoVTWKVL;=H7HF@2iN?R04PH2h0E3KPd:l
+`5NL@9RM6M@E27E5:FH7fL4MDAf0:4/lPNI`1>3W@?WhPNbB?d>o43l_T?gI_a4Z
+YoPK2G03fMGoSE1<cMl8]G3/T=n8Th<3b6kf1n@4/T=o@iA<m[n<ok/[;jZb>Lci
+3`XG:P1g@_anQi<3AK7h0o80fBgoP2Pa/3nP893Mm]l@MI_HkOj0Z>8_oh2XDWld
+hTBEL_RMiD6Mbl46h_17;djDO<Mo4`B0k>i@1?aGh3m_`LliP/5`eeM/g:PI/W7a
+X/K2bLL35>CQloa?i^lAZS]2k<`P2;?OPIl;HNZ4@43]77oMC=B^oHg=HJS=Q49M
+XJJ0VDVhZG20EE9MD96GM<k7H/c7J62;Mc5:eNfOF_3lYenSfNCg?k=o?5nULeVB
+C8boQ[Wfb>DkYD=H/hOZT<bN[gd<L^9VcMUh;MVmPE;W<5WAKODUkIWoe[fV^_7S
+KEhdiK7iPJ9hgMc^]?fN[B`EIRV=MN`_=;ONjc_G_4l9h>?GTDVfd@`>[6;TYU4S
+@=XGQO04ckT@a<ONWQ_amk8:aZUol_T0g^a4M9V3TaUgHgC[`Q@[?=b18VC:4No^
+k0jU^9mW`d8=?i/PKdO@L_YjJDIMDNf`8W/iIO^Zg^:Ckc:B[Rh=Y`Idbhdee9O;
+DW=m9I@R0nd@_iQYd@mJ5a>]=`=TK1G;Ki8>cLIaF[3Qd3al[oRng/R0i:Y_@<bA
+7=;BXMLoe1C:42JE6:[Mn8dOXf^6=<NFHJLKO;f/^ZAHGeLoR<n;ioB?8GXlK=XT
+jn0[mAJNKgNcHT?0TMPgULNg:8/]gL]/?jm`fB^iYEk:CfMU<An1`YTajI]m90kF
+U8JOZWMU0;IQbDkeC;M06@Un]]FWTRaiOGg7BiD7:T0C=NFNR429_>@TG</[DV_Y
+OWVgN>4XS9Cm<MOnF`NU53NAm822S;2@?C6O8jPgMNhgM=6jXfU/a/gPCXW4Xk9B
+b:45XXMe`kWEe;f7m<]c4kg`nJCA;>300E4XgKa?eTaD2_N^Ah2I:n<TKgIC;Uf=
+B=O;`W_af_bF=oCleAB:<M5hSB`dVecc8dhWmil6<PdjV/;ZKJ>m=Rbme/YG/oM^
+PAcjV<c`FkgCB[IT2cUXaFc^2D?NAi/`/Y[c^]GNN[U9OAjGiOj:S<121L]MZjmR
+Z8eI9emkoX^5O6bE;UVA9<lD`7=BBm>agRO/1M^@P^V3T14f9RECEc5BQTMSN:FS
+@<DhSkOj7b<aEED5Z]J?=HG?hkZIN?6IAQH:ZZ:<mPd>;ocM2B:fJYd^IKSal>cK
+<Bhg<SN:<TUTk^n6Of9P[[VnF7U/18mYiaA_CjFn2jjEadg1kR@ejXOIDC2m//LZ
+<FLHVCBTMcOZh@1hZ5I7fj`K5i2?K/AJA2GZW[jk<KaS>E4el0b0]R2=8FQQm3fE
+@?GEGIX8EYX_mhC[Zi_VYIHN<TgLQ=V^3?LTN/6ah5kXVZ[19aBeLhNg:@L]VEKd
+<5k^7diNEj0O4eP1T^[9ZG1R@n/cT`U`lo@bMYlW>PXI06N]O5d1=hNhenR9n_G<
+4KN=UK0ZbO/1>B^m>Lm;k/0X[MZ53Hi00kk4fZNYoOdSXNk^U2@62;c_SFOIXh?6
+A`LnY]FKAe97ceUYI<BDQAeU?gJ4^N;La]7?:EmfHla8/@d`inc@8aSfc^<W1bG7
+Ge_=bLcA[KX@7kioiRHN[_TiJ:So`mHQa/UdjK]2DT`CFaO5B2Km5eijBKiE3VWP
+9?4ldM9_o/Y3WGUE194:8>kDnEiaA^RX_N`k4k/CoVoZ8eC</IDAgF@I/ho6IRbf
+D[b]1M:Gf1kRX5l><GnWb:>N_;ohhNX3]iH_d=6/i;a[Aco26kniReB:F>_8^_TR
+8WAFG/R:W]dbPO]KGgGDb@Cm]o@bkG`K7FoBXaZR4?kG9a8NPTCCNQPGNL;9KDXD
+NaJPX<naND_f2mbJ6K9aagDBG167JlK4>MZ=]ElI<BAB2DR33MRkX/];>dI2QNlJ
+8=WAmV^IO;EaGi][XE]VmKA^b^YeY/PQIEn5Rm9OG@O>F@>FPGMVJ]LTVAN[ZBAW
+=EVJe2:;HnM;MW1[G^<Z_9FRUoL]h;]c;2c:TTaaFm8c>Z<NkMk9h>RNUW:J0_H[
+eMXjfjH<H_dZ>Gb;ZI8PM@>?F_9gQ/9GY0FaMWTFQin3IQFhjiAi?R11Te<hg;XS
+4eMS4LdK1fAA0h5cKg0;52ISXRYT^;BO9n_S361OaFANDIPkdfRg9F4b9A1g2^]d
+_R^CaWRROGD]Z>6VoBYjLFIGi0iDdQZX5MS=mIe@9KSROVoH`G@=eHnJEMe_9JCE
+K7M?dePYJaW^RcB7kgTS>C<G/oRgnb9/fSY2K[kOgEJX^oS6NE[:Wd653YW]`bdF
+Z<Nk5L8OIHIIWa1?g]V`cDbn6QeRg>52>lB6W3TTXOMQH=<Rc4YDXOAEOogVc2gV
+ODH;=5=>o:JL=E^T=LdfSLAaH9AbZQm]@6^U49<LLfF[1N5ZJD1Wn0G@M3oDEoWl
+@=?3Uno>454cX^Cea8oKn_>SUidn3Ho23;77dDNETmRlJ?APH1<N[EFGjE9A^TPL
+f;09Z<eG@hK8IGf5Q>ChC]UWhbGLj_4Z4IR54:7b6<lKFiTi@nVe4kli_TceA/`3
+5X;D]SeaPN:ho9Ohm^WC`>BkFY8EKg4ONL]e6XnoLOIU]?h>M4G/k^1>:AC<S4T8
+]bJ>CUej_ZKdP:HNL:TlXQc<`[b8b1R<_BhcYGnJUTS8Mh]=YH9b9HFXV;1AKcJR
+WoB@acGYoXNmcES00MQ`f82ko^Bk>mObe_Rk7Li@2PHHMm4YDMRIUHZM437CIGgM
+fW=Jc8_1LoYFiL9YBPj9BR5EK0QU^3ec_DiLY^n7<jO3e4m_oOWXB2kk;?7l`eb/
+Mi>ICgIUYIm`UHW=IZAhjCgQYZ3>IA42bc7</>hlni`bDaf[JLei`X43g[6eii8[
+ejHJ3Tn:LUE/ckg93E_d9Q1Ml<QhBVkQ6PRM`GeSelOMSBNe`IgFhG7=GOKhLDkG
+U1FFN5O3RDEbLBVIMAIf?fhAQMia;goaE`o`mhG2^FNGgF=iU_[OLJ`D9gfCd7aM
+UR^hQ5AYKH:XZ4S5Q4SH[jYX@ck97;OH95d=Z?/kk`m/BQ8@HaFgJX/:ncKcMIdV
+CKW5<Y6`nQoL94RE;`Q[VoA]0[Sc?Y]^1Sb3AkGbF8]k?N1]dnZL7W_G1YknXX@c
+Y2NF4UkFMFV]H@`5@ckGWaH=_<Y6=ZZi9?InRbTVoA6Y[>WaUE99<Xkh]ZVA/m53
+^J]=gDGY;==57[MV`^fdo@GFm;OXAO:]Mm`j^INSMk/GaT4U;ZiGH_h?9;F[`c61
+Im?99XU;P:_ENIlb7A>d7VWQ@Bc;ekQ54I?/LlAKA1hHGA9eeoj9cDB<C77?SEFC
+7kjUoRA=^kiG<49h87O7ZcjenN4T>lg3^>5K5l>RBjW21J;;lm[?ej8b1@JN_2LA
+H[VegDe?/Q51]h?<>F1PDLPU?:cD8AEmdm`H3fo;Yl8F?c<3GjCg^jVB]4Jei4BM
+UDUVR7I/^R/54OJ4PA^R9a2/3RlblW=VUoZiXQgQ;adE?98fSVfJcWUi0gOJ[@Qa
+g]_dU/=/_;_?GLkNQ;68A^;ScGIeCjZbjPTmj3U1^T[i]FOiWS>`g<^A?25][WQQ
+2@C=O>TDk53>S/?dN2Bd_5QU0PmQOIOYEZJ2eRA?lY[W76AlGfBjaoZ5e7EXUHiB
+A<9h44CR[Il005/To3InX[?5LHejEcd>S/OC8?J[0`c=I5cY=lYC0UZ<;Ll>A>26
+_LoC7AXI;lga8Q:X_m[YQMj]`lY/CV?IndRm]9h/TW?;?inPeA<G?<gaaGODdTSA
+I55_/5;bMX6Xl6Wi68e>eN?W3@[j9d:eGII2?<iEjoO?WKB4<lV<0Wbfc^>>1nha
+5X9S1dj][AL=XablkbWiQD3LPjigCfJYU7P0_Q[J75i`[NnJV6FRe]HiA?K7`k7=
+eK4l<i93F?E=?7:cUP066]iAXb8a@2E=Bh8YOm;^m2KF^TlG_W^c_U;;I81:0Yg<
+8iUKWgJJaLJnmI<gI6ha2W6LOcUJ7eCN4JL8j6=0A5:eZ2ECi>lo]^QhY7DTfYBI
+>767U[9_D^^MJATmOngI@WV>0F73SIU0BHUSlnkgEd4;M0GV]G8_9VF4;_/Z`fX9
+RWg`4hcia5GG?CO@:@FLF^BWe3gFngdeK4Rb@D]XGSG6M`GWIcEMWW@j0R[FWKAS
+?fH@TfaUPh_N^koojQahDiW=05>hCYa`7RA/C==RO[9^47_Nce@b;:Hnc6:C/LkG
+]2mTWl>TZdk]cZV5l2V<1]BaZLZoEK31V;^;ZdST_N7dQVW@=JMcoh5QN7dBee4Z
+POK`ONU3X[a?3a;UEbmReSeWjHDBQ323b95KPaL`UU2RBA2Q:3jajOBmM2f_`/C`
+5`lTHjjDeE<g>OZYe</H@^<R5E@_>ID8KR:B9_1?[il/nLjl0JlQ4DB9e[TOiDZD
+W8W>i3S^BKEY^9NX_ldc<IEBdd982oGld1;aTEQBNW:RN8GgF<1X_3J6nJ<>8cgS
+BLBD::e0Sfh[SPTOY^_l8XDZC[VWc:K[nDYR>H74ni8`@bdf4b8h0KWI>GWUnM?9
+Dd`W9c5ihUWQgK0?;U=gJTL`8m1KC;a63I;_KZA9M0be:7j=/Lk[:cTbdQ0EfLCZ
+CjK2C9]mH/3AleUJ49>oQ=QmlTYUQT[/G[7Z1OX7PZ[f`/?A00OR46VGIG97eQAi
+SE=_;9VP_P2MhB4bG7A6mZo5<o8R=h:=V=DMaf2iBeNc][<742=oNB4j0@_<]Ji]
+7?jSEQL>1eETkZ@ES=8_PA1?e]UPXZS<LM/5/iCFd[`3m@l:L0>G<Qe<mfi]TUYE
+aUQi]dM`<`Va?SMH5SP3>4=9O2j;3X]iAM[Fm6Y=;H>hZS3`fjK/XUAMKK`V2[:]
+EjAjFe<bhUlOZNG1L7K8;^W@?[1NnIkPRZa[db77fO?T_E?X1R4dPOh<iiU=h@g?
+E<P4/gVAk]I;M:@gA]56QY_j@`Sb0=e:df]5m4CNNm4Q]<a5AVa39bIm5cbKFCnX
+N[>7a?KOC7PD5N^DUemdei2NR:VHcJi@jP=Hg>CcVGUm<cneX<USVe9hNmH6SX]h
+GRD`9WceSKi0;`MUFEICBf@EW=MnTZ;h?X=1W4/Jc;Ojm=J8L=m3=HfJaf_1Yn4D
+kOaghnh/=R@N<D^GjeSkF4`N1i;1dSa1XnBb;`YZU`V:7dc_W6Q_D4KY?_nAVHJH
+UWB07RifS0F6nYCZka21ml@^e]L@`8hGU4jA[0kHSB`:GQ?8O^fVVhH7b/EET37L
+L_JGPfQO63Bj2nET8KMgeIDDNTCd9g8@RG>674;^gC[JRLkDg[5Z:PYgAR?ej?RJ
+ETWOVcPCG<^4_32?@hXPMWJnEF2fMEO1M_bmg_[2O>Whf32nC1fd]WjJlC^D@nbR
+ZOSeCjloFX`LKK>_Hb5L^IEPl3fW:2C3@hULb;SbAH5hAXVGJoYL1Ceah5CQf/;;
+GUHGO5VfCgWX]KV_N`ocgPOOD4OE8Ae8=m`U:UoA6Td<lb?5LV51lV9VfYG65EmT
+/7=hhNNO1K7ZEboWLIh/]GI]glbA3]:ShbK4ae4?7;YO;]B0aVlob/fPVlS;R5^A
+SFjdXVVK9@hQ^[7VYLQdgc6Oo46/hm@lUgb16K8>X2F>mD/oO6P/d?1nW5YFCooJ
+ZeTOSmJGg=TdF:^cT@67oMFcK=kQ:AG5992dJeV/EOgaE^QH>;6K3eHB>POY5=59
+LfFW89Wo7CL3gBC6JlQcT6^h_hkTd=/ZGZOWi0CG2[M[e[c6Qke?S`]`3<U7PaoO
+/c;dgZ/;/=>F`lLQ=?8C@IO[`L9nCnQZoH6R8Ibm<bHUocfUN6fmm9kVn6^B6jj?
+YbF=Y58d8NFSEV]cm7E:k3Kk]E=Jf2Db=M7Gd^Y8i@KSBP_i=LV_B9ac>0VOdme[
+^A^16[oe/^FXK;D0mPY[i7dV;HeYEaYoACGNE`:9m@^;LhFN];:L7_N/ZGVmA4:n
+=Afil5dR<Fa6<SYdOb@3>h/@[AF9MJeTk7`d=o:kl`CmGAoXiaV/c:_ANib;YnVn
+9oVV6B7_TcfKfi`Ai^OH@/Mi4VWl`f7:Ji`g?Ec?:KVd0a=39iPciT>QEn`YNk30
+3I[9@O`PokHD0kY/j=dgSL9DmQ0=_`TnDR2]^RcWJfjRJjhAPe@8UI=EMdD3o2;:
+@L`]V[dK=]JP8?KDEni]]M/Nb6=eagX<nFYf/nA^J^5L_]`h;D1RbThCCSUhcf<e
+VKNk9:D65boE>^7HB/@=6S77gOX2:Y5QO65hOZWQKJPRN_9HnQfbIV;][:mKi83D
+/>7H/ljm6>`NfU/__i1@7C>G/LAk>nbKmNOkQ=^54nCB54;aGj4i0njCSYWXBEGj
+0O=Genod/`VF7Q7QC9Plj70b;7YAiVk]bhbECamP_RSiBMeVCn0/c[<OdnmiiS_5
+[;I=706:fgRBnOEL0_7=XWL=IMaD/IYN?V]32RmWjaA<K^VYWh]`2JX7_[1L5^SH
+FBQ_9eg/_gAoV`T^4ci_VkNWkmQ@VGiV[BEW@K>8Yl@igJfmSGN[`HAjki/O3E4^
+RnI5>0mR`[:[3K@FD9Gld8J@M5ELUkn43J_fQ>PUJ6=mN62:IioWBb;>/?elF3R=
+[YaX7m>3c]J1NYX3D??;TQlmRMBShm/cWa^5^mSjJfH99ZDAEZ0k@VBmIMGcCMo6
+f`o@;MF9kCF6<3=l=/e0L_WLYC8nXQKCliablU_VWgGGQI0lW8>me=fi<BV?QmHU
+^GN97SW20RM9PX;=f`AJJic77go]d[D9dJN`ChI9NXOB7eENQ5VLZW6BPD=2G@4c
+B8Ya8K2?4X_kT7OcVXE1>I9`lOjkiY<i;[F1ELHF_2OgOK_ORZCf=Z^NlGD[UfeQ
+dM5=4h[7f0=FC7XhMn95Vo/oKRm2Gh]eSgEMU0:/?[JTS73:Y_Fmki<M3eg/?i88
+aJXGFDnN`TUBd0nNd0D@YA_=oc0@c7N_VaX3WLJ<eMhTm<jgGblCFSc]WP][@iL0
+OiAF1i?Ok4EgBGVg4Vc2N5CBRe9`[?K9><J2/X?g7bZA5a;LjFCJVk5U_7ZGNG?h
+HnQHI_jf/EQ/iYA82iMe;=_HhbMLMdWi0cfJEYmI>5772:VjI]27[hamSXFMifZL
+>T^V_k0KKB`EBCf`R0hX^[i:5ZQ3PUCh97;^oJRade1Te5X/AH`4kmi_V0b6bXmO
+Xkl97`o6hfK5_mKH0R9K^PZg1/1?fh?l=8^ZOK5Zel1?PEjUeedGcP/Aa>PTa0]O
+AiU;e3jDJEPV>79]eU2lbUdjJWlEEc:>IWg8al=L7cinYSFfa[H[0jR@jSO06LfV
+4MZejd1>36f?AiBY1UZ?:gfBMQgP2@^S0K6>R2XBP1iUTgVi=WJdKF]7T^VoCFVN
+@]m??nOR;Tf78061lo7h<UnfAhOFb]>YNid<?4DXge]TniFH[GoeX:];LPVF8/I3
+0UKYlPGm12[RXDc1Q3VgClc?MPk06KC;bo`E8UYk7U[1Gh8FmWLJ`2gj?a82STcE
+RPniHM1QoL^Rj2beLOSNiM@^bLQlA6VUl7Abo8ELl?eEFfC^c</?So<7NFPYYeI<
+A=j`OJ5QWC/<ch^UDlnTYY<DAY]2[aDiOfh@W7mKC3GQCJgEcAWFJg;CM47Q`ZId
+MTW@IWIJ4_Y0B/XD5CYc_SL6cfcinKjO`/=`MbMn8L>I/>e0PZA29IcLF4P^aoo`
+0O`?NHko9ocUd?lA7da]X1248m`FP[06o1MJ5Y;22VE^I7=dLVEQK@YUKVA_HVX:
+<S@P<21_HVX:=S8h<@YUKVA_HVX:<SDP<21_HVX:<C0i=@YUKVA_HVX:<SHP<21_
+HVX:=CDc=@YUKVA_HVX:<SLP<21_HVX:=C@`2VE^I6mRJPXa<B0`86mRJPXl?20_
+E7U`IB0_AVm^M20_DgERM7U`IB0_E7U`IC4P;d9QLfE6Kfid82mBDdQJ@E8[@deB
+<C0P;dI_KWA4IG=SLVU`M6mb838h830PDPX_AFiSKfAYKVLP;deQHe9_KF5^AFiS
+KfAYKVLP;dIYLW=d@fQQLR0d=R0_C65cM4=XHG8P<C8`82mGJFAdJ7<PFb0b=cPP
+<20`2SD`<20e<30P=C0`83D`<20e<30P=C0`83D`<20e<30P=C0`830P<20`830P
+<20`830P<20g<3PP=c8b830P<20f=C<P=cPe830:<20`83Lg>20`830P<20`830P
+<20g<cHP<20`830P<20`830P=cD`830P<20`830P<20`830P=C0`830P=3@d83De
+=R0d=3@P<0Xe<30P=CDf838g>20`830P<20h<c<P=CDf83D`<20e=CHP<20c>C8P
+<20c>3TP<20e<SPP<20e<SPPGB0n?PYUKVA_HVX:<SPP<21_HVX:?3`P;eAiL6DP
+;dI_KWA4IG=SLVU`M6mb82m6KfidCV5]IB0_DU=8FT5B:d==DS4`82m6K65WLb0c
+<R0_AVm^M492KgPPFbdb>38P;C8h<B0a<3@`834`<31M2Rm9M65/JF=1KVM/IB0`
+82m1Lf=UKW@P>CHi82m4IG=SIFid82db=C0P;d=QL4QUJFMXM20b82mCM6E]ER0f
+>B0_F4QUJFMXM20d=3H:;e=dIFe883<a82m=HGQGJFAdJ20a<c8b82m6KfidAVU/
+IB0b>B0`858P?Sh:IFiTKf9Z2S8i830PKf9Z2S`l82m<IFiWM6PP<c0P<21B82m<
+IFiWM6Pa83<a830PDR0_C6E^IgAX<R0c<R0`858P;daUKVMdJ3<P<c<P<21B82m6
+JFadIG8:;dI/HGAUA6ESKfAU83hn2W=dLVEQK@Yh0NehEERKfmH^;/6U^0B:Ng0Y
+fR;5RaHXD2@h2A;LRk][RU>TF:58:EHXf^;^kUjd@86CkWEfem[kG?`ginXl9lWc
+?O>MHlca_W?8Ma5V1Te]KUU;Z3UH0@Z1LH=h@>;0YfYJ83hPR8N?C`k0c?cD1F`6
+/hE2WYW1`>90T9PH?e01K8iH87kR@X;R@_`0I^1CZ9>GRjfe3@c8mYCm]i<8D=HA
+k69[H@H1ZYW1K<2>R1PFIPi0KJR5;ASVa@>DMG00J_dnh@[D0[^2GMc1US`040QX
+JF/10iZ3[FdQ0=kOTYi3[:10TKnf;MfLoVeb1k^h8T@1fOhUTaf846T9QCQh0Bg1
+EP1NMBR23Hc@lWm3eWl7Eg1cL50gLo`MoWNRoPncVJ>]PmOoMX0j>[W1`2i0=JPU
+f0Gbgjkjh;mBYPJf]7Eco6o[LiRIPjf5;<CJ0@cTnn]N]Zh:]YiPBdeKV8D=d<[<
+`AGl[gd`a?:o4_0kLonB`:_dC=G`QBkWGcGmEg8dcF`Q<1d_YcmAOc_o2b>boc]k
+_c6RJ2jfWT0S?T@GP13dR>noElKoaBD?/H1JfT:/POa2`T0c5aLc;`2RNa182>P3
+0]Y2;<6N@;0W@S0_3`@:@c004CWa0eY1G@2o2bX/3>BEnkge5a81lSkmPdChP;`:
+Ob<@T5OaKb@4i5GiPdCiPKaJOb<a8:o17hAXAUjc_a72I_47POP@59KoP0P>l1n8
+^13_GcGj]chQ0B2_UJgk?e`@a5I@=iLoId1l21O[Od118:o=?b12]^do84:=hml@
+<GNlT3m@224LHP_iV`b4611Nj1nk8>8`m3o<235>Oi/AjYd@@`Smaoe023EoJdFD
+R=LEk0kn1bG2kXXXo;o_2`8QP/3n@244?lc61Obg9264HYS7giY0854P[o^O0b1n
+Q?f_L?liX[nKC4h>j^W3cHl8RWPPNXJ?C``X9RcVminNOoY;6fH6/CAc/ObclK]K
+;MaLG<0@f;mN6hPin3Nf/TE<3AS/2KH0c4i1;BA2k=8K`/[li@]7gZ=c8<]I=bJX
+Oo`bgXXC?9>8k53lCLFIHjWfiDei5PWn5_XF_LL_J]NX5]lGP`[7@Lh96I?gFnj_
+]k:lVjQOWVJYNFdj<Eh5ka<d=dbL7`PQJh`]OBm;<BSZcSkYfLoGI7^V/hfi`83D
+HNANe`4?4AIiZI3UX1/NF//R`:15V>5L5R4H_^Q1V9:4]SPLk6lGS_F9Loh7]<F=
+n:H@:boio]GEXgPRRaIj0Jde3U:]KNV3dZ9`@X:JQjjnJQThd5[K1KR5?XNUmNei
+L0i9F7Ff=iFljNP9nI1lQ9[k<EMCbd^6>fIQhjGR3E<1CU>K8^FIMg`WBHG@RUSF
+Jbc_ncePfTnaPQJEi02VUL1SGh9TF7j/gR]f@g@6_2JkanB6gEW`4E9_4?kiFedZ
+FGl0Xi=dbX>?VdbF/JaO/B_0MYg`aTj>oINoQST>@EO?4lgM7?:LNSYEUBh]LQMN
+^SRI7j]bLEhleB^_33G7HkB8e7j=ZNVPn;Hc4blB@M4/UVBdBRZe6f@o=IEn`2bH
+QU_i7TZ6eeMKJfD?h3UNLdO;2nVhceJP8MDD8hd/hXani?N5?cj7kGH3VE2/<LJF
+UG]WNNB]g1Y<lRSQnOXG_I<B]1BaQX^;e2TV/ge>=hf^I>XfB/cW7BRHNm/A[jWj
+6WOaQPdeX=f]BiKRd6X3^ldkAjfIa@n5=?[Dbbn:?=ki3SU4X3lMQ27KgRmiIF<8
+jPC9>kmeV;K6KB_@7;YDofiXH;C6gHVgn@i5=L8BS?Uca8T:gP=^LdVe3jS=e9^5
+WhX^_dW3`VmPJW<FUDlGEB]c:do1lo`@==B13mma:KV[5BTVOFlE<ZV`9dmQG1XR
+g8kTP5fLHV]VHAUXQJN/E:<kdOCeBFZG_ob/hPJ[_]6G4g@nV@dl`B:hhUFSCH3`
+a>`hS5NEkUUSZYRECdoTMjj:3miW>UJg>`J2l:P;_DDfL/2e67`hPAU3/==nHm;[
+G5_dHWOcmFLbOOkD7`KcQFhn^;NSjNkmfa3f]BX5bjKf9G1DM?De@fR`PBanZ>[]
+BI3LDL3:dRlX3:=XoGX?OlmVZA:3Y9R;3nV;23K?B9WHGI;HFjJSZ3hC]AP6<Y8Q
+]CU13L>CcIa83QB:Cf4g6W3_2G;MgMJB8^ZbNe:0[::NFF`0DS[dKI9@bJA>F;bP
+d]2;^Id3BhoSPe[[FEO?MOX/Y3XX4POTj1^[__R79amE?Z<V8UFHOH[a4/>F3@bB
+65^;<P/KV_7GgCbnh=9=;ePOoIZV5QNn[iR:UMW7hlL2:ANYmW^P=4>5W8@gcLlV
+^6_O?LnE7ZFRl`QB^[BJ>ciIF9T<d]E:TXhNfoG[0dkg4fD]<;k4eAeK@aKVhQ@?
+?@8J<JoA]59^`?<E]ABjeFcBTgfCR4Wi3DmS]R/O6jKBKikf5TJT2985^l37Y9=C
+/0_Zk6JU=[HJB/=H8m65VFUDbHHh904>PKX[Q9@9BkYmJ^OU:eQF/V5[LFIQL4gQ
+8C_D]`9MCTnk2cWY1RPiM_g/LU5[>]Fl<YN/UPnaKJLDHNU_jAik?0Z]3;YUhM/9
+0G@;bBjJk02ZQg=W<Bd2G88U1HOkEc6`_ZYMKa@/V/C9K?9cbTYPYkN9kiXLMn@6
+6lAo=]dRFiLZ>=La=mZX6HEEO4RmJf>IF=E8[DTUb]U;`C?3YUJ_ANj]E[jbF[DV
+<2XXfK?I3JgLDno8RTO^ef]bMOlL@YCncN=mW]3[j=Z;BLRH[e7akDePa5?6VE4B
+e@:KeC4j05<VOOKdd3>]<inc@Jg]Gf5m3f/iWdP4g`9ggaE@]JDnbRRUj9iI=Q1g
+J_b5JN]`T9a0=o7mXnOlj;NVPIJ=4B:Wc`WjEGhhKdnM0:QZdAXUik_Z`H_`7nIB
+>_iTYCeQ^D^1IChU2_bPZ7LX4ciUi@mZ2e[[Y5>Y<W2>Ell`]fJmJAH3G=VSfFj3
+1T^iXWnlC2^Y2EHHY?L??1B`RIHeaOcXQhHT^?3^j;d`_RQ7T;:UkYCeM]Q1l_;c
+k[@`9GWU`b:AS3UUMRKjJNN2<4UZhaI[P4_EG3T=HeR@3CNi@oL/<O74;n=KJe`F
+I:962e_NV_1[M@d?E>S[o^Ti]L[jl/1h6LL]LiVOJIl_^nnjYDPK[Ki5O1URVW:l
+V5mKDFLfmaC]U`:dj92bZ;ZFEgUPTB`[WKM@XE?A9mnj_/?6jlXii3i88PTdV5<<
+^fPXHClQ3j@@dO1oDBDQLg54jZWAg>dQI]M^_XIkie[XIAml;lR7@E8YbK0NeK/W
+9f8d_J1fH[[5POd[:7QaRV=dL0e?BlGd3=abafWg_22AIFQ=/ZYCAHG@Y98flRSX
+R/7^o@O[a`Kh_a9NAU9cXDSdP9^aOgig^idChVlIWXCPgGViB64FE[mN8CBjLc@j
+d[9jGm@C<72/>SJUbAaT8G?onQW_NWf9dIbDU3HLnOff?oDYBVlQWU9FLGm6MNPl
+j2fZ<6h6?bj6d4UW_aoV_>m5hPVZDRQBIBlkBU@BYSN;dNalA19FON;7TlMi/Tkc
+m>6/Sci`Yg4dAEngn=Gbj5Bnie_AUYGhTAI7RQU8Tbm>f`CdWCDDaWca3[296V2?
+SKoh[QZN>U=?Ob/mIUJR/o2lHW@QheK:YUZQG8@f9Z1<eg<29DFO78J7lO6CS1S0
+nPKS`Do=;>8JKEnT:8YFENb[GjZkmN;`eYECMN/GCPLH[FYXadGGRV3:Q]iSKKTn
+F[2jSEnSXTO3j2Yh/Lohc/ohF?D;n^I7MfASj@R?/>N;K8hfglJ[]e>A=N:dc5^l
+CN5jJ2iill2lFF0RmPNNUiKYcE0iAmfaf833CiMJgT/kY/ShYGEAH?Oh40eD?743
+5=X:lPE`e=UDAg]N0>J[7:FM>WE]lPCk2AH<aO][Pk@OjlVEZT@Jo/C662GSf1:T
+V_Hnj:ennoK[^0Ml7d611;gCGWDeCiWkHF>76BT`c>/^hbZSFeGSmIDl3e4bAg9;
+B^RZ?=fjSkhnW9R/k>`96m6mU]YeY1Q6Jd?UPPEa_gf0UJS00QoJ6Ele3D4_nIfj
+g=3gbMKhUQI<V7M>TNO[hhX3RKKjhGF@cBAfHU@jemQh=3nE0:ZJP2O@4Z;IJC5m
+F?lcRQ3Igb[[[IGk6bnKi9<j6YlJ<M?j1idGXVY[JKM5oREF9SbMmQLgo>hD0Fla
+NJj`RE8LO5n43MY@10:kb=iNE_P`_f=f4T^W4QCB[;4@R7[=[jJJFHZcBb5P@Roe
+G?9=Ton/<AnJo3LZnhS`o?f/R^bC@3hP:`?g3]4TBT]l>iGK`=VVO0=oP>UT2;SU
+YhSEO>fK6J@79T_KYIkWC7K_CVa9O]FPm`KGSY5:J1Ihk19RUH_b9oQbnB03[:TX
+I96>2efSnlcl3N9:H9[fSVRA[>UO=SJHFgaVOPQnF=WK0:akakKJ[GoVGlQPj774
+SAQ;>6]GcYnf6le^]G7QNY?`FUa2B_aL;[0U9XATf:bP[N8J2@nHV1SUgo3iYYIj
+6R5>Lj[[55AlBCW3=adQ8]Wk8k/gEMVmlf[Hm@bS^6PaZ?V1Zn>RhnL<fE8nnZ=]
+ilUJJne?BjLAC>X?Id>EPQNLgYIgA5DJ7_GO9KS>2l@QfVjo=^d<?Q6`434a3S]D
+NN6HTWR3[a::jEm8bGKWKN46llVhCodL=TbC`K[U5:TG2SFFaEWEg5;0?<maf3=m
+0QZ^6l@HBUE63Bod[Q4^_dV@gUo4/C=6Mi=eoRQ0^6_6S@@NjSIT_JHADN@D=bi6
+Aon/=]Pk//Z/91dh[BXnI>LhHH15=9DWPdGcF1TYo2La=aJ_8/o=JZ@NEcca1K=d
+=JkoVjCHd[L0FnU;>nkN]2TUdAKYT0=?h]?UXhE9TLX53R7SnM?572DBCU<Ji1IN
+9j;9o[2[g<:1kSVl@J8>hCPFBWRBHl=:EV:NP?YdG8SK_6O]EeFgXj:W?V;DEkFa
+YbUAP2ncW]VE/KhMdLjNCJS^BGBcUE0/^KS^X651djlo^mCIQGD3V?G3Lag>Y^4D
+6OQ<n_9YFoV>g==TP7@Fcm5^Vc:<84ZWViNd8LOkcLnTYCIU?KOD7KjDNC[dU1Tg
+/DEg0P;3^fR/HJCX1^ZgFCH@KPMdMUmWI<TPLPiD>=Oe9h/`K=:EGHSP:[47GjU5
+`?PF?d11`?cBBF:GbojbnRNj?OOKA1883bn9]l^_SCk]YZ9=4_TN_0K:XLH>kAaV
+FieEkIoO<98MiKYR:/RAlnkXNcSm9M5IXJB<mnnD=/oHLAiMKGGF]9DhX`A/Ec4A
+QGGU;_9Eh6beLKe^OUVmUTJgLef`aVI898gJHOn/KO5UISNVka^g6mIKnJR_V`TN
+QOMVJcRdb[^FLmQa14=IL_Nh<L0`>a_TUdJm6HL>U>o/iA@WdG/Je@JUW_WXnclb
+CJ0gD26jl5B=H?4;kY_[2AC1[VP<bcGIjkNkh?H:EaL]I=0LX519?VKKYGEa_dPY
+/]CbJlj^l2//62=@F_BPXLb</Y0:oeaic3SDBVF1ElBGW8RiQc8Ik7QRhZWBLB=C
+oRDB5noQmUb]eV;2Y;HjmN9`jlId21P[h/eHc;To=0nBgP@a6XHTb5:RDHI8kVFa
+]5hbeFNXiCiJUcCO0j]DSi@a4=W6Ac`C:aQ_;0]4<obhTG65JS8@bAKZYGP^2cgR
+c8c[]_6f@MFLJ9DcjZ0^Bl7>UPjJoJ8RX3AClSHEKUn0Q=lMQ[oQYWMOijY=A3fZ
+J]A6:i`OMXmFPY]e8/_DQYmZJn@K^iOT;gR2jKfJ1/=VjVhOTGQgGchO53P_GAJ<
+=:Sb?YU[VBnR1RWN`_>;fA=VQBR;:a7<2cSH0DCaPi>Z]]3ARal_:KeY0RF188>^
+hDV980VlJQS<g7GX_EO0iFJ1LYYiKAfVJY4l`k::34/]mAoCmFU^Lbc0jkTTJLgh
+LB<XiDA/V`ZkeULAAiG5XWk8bCaU>7GMGN>he2:SGICiZ=Fi/Ec=4PlJQ1>dA2bV
+LdIKTASV3m:mSGM1:K]iV4[HHM<?ihojPUN3?5Pk`K/Q]GYZAJ`kPgXA`jB8<B8:
+fhFKO^l>7jAhEeM@X/TBDYIPGX3cEBe3KU9QiEVZS1C:N[ofK7K6aEd>FggNMOU;
+9hoIBaM3O^QN/1X1n]fMhP5[?IEY91feDHm`AX22eaBiRSQ;OfW7[Ee1GMPm]Po_
+VLPe<XkKV5?fJ?aKZ_^WoBGm=7RjVgVB<DF]YhA1OBmhSmOVJFHgO[9UU4IJinAS
+X`3h=PgdmQ/PNbQO_45UQZl:3cl41Ym[KkN93C2l5ln]MXAmjSQYP`T?OU1DKXn7
+RHOg]`Z:Y?EnOJA4;joc@mk1mghAc_=mPd^nCS=?Q`FWh?;=<54>agj3X=AXOT@Q
+DA<b4M>U6>BS2UaQ8YDek/7YQeO[4U=`42eahCVEE]nnUR;Q@^9ESXa7nJ^i7ZT?
+>6i=cKLaXSO/Ne8eAeS/?:VN]1b9YhfUE1i]FAX`_h6@Jj3T;9UMUL1dLiNGVJmk
+bHmD]bI<<=e^]c9NoC1jUjjYl@mlmkYOSXWCaJJV]<Pj;WP<;1WiA2<dWcioLIdG
+XD::JZ6o9h4J>FJG>6Jo4dd5MK:0[6:;53Cj3Vbn:QVA>U[e7Q@;gd?/<]K_Sf=L
+9]RZ0YcJ;=jl?c<NKoK;d;>/W=4KjQBOEeJM`/MbJbk[Z<7TcJO4Q:IhA;:l6_7m
+a>2J:IkF?NngM[=R>;ghgL@eFfTZ[1^@DnCni_]UIm:?5mlHlnTWa=n68AgSa?9@
+cohjOaW3AcM>[1fW_:ZOMDY7SX?>RTcDMSe<Y8n5>jA4/TY2<F9M5oj;g^TlBZm@
+5HGgO3kjXhRCePC7Lfm>WGJdFAIWmKU?cBP?fFU5kbec33AK_Q:bjeH:3Yi4>PVb
+L1h84`RElj;DeHOQWgcPVVR;oCa;U<G/1L9cmUC0:a?7EmcobNNcbXBIVgm5?m=2
+M@moC4P@lJflh;;BGinE?/OoYJM9DB3;/bO;HV5WYgcCb>?2KJo^L/>HlH`Hib[:
+^JV<kAkQE;FV?S6;DnViCj3kLL=A[H@S3o:8HnY9Yg`jfTjWS9TS@Tb@h7676GAU
+_Vd9g3=mJ1LmH>EMR/Te7[1i2I9ldac]l0@OCcaQQ7FSfkWONKK2NU2oST?dSHb3
+<:7@X]DFIkER8B_KhAjgTUOUU?@^lG[lVS2oUFn0Mac0YZn@_hc/`?ZE8L67NH3U
+PIhQQV;NEaYTQST]QFOV75cgN]PMIUaT94Y8^BN5<5HaG_h=B4OB6o5XU`l]YFW_
+a8i6][E6g64oj`h/iIe0k`XQ/oHl`dmk`ji<g[eY7^0mQNi]ki3c?2DToc`/SdHi
+5;:SA2c5eOICdJ4N42?6dGJdnLH75CZj=dXW7o=TFBD@3KEeLVmcJJ>XIGQ;Fh0D
+ie7E2?N_^ER7SjBEcDP_/3liQn/K<A@482^Y0;b>4S_k;983lN?eCTm6jIBOOBi_
+efMEh`CiJ=/K8U6VWFo`1fjP:YHQBa4D=bMkF9D1D?BO_^PeN@T]JhTOE7YF]^;c
+MV0n`EO2j?:k?O;1MX:AJ]n9;5f]9[c?o2c[]F>S9iL3XlVKLKmZS]IkG2==J?Ea
+U8::7/lce4n9H:=<eI[led5;;R799cQa7`iBg7]66U`B1@m4X/;mWmEi[^il`n6i
+NlEmYd]AnJH8;6a;ni5/N5@LFKWXC3PeFBE?/9kK[HSbORNY/[4D8TIa]UY4<RE9
+i638nmheMNLbHX2jLSo?@aUIo2KFG9eUb__mMh=WiQETo7LJc`U;1fR>/BNDBPZ6
+@CfW4c6OmfG<0^d=acH5AX;kPPkk_dVchVAJD9ZjSG2K?25N[UC9R3W8bQohoVBl
+B7ORUKP5bW?jad<JieK^JCdkY>>O8[Zo=AHbP=CigGnDn/NBOhC;Dn6<bI37nC:P
+<C@Dla3gX8KCM6BR^Y/^bRQ=?5b>ZK4P6jggaP]4j]VhJF/JcikVh`VI?:mLISB9
+>2SH7S]g3OZ:fCGl1^:>E3KohNW[[P98Rc[gdl?<L1Lb<akL=:EZ`bNBfmSUY2[1
+3O22;>0<DK;1nDVFRJ[;71N1P]mYDDEFM:Dj`3[E1U<6PlD@ibMYT9YTlfMPWio9
+^FEZcgQ8D8VTW3>J74O5lP4MHeM`2>ZUF7kUllef7jdc0Vb:Rh:MPEKRa<mP_U4f
+GoYCk/knPEF1gZLSjh<ehj;]AYI`^ekR]_ak?D?Z^/TRM_YIRD=/o0>RT6YbioKY
+WRc6`O4/c0_MDn`39agdVF6E^Ag2FZ/Dh_/WE86=2A]2_G6I@kG`UMXOB8nAjIg]
+YK`72C3Ua4@6ag:]ZUkk68XiG@dI>Nk_LgY^25LNhIUbCUSXIPGa3LH^AVmgN_Xl
+:CV:9HW6/9ECOEO_LIdg`432HAC/iHff[71nDWS6L2=THU0e/VIj<Q:ZjEfSEUBK
+E:g@m8Tla<KhUG[_3Q/8ne_4FEWK;:@c9f7UT7heGE@kFM>nZF9<=/VRCb^>^L_Z
+<KCaRJ0R>DGA<7CUmBjio8Mb5jSWC52EO6eFMchJ2Zi3:dUe:kC8_=ndZK19FX1/
+7RLamO6neS1N@/]HA/91BNI0BiA/ef9m0NLJ<EY_g2aki>=7Q??eA2:/U3DJ3:KU
+k7?cfJ7knPJNlNF6cgTf/@ej7@9<d0[TG[I6P_?I`1j30==0[ccOaIgFD<4:]m0B
+oeiJD0[?XL_WRG_CORgU>_GhM;OHE2l7jYa32ag]_HXlWdF]el<L^=YDbg]7XBlI
+XcYb^UUMmo^7]20;Nm;hCMK^^EEU8P]cN>BQ^H[l7:^M/gf`km<b:5L3O^QA99Ek
+R3o]m:0@f_NBNT<M0:M??b7Gf5e8j4QL[03ISBQQ57NK4/7P?17ZZnmOB>0kfBIb
+:2nJa?=TI6Z=_RZLUIZCJPk66KYLUERj]B;gk[XGVN=9l4V5N>AIUDJ/LCk<^:9<
+/EPJM>XCGDQ_EK<Vf51BnD>5:>d_Pmi6dGTeLlZ60ccL7POG^DCHNZZcl?:X;gig
+Hhn0M0:8=4I/^d`hT=oh]jcE11[96eiEB/odMoj:>XOT=;PcKZ;VfZjSY]SQa?YV
+oJ8=gfhQ1Zk<Xi<8D=oZjHP_gj0Y18PG0jUS[g/W>A8PglaVF;o>lNiAW/FEYb^o
+D>BJ4oOPRj]V4C5EcBaIJ2=J]Uk7R6j75Rek<Zo@MX?9UeDUV`/eRNO2]g:kGCfZ
+K_M?HFJhVQM;kIYQhdFijA:I2_]?]WWQ::Rim8c6kaRIKf:IeaMlX_T>?YmflTYI
+B8CCJZ[g`5NQI1`AC1MWTSC70U>1UeBj4UKTB_ZYGDcaFW/Kn`KEcddDFaQKEf2?
+[l8_F<]`><_ZEY`NEGHc@4lXHX<KVIUk5@83gogjJ[Rm=OkcO>j6<[Io@oRX0WKG
+<kBDED6:ONMV7TFBJAJniA>Nami>4`MD_6^FHUVXb>/?ddGYiW>VLE3g_8S23fWo
+E<gQF4JFbFnjSVmbMDW_T:7a48ki8SCf/TU3cB9dPWEWKomngSGlT8=^nm[P<YLj
+^nkh_G<5SG^1n4ES=/i7RHA^N8]4lBhH<Xen^B7:OJ<7d?]0Ul/^BN7]l>>kOjWC
+e]1>KV2Xc_X[G1Y/idG[0/OHWGe=0@]]VmNi;oOf];>8hbM_I1^ZPj96Eg_?cF7P
+;jJiE5n?E8L6bIBk7h/WdTc;^XhoGf/KB9XdmJWkS_VPj4FR`b5KHbZ][OM:QPEC
+TIZ>k5VV_5A?D9dDIT@IZ[2iATmRA15^NmO?J]m0CeiGWikE`92UW5[cYYjmP6e2
+d]<lhC73H/T_5[JiGb0S@^V^;c9AbMn//m6I<CfE7B>>Q20g_?8<5adohB_2Ve8K
+32jH;2fAj>US;jBPaM7bC/K[Z`ROLBYeD/:18OdbnEAZn`5kXJ_B2@gS`Kg:j`kP
+L6=I/<C^:;04M?^L8lWh;NS[NbAI60O7CP8Xm8F[N6Xn3LJCT=@Ni>UGHbn@W2<;
+_[TfgQLUVfG;?0:C^_JbBVPj>;i6Okn26C=DTYo62Moa1Y[/=TJedZ[KKF^B9ijS
+GgoiV7RA5[knXiZ18V:L`D[OJ/i>MMF5C@0S;lEGiSZL@J7l0h9h]8XdW4OR9kHb
+hd[I?/TXB;MNUJ9/EF<_?nbl/Bh`lEL2h@bl1X/99;Gkj8YAE]>6SNe/@nC6oYR`
+I2jmnb@V;mkjEC]OlHeYED4QRO=>@=hFAj]TWOC4o?2ThDXFUXPa[6=H@CE04YC6
+^WcdX/FEASSjX6MQ?X`b/ljD9=Dk?W_[o=ReOPTX?fcod]JK1I^@IDiBOI`DCkR_
+i7Dcg:dPGefbKg@/QUlm=8Wo1e^b?WiFI2]L?Ki^R5EDZYM`2dHToJJ9MB2hWCJX
+SVaPKUlBWO3TG?RflB4L;Ygo<MD4dQ8fH``R[e/om/g8WUL679PYbQcHIFf/94lh
+<WJ6EERcG4LUlJdWh<Y>9F[O_Se]d>S:;Hd;]DiXR:UCUa761e4<blm6:h:4V?E?
+j2>g<M]P_G7UQaG[:4T64`DU[nTTDZo3PO]D8CRFIEoMR<al84o2NQ?>Y=?3WFKe
+_cCZMML]icQV8k<WLC2nfYN?icI/WQhLjEi@Z:Pl_;9D[WG7`UZRA0lfKF9Ck7[i
+g^iBhc0o]GN[CJfY36]SVhkDW3N2=HMmXJ9Fl6Pnk[UVLHX40KZl^6A0CZImKcM`
+X^RJWI1Q<9=h=;O4AVShlJ^;@9AWfS_8Ade3Ni5YN:eTnfnU=1/O>CD5`ZBk:[6b
+2dMW6D555:W/V5S/5L:d/9?YlYU2cNE=ORlKob<fNN@P__oQ0oPOk7cogn6_3?do
+TPL;1k2I2`cZJ>IR3oQOhf88N`YUKVAcM79UHFd:IFiTKf9Z2S<`830PKf9Z2SPa
+<38:IFiTKf9Z2S<a830PKf9Z2S4b=C4:IFiTKf9Z2S<b830PKf9Z2SLb=cP:IFiT
+Kf9Z2S<c830PKf9Z2SDd<0YUKVA_HVX:<c@P<21_HVX::4eQHb1?Db1H834`;S4`
+;S8PDGEQLWAj8514AT=_KWAUN7@Y2VE^I6mRJPXc=B0`86mRJPXXA3Xb<34e<3@`
+>34i<c4b<eX`<2L`<2LY2VE^I6mRJPXa830PKf9Z2S`l82m@LVmTMF=ULR0c=20`
+858P;d=bIF5dJFm^A65dIB0c=B0`858P;de_I4AQM6DP<cDP<21B83hn2VE^I6mR
+JPYhLVEV2S0P<cH:<30`<30`<30`<20f=CDc=B1V80X`<30`<38g=C8g830`<30`
+86hP2S0`<30`<3<h<3HP<30`<30PKR0:<30`<30`=S0`=b0`<30`<21^80X`<30`
+<30`<38b830`<30`86hP2S0`<30`<3<g>3HP<30`<30PKR0:<30`<30`=30b=R0`
+<30`<21^80X`<30`<34a=3@e830`<30`86hP2S0`<30`<3Da=C@P<30`<30PKR0:
+<30`<30`=CTg<B0`<30`<21^80X`<30`<30f<C@`830`<30`86hP2S0`<30`<CPe
+<CDP<30`<30PKR0:<30`<30`=34i>B0`<30`<21^80X`<30`<30d<S@e830`<30`
+86hP2S0`<30`<3@b>C<P<30`<30PKR0:<30`<30`=C4c=20`<30`<21^80X`<30`
+<30e<CT`830`<30`86hP2S0`<30`<3Di=C4P<30`<30PKR0:<30`<30`=S0i<20`
+<30`<21^80X`<30`<30f<cDa830`<30`86hP2S0`<30`<3He=c4P<30`<30PKR0:
+<30`<30a<C@b=20`<30`<21^80X`<30`<34a=cTe830`<30`86hP2S0`<30`<C8`
+<SLP<30`<30PKR0:<30`<30a>3@c<R0`<30`<21^80X`<30`<34h=3Dc830`<30`
+86hP2S0`<30`<CPd=c@P<30`<30PKR0:<30`<30a>3@i=B0`<30`<21^80X`<30`
+<34h>3Td830`<30`86hP2S0`<30`<CTa<S<P<30`<30PKR0:<30`<30b=c<d>B0`
+<30`<21^80X`<30`<38g<cL`830`<30`86hP2S0`<30`<SLc>C4P<30`<30PKR0:
+<30`<30b=c@a<R0`<30`<21^80X`<30`<38g=3<b830`<30`86hP2S0`<30`<SLd
+>3DP<30`<30PKR0:M79QJFaULPXl?20_DfUjIB0c=R0_DVm_M20a>20`858P;dU^
+IVlP<B0`858P;dU485/P?64g=FDg=V8gI3QQHC0g=F<fISLc=fDi<CLfIS1QIF@c
+?PXlHCLeICLfHSMT>65Q<3LeHcIV=c<gICTa=cIV<65UI3<n85dP?Sh:LgAQLWAh
+LVEV2S8g=S0b2RDUADm62P\>"], "Graphics",
+ ImageSize->{637.5241088867188, 597.6049912869328},
+ ImageMargins->0]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Kempe Chain Examples", "Section",
+ CellChangeTimes->{{3.637515301038485*^9, 3.6375153051246643`*^9}}],
+
+Cell["\<\
+1. Find the RB Kempe Chain containing vertex 7.
+2. Find the RB Kempe Chain containing vertex 5.
+3. Find the RB Kempe Chain containing vertex 6.
+4. Find the YG Kempe Chain containing vertex 8.
+5. Find the YG Kempe Chain containing vertex 2.
+6. Find the RG Kempe Chain containing vertex 9.
+\
+\>", "Text",
+ CellChangeTimes->{3.637515308861947*^9}],
+
+Cell[GraphicsData["PDF", "\<\
+9E14ARda;S<:9LCUl^G[Yo>Pd<C62S@P<21_HVX:?3`P;daUKVMdJ20e830PDR0_
+AVU/M6Eb82m6K65dIDAUHfmTIB0n?PYcM79UHFd:N06]Vef?9CLAQ^om:gaimR:m
+KK_M7kN981:82lPPQ28^XR49X6`PF@CTgo>DfeEfmcTcNfIf]MXiLlYfOK`^Ul]U
+cdonmohW?o9_3]4_Fo@oOn_oi7odWcoh<0kK^8GBZ[o7:@oS4_flc_kQWGokl4_`
+`CmlikmfUboNn76Ho>D[n@cN_[omWA2B_gcckcOn/g68o_8gOTU[73IoVJIaOI_i
+lLKoaCola_oZ`CdU>c8PngV9`i@ANQ3_;gn/DWj/h_mJ?]gUfb8DOGhF0_Zm[inV
+cCO78Okbmc:4[][`OM4g^L]_]LFh_R/D[?^Gm0URT[BUMNXa`>22bCNE]C?FJ5?]
+;U<ADQcF67d:61^CCe<LU/P/992OlSC[18e3m_oeKkml7mcgknDcNSjIbf5N@e[:
+[>W_0KfV_2DO]fF8>FCon<i?h9mmC_cP2n:b3e/H/__Qe9AGV^:flO?L];<XHdm=
+4Kj^<3leQ3G3Z?`h]JAEM0TA7A0T35@k/<`^9=7Sf;1gZ_;k4K=X6fLaBTNDG^nl
+];RK;AF@0kLj:8`;W:Ii;_bjKli`[<>j=V0=^Ha;<UTo/:0JUedADk7CjSbZ<nEM
+LHO/db;P`;1SOe24>Cbfa@;>SS20M=l>h`B/@i^hGgHZ[dN8LKLLX`:FR[_4JMNc
+6`MPJA=Z6ZoJ0:c8<o]j2C:^C:[b5>U^Md]d:G:;of93ohea1klj]SE_5;O_V;cc
+hWANWNkHM=BToeJ]LfYMKn/k5Y4h@UcgYGA/>hS[>PYP<PT6B]L6H8MQOLMCDkN4
+L;1n3GIOcUQmADP:o_fSWaJR5eShU=:`Q7DB_fndK@Q;3:b?C?1IIQAVK[Le@B7L
+Yk@e2[cb=2c[B8R[_MbDfAkb17=UI8AMVYMA]DmLQcQ?BlL6QegC:/]c5nJBDQQV
+:RV]ZFfLVR4VkS_omP/Rjn?kOONkRH64cCIDECN1I`bLfU^/>F7@k7/11P2WK<`j
+0e`YMf7P>T>>64@?1/D7k]aJ75^;K>2bNRB_:;m<BhUllZ=/f`leJkR4=okQ7nci
+hVP4/cA?n4[c/HiFl@fIOC6]N:;R6jIUV5HB0Z<l8S@>H`ZhU?XHFn8`SaV_Dh0k
+RYWLJ>XLSE<5e3Ei3N:VUM:Ji/KYb[i7_k^I@0a@o6NY]H4EQ[Z=E6RNPZ5CBh6i
+0@?ak8<`><II;e?N03D33GJUR>hj>IGVVSG6j@`3bj70D3b]@?0aWQHTBD2e/j?5
+c]4><<oC?4cTU4@dDgK>i744=;=Wc_>@YPF:FVfD3VFUTJYDU8fA4JXdS6jMYS2<
+8Lg=JnM4X[4^ThUcA^U0=U[CfcPYb6ZMPW`<JMg07HCNedagWE@e[m=:HKT1@VNO
+X_T<26hfeMGCVWV6^L;b70PMYjM0n3@a[GQJ7RDU?<Jde5`]4_eVSUJIgG>L@KL@
+g1c90nJ9O9acEESHEnLh3M/fTQb<Q?C8kVPDS2GaRO?<dDMkQFdJeVU<SI=BVS0I
+]oOblkP=c=kFLAXc6o>hV3a7L=`YSieFBZ]f:9^CFJLhi/XR?_FYYV?2BdagCi_N
+>3Dc5NLKYWNLc2R3FRWgV^i/AUlK^n@0M[E;QU7b?4US/S^je=ALZ^c5HEgaTS0C
+jFIL:`AI^4IK>D7=d`YU6^:F9lOfR7LA_IHE]`TTCiD0D1`UI3]EBYSGHI_31T6i
+6:G:TPfRdCQSIXUDbXLcD^C`f/UB2/>Z@]Rhmg9=JC:YWI6IXJKekRFKi;i=W[]9
+o3JJjFh2Ghh0Z3f5P4C_Eb0P`9U2RTYCnX<8M77;jM5Nh=3OKakc[ka/U/`/4[T]
+K[UB`KWTiVAaFYT=L[4/9aKZ2A:j6VdV^H;7Q7_5MB6lD5NILL;84GeI<[6T4UQ@
+I34Y`/1X31WFSD`/KiE?8eAQ3:/dUiVh43UC6:>lS/<bT]]EJMh835>ES=Jd[XaL
+XjQ]_H>EU5DBQ>]^ea30j`T8V[T_P/0IgPd2k7/=122W>=W46B>SW23X?<bljUT?
+^iW]BmY476>c<QOKRhBG^G<aZP1cc<UW>LP_HfH1Aj?QY6>LHST[/`L4WeU_W06I
+MDkcbiBY3BT5Z8Q[e<QFXkU8>5[IlZ0X9j=DNBcReX]:EF19Mi`4XVfLGI=G:C:>
+4ob^UM:Ji/K9K57kNSNc>=H=g66@UFI3CGTCF8g^e7X6Q/i0hgB6PJ1d1``Mk6[b
+3APXamRT:Z2=D^g[]lb??US6TXFUL[`lKYU;LcDkg6Xfg5L_=<feBX6U^EY?l4KY
+RQM:/n:5lJV52YF5^fS]`W9L>kMKSZ^bnTBoJJAiKfM8?C9dU9[1ZiM9kH8MOml]
+[k]e]@_CG4/GJU^[Z1SU1P;=_9[W=g==YDKJmFjERb/4_56jbXGA>T>DTiIP>/0o
+hGUb[ecLB_>i/;3BAJT?/O8G<VfOac0TjUWRIHdfDo@RSTgCAR?eZac240?aKn:l
+_Zi4>2EP=o_Xa:XdVY/BHF`T[A9=MTJ=/X/CAe?J]6GQBEZWW2I:ndC=fJTh9LP`
+eLUXYWMSe2aALNi6mL86:PR4/hjV^Z]0]MVdDT8aiPA2<nli41YDCOLc28Ji6O`L
+2:ha^PKQDmH^12SB:R;VNMoLc[k6EMPdLX34BmP=BKV0fFRTG55lQDaof1ILJi:C
+]oQC:F>C]3@:QW<[<BhL1KFGVcR7c=?45VjLS5;UbO`dFVCgiA3K>25hWANLCB[Z
+AEjUb3SCBVU=LdcH>IT]JYn6]KdLZF7]g4flcFRV_0V/<7AZ:C0gH>P<=4k=i0[k
+GC1d/:_9=f1`CO<WH@2nCaWK>01caD5FN?Jg<9hM;^2D:C;7<a/k=hSRL8e6[SAB
+PIdX453WT6=YT_X[3/L]ci`SadVU?7:?/d[fQ7mFVY>KT6E9LX=@>GFDGAjF=aZ5
+WAW7kSRaL^8BL3RCEbW5DED[YCG=UE>SZ7e7Qi<TF>i1V/UE[K]Pj=Aj1XK>`2MQ
+85^k0hH>MSEI7?D40l]09oE960h>mm7IFY;kILi]enGId5d4R:;Ca4dgjCiNU6Ka
+]DJSLIE@A]5Vi3S=7YV6;G0N;OM`LSET506;JgQ>YTYbRDajGRV>I>4XS3[:;TiL
+CG]=n6XFAm_IC?:IiAi<kR:AaMi@:@9`eLQXYWEUHmoE<XDg4=HXVfUHJlIFSEh6
+P5=[aI8C0<fd^`30_^L1l6K/7@2`3TiCZ`1lV^8o]h3RGcab^0YXioZoG0=5S2_j
+ig4=>5U7fj@8aSBCD:ghJg75L^/DBMoJEo3UYV<;<jTJcUYj14cLaP1bbZABC9A<
+Rm7`]36c8a^SRA;A75M^ZWIInUfF_ZZS]4iUhg<fC24F7b/N=SXRFFL[V`3f/gEf
+=5EM1IYe9o_;GN]=nk5FVIR]n68AmIcmU=e^fbnXZCZ]SeWkY?gPe_K<UhB`VcEJ
+9TILC9hDW6ZdXJ_kYhDZOY;b0fNRIDYAd6fdQOf?JWcRj9;6SA0f1jHl>NkhQSEW
+o6/WR<TIMn8j@2VL:lSY<ZL<H_K>YE6Z;1Vemg8l61ZXEQ0LU@og;>^L27/VBbT<
+<hFDeYB^S7P;LSJ]gbT]QUeg^h40c8h8M5Zm0P5WJ3L4o>/@03S5bN`e:8fRTm]k
+f4OOH8ZC<eocSB1fM@e0L=hV;RYUHie74Vj:h8e6GSnCPlWmB9Jk0/jUk7RBlA5c
+l;M6TL8dRM[8Zck]iL92_[168Q?aM6OD:;/ho;?eF[V9b3ce<4j9n_TBUhDROiFW
+51UGUC9Bdm/H=D]Dg>78:KhV5nIGgNh1XBVU1X]BIa0jlih4POQb1`P=M;?h6P@^
+ZGA2W`7QUN7/IZVF>aIii2@akEPn2oe]0;jhC1:`<_/[CX:KAJ=aGKF9<dDbia@i
+AbKZB>b4A4U25<O0AZ1TB6VH]5?2cmj94SZ7e9DWYLTH6JF:HfIJ;lY[k9MKahV7
+TNbGZc=aUB33C2NU=Kf=TEURhPi^EY>bK^0>0R6mdDag4fSfg@52Iiha^PJQPlYd
+=cS=?QFWQ>M0L<THGH?@^MU7akA@2[B4Sb/gjfh4bVX^E@E^W<QCVNRdK2GiYaja
+dgP3BkI1B:;PcjhZNO[6[BH4W/T^_3Pc2U_0bX>Rb3U2JBCo?:kM>3=8X[PcJYAM
+74kCNQ7XldZEYG6BHR>JL69ENIDRhe@Y9CEKU56SE>_lHnM[hVWk<E?Z33d8D]MX
+==EMiED@>ZDDUQ/PM>Hm2H:TVPJ<jWh5@PNjFW`=`Ui<:[HXXlhB`oae6M[=T9HF
+>@@4gP9L>E]g9g1jm^jNOoHN>=Z5a>FCn36A[LC:GkST;ToOoBD<??VFQ7OeUeno
+hG:F=njlm2jOi@diKlUiSoiI8];>o/;;lo8J_;`:YjTl66OKimLod:^dOEjj4e;;
+Xo?2JGmcCZO3Vg<ZI;3LFBAQ`C]lNfEO7[c;Xo>ZRU<E7T/WN_lCoF31KjYEemfC
+<EaKDUk3YlUMo/=@5^8^_HPZKnai3:nlC>Go5G=HO_jb09HnNGoRZKoQCDPNifg?
+]3^lh`7_gKQV9=oAnRKNC0e=cn;]iI7o7GP;U1o4fjKlNKagSf4VW/?KghFgHnha
+/L<k_`1_b@BhTjSn_Cl<n=YOdV_agZORfcL2eQ?nOBoN0REhUklcNM:oklAkWmlO
+gkR?ae_FF/5kGe[hmo`2_7Wo=E9>>/HCMiTn5Vo10KcMiLmOeXFg_13WZcSR;WeP
+P7l9ILok]N9lm^]m6MHhLYmO6lkk58?c:SRklRM3CofiT/JA@2Z@nJ^J8lkn8T_S
+dlC]8lkkN[KPmoYhGOgIGEj7lkklcSS[gdCQ]_O4J`VfMlK[@=HkS/]E_9HUdG3N
+_N;ElI[MRSnbN[5Ogaf_>@Sk4mkLA;HmSFEPlKZ/oK<U>mk/P_O/ShMhcDf`_f`O
+aU_n_4C^l`;gJc>_k`ka^W]DognI^QmM2VE^I7=dLVEQK@YUKVA_HVX:=B0`86mR
+JPXc=ST`2VE^I6mRJPXb830PKf9Z2S`l82mDNG1U82m@HFMU82m@HG9UKW@P<b0`
+858P;e9ULfmeLV=ULb0f830PDR0_@fm^M6E^M7<P=20`858P;deUI6UQ@Vmh85/`
+830P=S4b83Li<Ud:;d=bKg12KgPPFc4a=Rha<34f83<`=bhf<c<c83@i=bhf>3@c
+83Hf=Bhc<S8iGB0_@VaUIFA2KgPPFc0P<20f<C8P=cTbGB0_E79YKD9_N0YK<20`
+83Ha<R0g>C9M82m1LWA2KgPPFc0P<20f<C8P=cTbGB0n?PYUKVA_HVX:=R0`86mR
+JPXl?20_D79_He=UM21K82m@A4HP;eAUN7@PGB0_@fm/Kg9CL65SIB0l?20_@g<a
+83PP<21B82m3Lc8P>B0`858P?ShP;dEhM4MCM65dI@Xl?20_Ag<b834b830PDR0_
+Ag<a834c830PDR0n?R0_AVm^M20l?20_E5@a834`830PDR0_E7Ta83LP<21B82mD
+NC8P<C4P<21B2Shn83hn2VE^I6mRJPXa<R0`86mRJPXl?20_E7U`IB0_AGQdAe=d
+HGAU82m?D4dP<B0n?PYUKVA_HVX:<C<P<21_HVX:?3`P;eAiL6DP;dEhM4MCM65d
+IB0_DddP<2h`<R0n?PYUKVA_HVX:<C@P<21_HVX:?3`P;daUKVMdJ20a=B0`858P
+;dhP<b0_@FadIG9^HGAU82m4IGIYHfEBAd8P;dIYK7AULR0_AVaQM6E4IF=_I6DP
+?Sh:LgAbIF5]2WP1QI9?B1AA7<No/bE2[0EU9U;`C[J7GAVdPgD`g5EGDkIUGC=5
+R7GVkNkXk>`d<k^EN0PQ^PAIanQRABOY61hlM0PlA0R:MHVPXf@@25i2]]nKFGO7
+D7X`nckcNmoio_jl1AY26M?D0``X68jERTOIkHU9e[R11S@Q25XIaCIkTlTAUdT[
+m/=[k`/T4MV<2:o3IommJk8X8B0aDSKW?;hRN=[S@L7g7=<QcIAP9ImARDgR/9E>
+aHQO4Yo>nGSJabZg5M8/TnJjHU[T4dPC3iJEW?3L8IH=EC<XOY6hFkFE0S5i1Yj8
+FE2<US<<m5`2CWbZabI]H?T]L:6m7P^e0^O7PIF^NV`giLi7JUVg/efM[YdDS08=
+gb^EgGJPlCV`ojaBnO>ZD]UoCCVn0AmdYFBEGBdE:Gd6_3kLB7>L6mcB52K^:fTE
+/i[>Ze:a7Gg/mN_:j;IFDPMd77/cLEGM`1;M`oPYH?PAl>87L?TML>hmT6`2dULA
+N4SSlQj7gjNi0[6RnL3BLWV7MLYb9h^8[H_edSn4/eRaH9HLK[4Q@nT8/hb^<eMZ
+<h_Kg2Yc]@<5_DCgiZhcm1_Ta]PXkCB_@9KKoEFFI]A<7md=>VQ<6b[_jbL>4bmV
+]H4QhQ0m7k?F`9S7dUW=6A;gCo50Sj4WAZX<XiRhBDcnf36MZ9P?/CASUdN5Ya^O
+bMa84[MAo=Y/LEQXF/PW=9M?did;U]9cnERRbZ^HP0h>3@Km6V188HhX8S1QXHP/
+WFRTd2PZcSU5=MRH?E:Y8eWkBRM57=_dcKKkcEfDj6_QO`_A11K2=@LVOiEobE_b
+T_a6o[WHEP[ECaJ/>iZbo_@gnH[<XQ[QjmDXo4E=W[m2eOKBZHhLA@_dN3gI=Gg4
+GegFF6b[WC2APcm>k?Vji;i<4DbCWnQJM5lVe^V=^oT>/Qdg?M:^cJnfeW=]WEbI
+fPb^cO^[XM[okLZK]>S:?gW5Yo??V_l5cK01J0YUKVAcM79UHFd:IFiTKf9Z2S4e
+830PKf9Z2SLc>0YUKVA_HVX:>20`86mRJPYK82m9@d=2HG=UI20a=20`858PG@YU
+KVA_HVX:<CHP<21_HVX:?3`P;daUKVMdJ20a=b0`858P;dhP<B0_@FadIG9^HGAU
+82m4IGIYHfE7LV5i82m6JFadIG8P;dI/HGAUA6ESKfAU83hn2W=dLVEQK@Yh0HEA
+cf/C@AAn6b]N@QGADWZJHi4T[3l>eU]<fSBYa9RVJ4C@MC=YY]W/[[>KJ49?_GPA
+kDTlN17l0g[dd8>7@Rn:@ZWn1CgD7b0:?H[Ok:KY]TDb<3_O__WNmkiiSfQTcG1M
+:lJ8F[H_LnEdmDke;S_eVF8dBW72<Tc?CIM:=aBf7I^[lo3Jnd:JRV`UUMKQ^j5o
+9f_L<l5jSndlmUfOB=>1ccD[i@a`5WSDM:F:Eh1WJikI0Wi=M>9/?aMQ>YoS=YO2
+I3UYM5U9>WEQAKd>^eLJ@iOZCDSjLb]h/cKf`Fc;CSmAdchBnO`9_19U7;L[aF;3
+IaNWYZjb9;^TjiMI6QgR;>>dg;K?9L_KIR[13<]R0MESTW]LMWP]ABf[[OZReVW/
+>;LGiW5>4/FnLFnjScFgIVCW4;n2n5R=IjN1[j4o6gDaT`M>HFoDiL`2cP^8<n7W
+EAlASjgKEU7=5O5H`GJ:=h4Ch;aboN]UH<`Qm/c[c2]=YO=kbBRDL8j1DfPjLhXc
+3XkOJeA^0im1o46_TBV6LNd_ELTRCX9/O6eR=4/6BF[QJe2BG627j[PGh0W:1Bb>
+Z22?V^3WP7L2K0A:1aTFU@KIE/3LAHGM8?LA]J4DIT>YB2/9ODgoXKoE_nXomFgm
+3M3geHWfY>^nO;hRk`_cdh]Od5>EUI]@;gBQE9CgD=V4gonim76WgQWeV8JFAH^8
+][33?WQmI`ILN^CSF`lZ9:<_Z]^[4`=NUiQbb9lFmb;EnL3W3UC2fPnQY3ZW_7N0
+;OaaDRkf?HAcD7dE]8CK0kMPKbj_SdN[KXnl^kLEge`ndY/J=1UUP_Od<<WS?H[>
+a^T[2WP@l;W?3^Ml]:=VWfd@GQg]26[B?inal54:IFiTLgAbIF5]2VE^I6mRJPXa
+=b0`86mRJPXf=CL:IFiTKf9Z2STP<21_HVX:Fb0_BD=3@V5cIF@P<CHP<21B85d:
+IFiTKf9Z2S<P<21_HVX:?3`P;eAiL6DP;e1QIfEc82m=IFAYHD9_N21K<20`83Ha
+<R0g>C9M82m3KgE^M20a82m;JFAc85/P<R0`858PGB0n?PYUKVA_HVX:<CPP<21_
+HVX:?3`P;eAiL6DP;d=QM65/KfLP;e1QIfEc83<P<21B83hn2VE^I6mRJPXa<20`
+86mRJPXl?20_E7U`IB0_AVm^M20_DgERM7U`IB0_E79eIEAiL6DP;d9QLfE6Kfid
+82mHBdm=B4l[B6E/MVEdJF=Q82m6KfidA6EcHg9YL7A_LPXa>B0`858P;dE^HfmT
+JFiW82m=HF=BKfeQKTE^HfmTJFiW82m6JG9cM4=XHG8P=3PP;daQLgA3J65b83Dg
+82mGJFAdJ7<PFb0e=CH:=CDf83De=R0e=CHP=CDf83De=R0e=CHP=CDf83De=R0e
+=CHPGB0n?PYUKVA_HVX:<CTP<21_HVX:?3`P;eAiL6DP;dI_KWA4IG=SLVU`M6mb
+82m6KfidCV5]IB0_F4]?CDQ?:dQUK7IUM6USHB0_AVaQIg<P<c8P;dI_KWA2@Vmh
+85/b=20]<S0P=S@h83La=ed:;dUdHFaYHd5^IfaU830P;d5cHfE^M20g=c0P;dAU
+Lf=UKW@P;C8c<20_@f5`B6EYIfQd83Hh=20_DgAUKEHP<20_F4QUJFMXM0Xe<C<P
+;deQN5MYI7AX834e<30P;dI_KWA6JFaU<R0b<20`858P?Sh:IFiTKf9Z2S8`830P
+Kf9Z2S`l82m<IFiWM6PP<S4P<21B82m<IFiWM6Pa83La>CHP;dIYK7AULR0_AVaQ
+M6E4IF=_I6DP?Sh:LgAbIF5]2WP1_EUiM5A5e[og;KdUWOBBYC]KMjOCBdQ2j2@M
+>Y0QSm2MQK148]2=84TPV;16314@<2Q[F8hcB6A01EbHHI=>0>W89dK5PgjXhc;^
+c775HNJKj2cPLD_gMmo[4<4cN_S3HmNYZW^[jUGMn]gUeJ]^FkZ/2F:Q0eP@iRaZ
+J0GYYffV:WM>Ni/ib_=I0>clNJfg;H[bR_/058M^FkQRGYCG7P5@9C@g=Lb=l_0m
+eLG=e13U/HSZ[>I5KL^S_;JDj]b5BnH<mV__9mj`Z67ih?Y`PGSchXI5CM7aZEmC
+WMFji8jf@Kj?JTo[dZK1lNPWnLhSAW^7BY6?P@Fd]hFP00HdU>X0i9LDQh03Y2Cm
+]Zcnh^3/n=8[X5E8o7=CNZAeY=XENHO?iinV3^GElF8]b`iW0lARn?K_o:Xo3oE4
+9jAE@e2M4h8bbVk:>CUS3M211n0nb_/X/m22Ff05iLfDOdnI6j8>4]N;FgXhQO0D
+[X0D72o4L:JK4h`VPb[6m4H8IBLN=[eWn?@d6T4=7j>aA`g:/B[LQg]Q;YS`LK3Q
+BZP29nhnW[g@E4mM1j6ELPMUERXA3oIT59S>H2kH>:AWk931hI>V_k[bC1MM8@Ik
+C<li@QaEcfH@9lBKn]8O=SfCOY_Y3>G3dJi3fCCRBM?1m8FV7ATQg=eSnUej2>VI
+gdJ[INWdj9>VAMUMY[T^ZGm2EhPig6<ZXOiY@XbYf6<a^M<o<nDk@PXT?RmmPVVH
+jaEC5Se8`l`dZDg@V];BMiQ6DEM6^/laR_9Y?8AkH1S^jK6==ce596ggN7FfYb^4
+Maf_L[Y/8E`Y55Li^k:[7;K/2BIKMXG3@OBd5nG[i;O8alX;i3UbYm`^]lQCi@T:
+WD:SR5?4:U@:QD8N`R<mIBKIJC`<I@C;hN<:VH8?hA?Db9g6Xe;SdE<:C/4X@94@
+RWad0TSg2B4lO48SDT@l:I<XF@R?7Xlf7AE<W4QaDXN64FTZZ0@65@b<Qb1^2lUP
+OE9kVJ5<=dIKD^7mZJ9Nj[UJi_cdch3Y`JjJ>Wo`D7XPF20BTOC0eN66ZlA?eVg;
+Z:^Y?2NWI/Z:hnf]lnOiVZbnNZ^_RG9mL4]k/b7HdFPfMlm_5C_<@MINgcRWFJ`K
+VX:]eRI_L;kEJni^UikkDOLl/K_Mj^f6NKjKoMgcQ2I_Ck_@k[<fN0?76l^Gc[Y^
+[Le3Jbd]obm[UH^C;AGGJYBNnm5J/lC^AW6]FN9J/lBe6XE6JBealkjF^_8kf/Pj
+cKjF6W?@FAN/_VV6?fQ^27Q3N80J_L^0k`<=A@0Wg`4YG3jH02;_DGiO[<=C8ioc
+id0CGQCi5c^JU=X[IRILEPYm/0gf`36@`An9M/:]/0]N`_WTfc?Q1;b=6C2LhRh7
+8IP0;f<TlS[<PlMXO1/l1c^QVj:b4aI18_E^Ae]T9O42dHf`;_88I847=/3CD4:c
+KXOnb<78LNZM0U?Q41bVilnSUNWVm94W8YmAi;^9iUa7?Jm79TB>P@ibXAaZZGDM
+W44KngjT6@``VZAk4?K2OWPFoX7gh8U8Lj@mlU[THc9E0jAAg:b3eGP2?fJ?LA/R
+3dKn7PTC4ThHAZ_F``ihU>HoAZV?`ZX?5f0Kk/2MS<3L`icPe_?9h@728A/Z:EG1
+4]Q42?C2FOPgO8=O<PIF`kJa;dCLTOm@_:jQGHXkJH9fBQ/YKJLmWDHIS/1aF8^[
+lGkLRFlb`iRYS9niTeW>O<i>HVNb:mPg^C^h7Wh[_d/F4khB>Adi5gT;TR4MKX6U
+/8Ifmabl1YOQFfAY[SBdhFP/ae/YMN0NYQOgHbmCRggh6W<8?lA?lD_lS^6IF2JA
+bF7JV1g<HNHiiUFfQMg9oYkmT;g2SN4IOSmoDFJCOa1^36l>_aXI7OThlSF5F0EH
+B3?U<0UV@`?]]QF:h6kJaE5:adQ[In45N4U:Wf8Jm<?GQ0:P3U>`02MBVXBCLAjf
+h<?h5:DcTRaO<J@8A/UXVF@VSJUS6YU5C0Oc5]?1Y[;3f?7/3?HHYAOI]mW_f>lh
+W]=cRE`UE`eK^DGLKTX7^3mb?MbOn19n33n9WlIgl9_i[N`LoWGnKMTJfGIISna;
+fClY;4j@;i5_9NflA3Kkk=GGVEAcV4GB5l1RV8=NK8@^d/InK81>/Zji^8W`JPEW
+I1JkQZeTAY0eW86kb5Yg`f[Hc<j4oI5gfD?`3UW:@YZ]0ok0UD<jo`1YiahH@EHD
+CB1T3l]f>^bf;6^VaD`Q?bdeaFQ8CTY<d>^d6WE/S4ZYT<]hSVD@LWgFRWYcd5hO
+i>cFZZXlTKLfD4?3=@gei<[VH<GeHh9VlKT6j[Y^Y40SioeXY10M:@b=A8fi54[c
+L/dnZcWhR]MZ3^6<Voa4Ko=J0nIP_dA?U>Sk95Y=]<E23iQmQVJ_>HSeIUn`X[fi
+deO_cL_5GX7PD>GURX53P1QahR2<JeQ=0AK6RB=l`AB[eaLdFXVV?]KVJiPK[;g9
+ko>VFR`1JZ>V:GiJ8bng9DQb`YKH^MJiFd82==J;E<=<Oi1]20BINW4^KDh`fNX=
+9ZnlJ?R1_D[i]UkC6FA/5@e=WAE1XGh;PB^bmB;G/9FhVSXcCL^/3oR3^7i@2576
+nBBY:6kdWF2[Wfl>:ZgUe^K>nOD4;Tcamj@8:E;`3D:]_lLX62DV;kOG/6JdQGKO
+VcLfKjaHSkHHeTC[_mhKKGnSCj`=JlinA7G=U240D4C0FTeb1/ecY4F/9:a7;9Xl
+d3W7@cSA;h2dcAJBIeb@8I]QKD7NE]d@k:Rk:TJc=bYLoGa_Sm:H8[f4bP<d_[iC
+<hXdAN<eEW?W5GYKee_kog5mBl=PRlbV^@9RYjSX8E/9H/=E^UelFMYXeld6Jk>X
+ggI9YlAK3Ki[6XPGXA5U3RK@2kcFK`VJ0mA0YlWLVQ0XJogMR=/38Hb/3h4g_IO>
+Ync/FjTkEcBe5Rn]CdaN;SD</a0e?=ML@B]GR;IRkSAgE/o]=5NHVlVH>9]DDdMC
+Ib2O4:cc4di`<jdX15:7b:I0H1C=Tbo>@ho@l<h0cC1oL0JZYJKl0AXd8YMNYZbm
+eWnC?mSQC@d:gP1YPLbg[mHOk2?;3@AXU6]8DY9hMH]QD>H2T]TeS?X;Xk?@fJF3
+YPQdMXYce_V]UV1OIfMZYnQ_DCj4l><6HK0Q1>8@4O8@M]CB/eAI;JVB3RaF2hTE
+434]8Y>nJU5dI_miQ8^7i:HWAi:daA;2WUl8hI8K@GSD3B4lNTSBja0^9IU7R`So
+i]M3N<ae29Om?<;2T=`Ti5RBEY0@;_n541ig8`QkK`QQgi2Teb5L@C;kA8@[Ocf4
+Zji3^?[W4Aho93L9FD?BSYL@W_0;8CcaAQ2NM4<8CajBm3Z4JdWVbB;2=oej24ni
+1V40>_O_inh0PO;I`MY5MA7UL/XC:ML<d]GdT[mjga1;9n4<hTN0B_X@I>TKP:Lf
+>IdKUM@VoX[P4GPAKjHCgbCV4gHinacGaZ_X0;ROEQE_8ePJ?DJ`l;9l>PQalW`F
+E3bGck9<RU8VcdL`:YBK;7?^X^nlBIM;9`jDC]9lECYA<e0:IJD3YF9fSBSDF[@>
+b_^ikJ7_?n6OoWILR9_h7GfbdULY297g^3An5lCCbOmf8GTSSaF:A7LlWnJFZgDN
+MXW14i=AVJiY?f_hLom0?iCeUoFkAXaK8AA1Z]Z>]QBkd/KKTn8<CTP0WA=C5DAY
+I4@UabHjDLm@HEBU>D7;DB5nQj5HB;ne<0^BTk@J>F<a>ncJXY4jRjiHFlAH<aU]
+@W9B8B^/ZYnn9_a9>;bVYJ`MgId7UQoM^b>ojPUnelG^l<_Q2ln4_oSX=8jnO0`[
+_[gh=DjiS:?3KhGol/7jln;NT4kO`;c5ohk@]WH[<8B5@Rc7bF<iNAL?ZTZU^:Vc
+K`fD@5WIiEML8oC^<CRbD6_EWWen]gek7o]EYci`h=_5k5OBG080Ul4o19U`@9QD
+c5E`doT5jH/cEVJ/`hf<HYQRQW61LIEaEMY98`nI6<nUaAT]lS@SgKW`Y_ShC;g:
+[NO=YVFFc5S;gG9?dY;<>4OlFY<W<j_B6PGgL[oVB_mWDKGeJgDUnK[T4ZAJEe:R
+Y@9VBK2WLLIHVmHNXh]cPS91C^1bJXg:RHY4:PQOSDK2Uj0]eYEQlLQRMi7MVRVG
+bJe4F`YdR@UbFCc:Z<6BJ1Voo]Vn]DEC^UKgE]ZiDfci<WAnmNV:RY>K6cecDmRh
+kk=kDMNjY<IM]f3eSZdejdng_aKnj]4S:b^K9QBkY/lo9>7R8_]9hGN32lh:Y^[H
+^[bVk3Uibk:GiLVjk5RSb54ILQ;Dk3N^1;NJ3]1F8D7[e]b]E[]BgEVlg>eB6kXL
+GVf8K[kREIkQBaQC]WT]jf0::`^^@JGoL]C`29C;0im[nSDR?R8f4RC5nB><MU3b
+mWAKYUd6[1<hES62h4RcVYb@HS<hTD<i`IE?AHHUUC2cDc5TS9YBdA[G[RG<L1K7
+^0^Cb?H:X/39i>h<;2bh1/HR4DKjBR44<c0a0JbHM?5oHYdEYkHO>KUOIm>WfI>J
+aRkMeGC2InMkQ<FHn<4o:g<[K[lko>n_7ISlhYJbfgL]_klMLBo;V3gg;FQKG[ib
+Gn^;coN^Ve:HK^[^N2DL9US9;h_8g_;i1hUB`d`QDlVX56YTV3<jVDc>b92G:nSK
+EZiRU/G`Gk:aLXh=HO99k58[SZQ2j3o>aeO6B@QN^E`j@5IEAUFY]TA2SH0[fCPl
+Qe^]NB7N=@:eB]AJg5RX;DbdJYW7`filMF0[Lmn^=mnTcn;=0gN6NK`eb6koO_I3
+hDM4fA3:8aLXIWB06Dh;>EFjCBJV9;I2?eeoVihKYHQEbb5F5AlG]dbWen_Rh/dj
+_AcdbJYT=`VF:JBXkhj;BmN=R^Lh]oUL^UX[mj@/0Hli/m8BeOREo[<DIO[;1TSK
+WefnZVWA3DQV4QVRZROM6bP<>@dVE39f=X<^:>QjdlbWTDlX3EBPRG>2;9D:QC7Z
+6f;XdIB:jQIe?D]oWIhMNW88UYbT/81;C60/VEV>0MeZhNIm^dmec5ZOon0Ri];0
+g]lDi=Ff_82jkl;mal;odN2RgJ<cGUkEmEREX6CI9l9;kGY;n?WchOmmhFE9Qa<S
+7g1FoV581@LL54[^C<5TQDgQ<?Z=6f0SKU;::aDZRl?RSX];H<o9gJVl`dfnT/f/
+cO1XUbB[V59EUR/i^m8Y0C=@/ZYVb_:En@H:4h?nd4l@R@150k;=WVJ>C`8IKcO7
+IcSAWYSUQ3@mDJ9?8<NJ=1HWfY8LCTSGDB7jQ1@[<>X0XPN/aETDTi<B[GH7A@gV
+1cR/VJ3EB?5IRRNba0@:ciE?mfR/HmLmd:<JLn^dnBL`=_ao;hD_S5f=4mI^Fg>P
+kMSNKOc3gjbK>V96n6oQkfo9LgknfO?Q=m55eadaCn7LKoobc3f;cngN/dVlAd>j
+2a;]_H?N@gE2<AmSI3`aXf9;e>?EDiUYG2=cBZiJYCjQOT7=<TYDahf2N4hIbjSY
+6Wm9W<:S?1:W[MA8<54H_BPJ>9TlFCbI3E;PW8F9<XHlU/:PCUlld^;VlWdGoM?c
+dXNOlekJo<3gUoR>QlJ5CoBMgSgW0^k6[Rn>WZBo6LS>gj7HmR3ME2GCKLQiXG8J
+CUO>R0oXif:CLT5lRoi>Vk9JLiNagK[DMXMSUF]E`BKSA_=6ajKQVebkS>Y:AH72
+5/OH2V;LFVd^klkPTmfiJ/I37bHKC/Ei/YOT:cbYA9m<l>@GEAI6cEmj3O`@koZS
+;S^XHoN`hFUVGA:[C/Y;L49/CY`CECX5VGTj5Ib9LF;Rl6@WZ8MA8DoSWLRJZAR:
+M5:DRnYh<;b9N]AM@h?3kRhR5hP6>78@LPE[IQJeSF@Nfm1akce]GO<f?GiXoMY7
+MchH?SU/lZFgG_fkeehK:9`M__Ajn<=E:eUQoLcJ3A]V=2dM6;ea`iKkM]cCnRRc
+;jNfHmoWkoef@eenG[Ikk[jW`mmln^kM_BhacUE7g^Fdm?h@ONB`<=c8io3>Y2ZI
+WfoV=a/gYNa:DEHXi1J7`jeB6Ba^3LniDllIe7:VE9kQX]_hZD:<6[9CefIie5LM
+QKa3LfFPI7GDFjAHL[fSV>c6U1Pm/SXKHln<9blaJlU;F2>547/</MHhLQBCWPY<
+XO1QRbE_4ElAPbNGZ9mP=7[Xhi0LaEfT:cC[Ta;5XdbVg@gG88XJaH:A_[E?fT^k
+iogYGemL`Y8kbbOO6ckga_]<@OON^mK]fK@CIn`/bGP7ZfM?A>KllnP<OkkWKn5_
+cXNO^700kM^23noY_Wo[hb9FdRoBA?NUondG@hej>XDU@Q;IZ`6<T4:XYU4[dTd`
+BXo8j7lal=M<WUPe>JNZJF5kDe_;W0J0o`L2j74W2VE^I7=dLVEQK@YUKVA_HVX:
+<S4P<21_HVX:=3Lf<`YUKVA_HVX:=b0`86mRJPXl?20_E7U`IB0_AVm^M20_DgER
+M7U`IB0_E7U`IC4P;d9QLfE6Kfid82mED5=?Ad4[@de2F34`82m6KfidA6EcHg9Y
+L7A_LR0b<R0`858:;dE^HfmTJFiW82m=HF=BKfeQKTE^HfmTJFiW82m6JG9cM4=X
+HG8P=3LP;daQLgA3J65b834a=R0_EfUTM6Qc85/P=CLe83Dg=@X`830P<20e=cDP
+=CLe830P<20e=cDP<20`830P<20`830P<20`830P<20h<c4P<20`830P<20`830P
+<20i<34P<20a<3Tb830P<0X`830P<20f<cTP<20h>3DP<20`830P<20`830P<20`
+830P<20`83De>B0`830P=S<i83Db=b0`83Dg=B0f<cTP<c4i830P<20`2STe>20f
+<cTP<20f<cTP<20d=c@P=3Dd83@d=b1M83hn2VE^I6mRJPXb<R0`86mRJPXl?20_
+E7U`IB0_AVm^M4AULf=bJG1dKg8P;dI_KWA>HFeU82mED5=?Ad4[@de2F34`82m6
+K65WLb0c<R0_AVm^M492KgPPFbdc<c8P;C8h<B0a<CTe83Tg=ed:;dUdHFaYHd5^
+IfaU830P;d5cHfE^M20i=3HP;dAULf=UKW@P;C8e<20_@f5`B6EYIfQd83Pd<20_
+DgAUKEHP<C4d82mHB6EYIfQd2SHc<20_DgAUKDPP=3LP;deQN5MYI7AX834e<SLP
+;dI_KWA6JFaU838c830PDR0n?PYUKVA_HVX:<S<P<21_HVX:?3`P;daUKVMdJ20b
+=20`858P;daUKVMdJ34P<SDP<21B82m<IFiWM6Pb838f830PDR0_C6E^IgAX<b0b
+=b0`858P;dIYK7AULPX_AVaQM6E4IF=_I6DP?Sh:LgAbIF5]2WP1kEEUF9A]]aF@
+6Q@9@D9`J50H^T^6A^T>P@4666YTJ:Bk@G:T^d5J6ZBT4JBET9K^53bSkoOjnKgW
+aoUcOYg[c<b?InfmW[gG_OJn[f6PDE5WTc23Vd1Uh7J>K9`PCR6PY29HQi<3b0WR
+h00361PT4E288`a^9`EaQ0X1>@D5^H0bD1?D0nXWa</Sa<47H01:`Unj8F0FUXi0
+ITVFWbAnX8@]504cQMP15B6>UU1KE0eCR0e@7Fh:PcZjPH0B=SI0]Im_>03EX0i@
+Q3?D30CPi0BJ`D`MPBI@2iPMP?fW9WTkLcR@ojn`VM?;_e?>D8@3BQB@nIM<5R1:
+Y1WLc/H=J0He1k0[`E7MX2P]oa^boUULa/W6APURnk?l;jOnFaiR2k=anaL3K__B
+bA6:02[2cJ08^gmB]J5oN@J6fiSm<bO_2;61VD[HFMQ0PAao7@_V80=cQIZY`1a=
+;H7V41/7j:lhe<k/7nOoJM`_0NaBfW[Z:]Y?oSGCGnJX@61fSQY^;gnGoLWnQE7^
+ogC_9dH=3@5c1NYcX;J04mDOmOgkjLDoVTWKVL;=H7HF@2iN?R04PH2h0E3KPd:l
+`5NL@9RM6M@E27E5:FH7fL4MDAf0:4/lPNI`1>3W@?WhPNbB?d>o43l_T?gI_a4Z
+YoPK2G03fMGoSE1<cMl8]G3/T=n8Th<3b6kf1n@4/T=o@iA<m[n<ok/[;jZb>Lci
+3`XG:P1g@_anQi<3AK7h0o80fBgoP2Pa/3nP893Mm]l@MI_HkOj0Z>8_oh2XDWld
+hTBEL_RMiD6Mbl46h_17;djDO<Mo4`B0k>i@1?aGh3m_`LliP/5`eeM/g:PI/W7a
+X/K2bLL35>CQloa?i^lAZS]2k<`P2;?OPIl;HNZ4@43]77oMC=B^oHg=HJS=Q49M
+XJJ0VDVhZG20EE9MD96GM<k7H/c7J62;Mc5:eNfOF_3lYenSfNCg?k=o?5nULeVB
+C8boQ[Wfb>DkYD=H/hOZT<bN[gd<L^9VcMUh;MVmPE;W<5WAKODUkIWoe[fV^_7S
+KEhdiK7iPJ9hgMc^]?fN[B`EIRV=MN`_=;ONjc_G_4l9h>?GTDVfd@`>[6;TYU4S
+@=XGQO04ckT@a<ONWQ_amk8:aZUol_T0g^a4M9V3TaUgHgC[`Q@[?=b18VC:4No^
+k0jU^9mW`d8=?i/PKdO@L_YjJDIMDNf`8W/iIO^Zg^:Ckc:B[Rh=Y`Idbhdee9O;
+DW=m9I@R0nd@_iQYd@mJ5a>]=`=TK1G;Ki8>cLIaF[3Qd3al[oRng/R0i:Y_@<bA
+7=;BXMLoe1C:42JE6:[Mn8dOXf^6=<NFHJLKO;f/^ZAHGeLoR<n;ioB?8GXlK=XT
+jn0[mAJNKgNcHT?0TMPgULNg:8/]gL]/?jm`fB^iYEk:CfMU<An1`YTajI]m90kF
+U8JOZWMU0;IQbDkeC;M06@Un]]FWTRaiOGg7BiD7:T0C=NFNR429_>@TG</[DV_Y
+OWVgN>4XS9Cm<MOnF`NU53NAm822S;2@?C6O8jPgMNhgM=6jXfU/a/gPCXW4Xk9B
+b:45XXMe`kWEe;f7m<]c4kg`nJCA;>300E4XgKa?eTaD2_N^Ah2I:n<TKgIC;Uf=
+B=O;`W_af_bF=oCleAB:<M5hSB`dVecc8dhWmil6<PdjV/;ZKJ>m=Rbme/YG/oM^
+PAcjV<c`FkgCB[IT2cUXaFc^2D?NAi/`/Y[c^]GNN[U9OAjGiOj:S<121L]MZjmR
+Z8eI9emkoX^5O6bE;UVA9<lD`7=BBm>agRO/1M^@P^V3T14f9RECEc5BQTMSN:FS
+@<DhSkOj7b<aEED5Z]J?=HG?hkZIN?6IAQH:ZZ:<mPd>;ocM2B:fJYd^IKSal>cK
+<Bhg<SN:<TUTk^n6Of9P[[VnF7U/18mYiaA_CjFn2jjEadg1kR@ejXOIDC2m//LZ
+<FLHVCBTMcOZh@1hZ5I7fj`K5i2?K/AJA2GZW[jk<KaS>E4el0b0]R2=8FQQm3fE
+@?GEGIX8EYX_mhC[Zi_VYIHN<TgLQ=V^3?LTN/6ah5kXVZ[19aBeLhNg:@L]VEKd
+<5k^7diNEj0O4eP1T^[9ZG1R@n/cT`U`lo@bMYlW>PXI06N]O5d1=hNhenR9n_G<
+4KN=UK0ZbO/1>B^m>Lm;k/0X[MZ53Hi00kk4fZNYoOdSXNk^U2@62;c_SFOIXh?6
+A`LnY]FKAe97ceUYI<BDQAeU?gJ4^N;La]7?:EmfHla8/@d`inc@8aSfc^<W1bG7
+Ge_=bLcA[KX@7kioiRHN[_TiJ:So`mHQa/UdjK]2DT`CFaO5B2Km5eijBKiE3VWP
+9?4ldM9_o/Y3WGUE194:8>kDnEiaA^RX_N`k4k/CoVoZ8eC</IDAgF@I/ho6IRbf
+D[b]1M:Gf1kRX5l><GnWb:>N_;ohhNX3]iH_d=6/i;a[Aco26kniReB:F>_8^_TR
+8WAFG/R:W]dbPO]KGgGDb@Cm]o@bkG`K7FoBXaZR4?kG9a8NPTCCNQPGNL;9KDXD
+NaJPX<naND_f2mbJ6K9aagDBG167JlK4>MZ=]ElI<BAB2DR33MRkX/];>dI2QNlJ
+8=WAmV^IO;EaGi][XE]VmKA^b^YeY/PQIEn5Rm9OG@O>F@>FPGMVJ]LTVAN[ZBAW
+=EVJe2:;HnM;MW1[G^<Z_9FRUoL]h;]c;2c:TTaaFm8c>Z<NkMk9h>RNUW:J0_H[
+eMXjfjH<H_dZ>Gb;ZI8PM@>?F_9gQ/9GY0FaMWTFQin3IQFhjiAi?R11Te<hg;XS
+4eMS4LdK1fAA0h5cKg0;52ISXRYT^;BO9n_S361OaFANDIPkdfRg9F4b9A1g2^]d
+_R^CaWRROGD]Z>6VoBYjLFIGi0iDdQZX5MS=mIe@9KSROVoH`G@=eHnJEMe_9JCE
+K7M?dePYJaW^RcB7kgTS>C<G/oRgnb9/fSY2K[kOgEJX^oS6NE[:Wd653YW]`bdF
+Z<Nk5L8OIHIIWa1?g]V`cDbn6QeRg>52>lB6W3TTXOMQH=<Rc4YDXOAEOogVc2gV
+ODH;=5=>o:JL=E^T=LdfSLAaH9AbZQm]@6^U49<LLfF[1N5ZJD1Wn0G@M3oDEoWl
+@=?3Uno>454cX^Cea8oKn_>SUidn3Ho23;77dDNETmRlJ?APH1<N[EFGjE9A^TPL
+f;09Z<eG@hK8IGf5Q>ChC]UWhbGLj_4Z4IR54:7b6<lKFiTi@nVe4kli_TceA/`3
+5X;D]SeaPN:ho9Ohm^WC`>BkFY8EKg4ONL]e6XnoLOIU]?h>M4G/k^1>:AC<S4T8
+]bJ>CUej_ZKdP:HNL:TlXQc<`[b8b1R<_BhcYGnJUTS8Mh]=YH9b9HFXV;1AKcJR
+WoB@acGYoXNmcES00MQ`f82ko^Bk>mObe_Rk7Li@2PHHMm4YDMRIUHZM437CIGgM
+fW=Jc8_1LoYFiL9YBPj9BR5EK0QU^3ec_DiLY^n7<jO3e4m_oOWXB2kk;?7l`eb/
+Mi>ICgIUYIm`UHW=IZAhjCgQYZ3>IA42bc7</>hlni`bDaf[JLei`X43g[6eii8[
+ejHJ3Tn:LUE/ckg93E_d9Q1Ml<QhBVkQ6PRM`GeSelOMSBNe`IgFhG7=GOKhLDkG
+U1FFN5O3RDEbLBVIMAIf?fhAQMia;goaE`o`mhG2^FNGgF=iU_[OLJ`D9gfCd7aM
+UR^hQ5AYKH:XZ4S5Q4SH[jYX@ck97;OH95d=Z?/kk`m/BQ8@HaFgJX/:ncKcMIdV
+CKW5<Y6`nQoL94RE;`Q[VoA]0[Sc?Y]^1Sb3AkGbF8]k?N1]dnZL7W_G1YknXX@c
+Y2NF4UkFMFV]H@`5@ckGWaH=_<Y6=ZZi9?InRbTVoA6Y[>WaUE99<Xkh]ZVA/m53
+^J]=gDGY;==57[MV`^fdo@GFm;OXAO:]Mm`j^INSMk/GaT4U;ZiGH_h?9;F[`c61
+Im?99XU;P:_ENIlb7A>d7VWQ@Bc;ekQ54I?/LlAKA1hHGA9eeoj9cDB<C77?SEFC
+7kjUoRA=^kiG<49h87O7ZcjenN4T>lg3^>5K5l>RBjW21J;;lm[?ej8b1@JN_2LA
+H[VegDe?/Q51]h?<>F1PDLPU?:cD8AEmdm`H3fo;Yl8F?c<3GjCg^jVB]4Jei4BM
+UDUVR7I/^R/54OJ4PA^R9a2/3RlblW=VUoZiXQgQ;adE?98fSVfJcWUi0gOJ[@Qa
+g]_dU/=/_;_?GLkNQ;68A^;ScGIeCjZbjPTmj3U1^T[i]FOiWS>`g<^A?25][WQQ
+2@C=O>TDk53>S/?dN2Bd_5QU0PmQOIOYEZJ2eRA?lY[W76AlGfBjaoZ5e7EXUHiB
+A<9h44CR[Il005/To3InX[?5LHejEcd>S/OC8?J[0`c=I5cY=lYC0UZ<;Ll>A>26
+_LoC7AXI;lga8Q:X_m[YQMj]`lY/CV?IndRm]9h/TW?;?inPeA<G?<gaaGODdTSA
+I55_/5;bMX6Xl6Wi68e>eN?W3@[j9d:eGII2?<iEjoO?WKB4<lV<0Wbfc^>>1nha
+5X9S1dj][AL=XablkbWiQD3LPjigCfJYU7P0_Q[J75i`[NnJV6FRe]HiA?K7`k7=
+eK4l<i93F?E=?7:cUP066]iAXb8a@2E=Bh8YOm;^m2KF^TlG_W^c_U;;I81:0Yg<
+8iUKWgJJaLJnmI<gI6ha2W6LOcUJ7eCN4JL8j6=0A5:eZ2ECi>lo]^QhY7DTfYBI
+>767U[9_D^^MJATmOngI@WV>0F73SIU0BHUSlnkgEd4;M0GV]G8_9VF4;_/Z`fX9
+RWg`4hcia5GG?CO@:@FLF^BWe3gFngdeK4Rb@D]XGSG6M`GWIcEMWW@j0R[FWKAS
+?fH@TfaUPh_N^koojQahDiW=05>hCYa`7RA/C==RO[9^47_Nce@b;:Hnc6:C/LkG
+]2mTWl>TZdk]cZV5l2V<1]BaZLZoEK31V;^;ZdST_N7dQVW@=JMcoh5QN7dBee4Z
+POK`ONU3X[a?3a;UEbmReSeWjHDBQ323b95KPaL`UU2RBA2Q:3jajOBmM2f_`/C`
+5`lTHjjDeE<g>OZYe</H@^<R5E@_>ID8KR:B9_1?[il/nLjl0JlQ4DB9e[TOiDZD
+W8W>i3S^BKEY^9NX_ldc<IEBdd982oGld1;aTEQBNW:RN8GgF<1X_3J6nJ<>8cgS
+BLBD::e0Sfh[SPTOY^_l8XDZC[VWc:K[nDYR>H74ni8`@bdf4b8h0KWI>GWUnM?9
+Dd`W9c5ihUWQgK0?;U=gJTL`8m1KC;a63I;_KZA9M0be:7j=/Lk[:cTbdQ0EfLCZ
+CjK2C9]mH/3AleUJ49>oQ=QmlTYUQT[/G[7Z1OX7PZ[f`/?A00OR46VGIG97eQAi
+SE=_;9VP_P2MhB4bG7A6mZo5<o8R=h:=V=DMaf2iBeNc][<742=oNB4j0@_<]Ji]
+7?jSEQL>1eETkZ@ES=8_PA1?e]UPXZS<LM/5/iCFd[`3m@l:L0>G<Qe<mfi]TUYE
+aUQi]dM`<`Va?SMH5SP3>4=9O2j;3X]iAM[Fm6Y=;H>hZS3`fjK/XUAMKK`V2[:]
+EjAjFe<bhUlOZNG1L7K8;^W@?[1NnIkPRZa[db77fO?T_E?X1R4dPOh<iiU=h@g?
+E<P4/gVAk]I;M:@gA]56QY_j@`Sb0=e:df]5m4CNNm4Q]<a5AVa39bIm5cbKFCnX
+N[>7a?KOC7PD5N^DUemdei2NR:VHcJi@jP=Hg>CcVGUm<cneX<USVe9hNmH6SX]h
+GRD`9WceSKi0;`MUFEICBf@EW=MnTZ;h?X=1W4/Jc;Ojm=J8L=m3=HfJaf_1Yn4D
+kOaghnh/=R@N<D^GjeSkF4`N1i;1dSa1XnBb;`YZU`V:7dc_W6Q_D4KY?_nAVHJH
+UWB07RifS0F6nYCZka21ml@^e]L@`8hGU4jA[0kHSB`:GQ?8O^fVVhH7b/EET37L
+L_JGPfQO63Bj2nET8KMgeIDDNTCd9g8@RG>674;^gC[JRLkDg[5Z:PYgAR?ej?RJ
+ETWOVcPCG<^4_32?@hXPMWJnEF2fMEO1M_bmg_[2O>Whf32nC1fd]WjJlC^D@nbR
+ZOSeCjloFX`LKK>_Hb5L^IEPl3fW:2C3@hULb;SbAH5hAXVGJoYL1Ceah5CQf/;;
+GUHGO5VfCgWX]KV_N`ocgPOOD4OE8Ae8=m`U:UoA6Td<lb?5LV51lV9VfYG65EmT
+/7=hhNNO1K7ZEboWLIh/]GI]glbA3]:ShbK4ae4?7;YO;]B0aVlob/fPVlS;R5^A
+SFjdXVVK9@hQ^[7VYLQdgc6Oo46/hm@lUgb16K8>X2F>mD/oO6P/d?1nW5YFCooJ
+ZeTOSmJGg=TdF:^cT@67oMFcK=kQ:AG5992dJeV/EOgaE^QH>;6K3eHB>POY5=59
+LfFW89Wo7CL3gBC6JlQcT6^h_hkTd=/ZGZOWi0CG2[M[e[c6Qke?S`]`3<U7PaoO
+/c;dgZ/;/=>F`lLQ=?8C@IO[`L9nCnQZoH6R8Ibm<bHUocfUN6fmm9kVn6^B6jj?
+YbF=Y58d8NFSEV]cm7E:k3Kk]E=Jf2Db=M7Gd^Y8i@KSBP_i=LV_B9ac>0VOdme[
+^A^16[oe/^FXK;D0mPY[i7dV;HeYEaYoACGNE`:9m@^;LhFN];:L7_N/ZGVmA4:n
+=Afil5dR<Fa6<SYdOb@3>h/@[AF9MJeTk7`d=o:kl`CmGAoXiaV/c:_ANib;YnVn
+9oVV6B7_TcfKfi`Ai^OH@/Mi4VWl`f7:Ji`g?Ec?:KVd0a=39iPciT>QEn`YNk30
+3I[9@O`PokHD0kY/j=dgSL9DmQ0=_`TnDR2]^RcWJfjRJjhAPe@8UI=EMdD3o2;:
+@L`]V[dK=]JP8?KDEni]]M/Nb6=eagX<nFYf/nA^J^5L_]`h;D1RbThCCSUhcf<e
+VKNk9:D65boE>^7HB/@=6S77gOX2:Y5QO65hOZWQKJPRN_9HnQfbIV;][:mKi83D
+/>7H/ljm6>`NfU/__i1@7C>G/LAk>nbKmNOkQ=^54nCB54;aGj4i0njCSYWXBEGj
+0O=Genod/`VF7Q7QC9Plj70b;7YAiVk]bhbECamP_RSiBMeVCn0/c[<OdnmiiS_5
+[;I=706:fgRBnOEL0_7=XWL=IMaD/IYN?V]32RmWjaA<K^VYWh]`2JX7_[1L5^SH
+FBQ_9eg/_gAoV`T^4ci_VkNWkmQ@VGiV[BEW@K>8Yl@igJfmSGN[`HAjki/O3E4^
+RnI5>0mR`[:[3K@FD9Gld8J@M5ELUkn43J_fQ>PUJ6=mN62:IioWBb;>/?elF3R=
+[YaX7m>3c]J1NYX3D??;TQlmRMBShm/cWa^5^mSjJfH99ZDAEZ0k@VBmIMGcCMo6
+f`o@;MF9kCF6<3=l=/e0L_WLYC8nXQKCliablU_VWgGGQI0lW8>me=fi<BV?QmHU
+^GN97SW20RM9PX;=f`AJJic77go]d[D9dJN`ChI9NXOB7eENQ5VLZW6BPD=2G@4c
+B8Ya8K2?4X_kT7OcVXE1>I9`lOjkiY<i;[F1ELHF_2OgOK_ORZCf=Z^NlGD[UfeQ
+dM5=4h[7f0=FC7XhMn95Vo/oKRm2Gh]eSgEMU0:/?[JTS73:Y_Fmki<M3eg/?i88
+aJXGFDnN`TUBd0nNd0D@YA_=oc0@c7N_VaX3WLJ<eMhTm<jgGblCFSc]WP][@iL0
+OiAF1i?Ok4EgBGVg4Vc2N5CBRe9`[?K9><J2/X?g7bZA5a;LjFCJVk5U_7ZGNG?h
+HnQHI_jf/EQ/iYA82iMe;=_HhbMLMdWi0cfJEYmI>5772:VjI]27[hamSXFMifZL
+>T^V_k0KKB`EBCf`R0hX^[i:5ZQ3PUCh97;^oJRade1Te5X/AH`4kmi_V0b6bXmO
+Xkl97`o6hfK5_mKH0R9K^PZg1/1?fh?l=8^ZOK5Zel1?PEjUeedGcP/Aa>PTa0]O
+AiU;e3jDJEPV>79]eU2lbUdjJWlEEc:>IWg8al=L7cinYSFfa[H[0jR@jSO06LfV
+4MZejd1>36f?AiBY1UZ?:gfBMQgP2@^S0K6>R2XBP1iUTgVi=WJdKF]7T^VoCFVN
+@]m??nOR;Tf78061lo7h<UnfAhOFb]>YNid<?4DXge]TniFH[GoeX:];LPVF8/I3
+0UKYlPGm12[RXDc1Q3VgClc?MPk06KC;bo`E8UYk7U[1Gh8FmWLJ`2gj?a82STcE
+RPniHM1QoL^Rj2beLOSNiM@^bLQlA6VUl7Abo8ELl?eEFfC^c</?So<7NFPYYeI<
+A=j`OJ5QWC/<ch^UDlnTYY<DAY]2[aDiOfh@W7mKC3GQCJgEcAWFJg;CM47Q`ZId
+MTW@IWIJ4_Y0B/XD5CYc_SL6cfcinKjO`/=`MbMn8L>I/>e0PZA29IcLF4P^aoo`
+0O`?NHko9ocUd?lA7da]X1248m`FP[06o1MJ5Y;22VE^I7=dLVEQK@YUKVA_HVX:
+<S@P<21_HVX:=S8h<@YUKVA_HVX:<SDP<21_HVX:<C0i=@YUKVA_HVX:<SHP<21_
+HVX:=CDc=@YUKVA_HVX:<SLP<21_HVX:=C@`2VE^I6mRJPXa<B0`86mRJPXl?20_
+E7U`IB0_AVm^M20_DgERM7U`IB0_E7U`IC4P;d9QLfE6Kfid82mBDdQJ@E8[@deB
+<C0P;dI_KWA4IG=SLVU`M6mb838h830PDPX_AFiSKfAYKVLP;deQHe9_KF5^AFiS
+KfAYKVLP;dIYLW=d@fQQLR0d=R0_C65cM4=XHG8P<C8`82mGJFAdJ7<PFb0b=cPP
+<20`2SD`<20e<30P=C0`83D`<20e<30P=C0`83D`<20e<30P=C0`830P<20`830P
+<20`830P<20g<3PP=c8b830P<20f=C<P=cPe830:<20`83Lg>20`830P<20`830P
+<20g<cHP<20`830P<20`830P=cD`830P<20`830P<20`830P=C0`830P=3@d83De
+=R0d=3@P<0Xe<30P=CDf838g>20`830P<20h<c<P=CDf83D`<20e=CHP<20c>C8P
+<20c>3TP<20e<SPP<20e<SPPGB0n?PYUKVA_HVX:<SPP<21_HVX:?3`P;eAiL6DP
+;dI_KWA4IG=SLVU`M6mb82m6KfidCV5]IB0_DU=8FT5B:d==DS4`82m6K65WLb0c
+<R0_AVm^M492KgPPFbdb>38P;C8h<B0a<3@`834`<31M2Rm9M65/JF=1KVM/IB0`
+82m1Lf=UKW@P>CHi82m4IG=SIFid82db=C0P;d=QL4QUJFMXM20b82mCM6E]ER0f
+>B0_F4QUJFMXM20d=3H:;e=dIFe883<a82m=HGQGJFAdJ20a<c8b82m6KfidAVU/
+IB0b>B0`858P?Sh:IFiTKf9Z2S8i830PKf9Z2S`l82m<IFiWM6PP<c0P<21B82m<
+IFiWM6Pa83<a830PDR0_C6E^IgAX<R0c<R0`858P;daUKVMdJ3<P<c<P<21B82m6
+JFadIG8:;dI/HGAUA6ESKfAU83hn2W=dLVEQK@Yh0NehEERKfmH^;/6U^0B:Ng0Y
+fR;5RaHXD2@h2A;LRk][RU>TF:58:EHXf^;^kUjd@86CkWEfem[kG?`ginXl9lWc
+?O>MHlca_W?8Ma5V1Te]KUU;Z3UH0@Z1LH=h@>;0YfYJ83hPR8N?C`k0c?cD1F`6
+/hE2WYW1`>90T9PH?e01K8iH87kR@X;R@_`0I^1CZ9>GRjfe3@c8mYCm]i<8D=HA
+k69[H@H1ZYW1K<2>R1PFIPi0KJR5;ASVa@>DMG00J_dnh@[D0[^2GMc1US`040QX
+JF/10iZ3[FdQ0=kOTYi3[:10TKnf;MfLoVeb1k^h8T@1fOhUTaf846T9QCQh0Bg1
+EP1NMBR23Hc@lWm3eWl7Eg1cL50gLo`MoWNRoPncVJ>]PmOoMX0j>[W1`2i0=JPU
+f0Gbgjkjh;mBYPJf]7Eco6o[LiRIPjf5;<CJ0@cTnn]N]Zh:]YiPBdeKV8D=d<[<
+`AGl[gd`a?:o4_0kLonB`:_dC=G`QBkWGcGmEg8dcF`Q<1d_YcmAOc_o2b>boc]k
+_c6RJ2jfWT0S?T@GP13dR>noElKoaBD?/H1JfT:/POa2`T0c5aLc;`2RNa182>P3
+0]Y2;<6N@;0W@S0_3`@:@c004CWa0eY1G@2o2bX/3>BEnkge5a81lSkmPdChP;`:
+Ob<@T5OaKb@4i5GiPdCiPKaJOb<a8:o17hAXAUjc_a72I_47POP@59KoP0P>l1n8
+^13_GcGj]chQ0B2_UJgk?e`@a5I@=iLoId1l21O[Od118:o=?b12]^do84:=hml@
+<GNlT3m@224LHP_iV`b4611Nj1nk8>8`m3o<235>Oi/AjYd@@`Smaoe023EoJdFD
+R=LEk0kn1bG2kXXXo;o_2`8QP/3n@244?lc61Obg9264HYS7giY0854P[o^O0b1n
+Q?f_L?liX[nKC4h>j^W3cHl8RWPPNXJ?C``X9RcVminNOoY;6fH6/CAc/ObclK]K
+;MaLG<0@f;mN6hPin3Nf/TE<3AS/2KH0c4i1;BA2k=8K`/[li@]7gZ=c8<]I=bJX
+Oo`bgXXC?9>8k53lCLFIHjWfiDei5PWn5_XF_LL_J]NX5]lGP`[7@Lh96I?gFnj_
+]k:lVjQOWVJYNFdj<Eh5ka<d=dbL7`PQJh`]OBm;<BSZcSkYfLoGI7^V/hfi`83D
+HNANe`4?4AIiZI3UX1/NF//R`:15V>5L5R4H_^Q1V9:4]SPLk6lGS_F9Loh7]<F=
+n:H@:boio]GEXgPRRaIj0Jde3U:]KNV3dZ9`@X:JQjjnJQThd5[K1KR5?XNUmNei
+L0i9F7Ff=iFljNP9nI1lQ9[k<EMCbd^6>fIQhjGR3E<1CU>K8^FIMg`WBHG@RUSF
+Jbc_ncePfTnaPQJEi02VUL1SGh9TF7j/gR]f@g@6_2JkanB6gEW`4E9_4?kiFedZ
+FGl0Xi=dbX>?VdbF/JaO/B_0MYg`aTj>oINoQST>@EO?4lgM7?:LNSYEUBh]LQMN
+^SRI7j]bLEhleB^_33G7HkB8e7j=ZNVPn;Hc4blB@M4/UVBdBRZe6f@o=IEn`2bH
+QU_i7TZ6eeMKJfD?h3UNLdO;2nVhceJP8MDD8hd/hXani?N5?cj7kGH3VE2/<LJF
+UG]WNNB]g1Y<lRSQnOXG_I<B]1BaQX^;e2TV/ge>=hf^I>XfB/cW7BRHNm/A[jWj
+6WOaQPdeX=f]BiKRd6X3^ldkAjfIa@n5=?[Dbbn:?=ki3SU4X3lMQ27KgRmiIF<8
+jPC9>kmeV;K6KB_@7;YDofiXH;C6gHVgn@i5=L8BS?Uca8T:gP=^LdVe3jS=e9^5
+WhX^_dW3`VmPJW<FUDlGEB]c:do1lo`@==B13mma:KV[5BTVOFlE<ZV`9dmQG1XR
+g8kTP5fLHV]VHAUXQJN/E:<kdOCeBFZG_ob/hPJ[_]6G4g@nV@dl`B:hhUFSCH3`
+a>`hS5NEkUUSZYRECdoTMjj:3miW>UJg>`J2l:P;_DDfL/2e67`hPAU3/==nHm;[
+G5_dHWOcmFLbOOkD7`KcQFhn^;NSjNkmfa3f]BX5bjKf9G1DM?De@fR`PBanZ>[]
+BI3LDL3:dRlX3:=XoGX?OlmVZA:3Y9R;3nV;23K?B9WHGI;HFjJSZ3hC]AP6<Y8Q
+]CU13L>CcIa83QB:Cf4g6W3_2G;MgMJB8^ZbNe:0[::NFF`0DS[dKI9@bJA>F;bP
+d]2;^Id3BhoSPe[[FEO?MOX/Y3XX4POTj1^[__R79amE?Z<V8UFHOH[a4/>F3@bB
+65^;<P/KV_7GgCbnh=9=;ePOoIZV5QNn[iR:UMW7hlL2:ANYmW^P=4>5W8@gcLlV
+^6_O?LnE7ZFRl`QB^[BJ>ciIF9T<d]E:TXhNfoG[0dkg4fD]<;k4eAeK@aKVhQ@?
+?@8J<JoA]59^`?<E]ABjeFcBTgfCR4Wi3DmS]R/O6jKBKikf5TJT2985^l37Y9=C
+/0_Zk6JU=[HJB/=H8m65VFUDbHHh904>PKX[Q9@9BkYmJ^OU:eQF/V5[LFIQL4gQ
+8C_D]`9MCTnk2cWY1RPiM_g/LU5[>]Fl<YN/UPnaKJLDHNU_jAik?0Z]3;YUhM/9
+0G@;bBjJk02ZQg=W<Bd2G88U1HOkEc6`_ZYMKa@/V/C9K?9cbTYPYkN9kiXLMn@6
+6lAo=]dRFiLZ>=La=mZX6HEEO4RmJf>IF=E8[DTUb]U;`C?3YUJ_ANj]E[jbF[DV
+<2XXfK?I3JgLDno8RTO^ef]bMOlL@YCncN=mW]3[j=Z;BLRH[e7akDePa5?6VE4B
+e@:KeC4j05<VOOKdd3>]<inc@Jg]Gf5m3f/iWdP4g`9ggaE@]JDnbRRUj9iI=Q1g
+J_b5JN]`T9a0=o7mXnOlj;NVPIJ=4B:Wc`WjEGhhKdnM0:QZdAXUik_Z`H_`7nIB
+>_iTYCeQ^D^1IChU2_bPZ7LX4ciUi@mZ2e[[Y5>Y<W2>Ell`]fJmJAH3G=VSfFj3
+1T^iXWnlC2^Y2EHHY?L??1B`RIHeaOcXQhHT^?3^j;d`_RQ7T;:UkYCeM]Q1l_;c
+k[@`9GWU`b:AS3UUMRKjJNN2<4UZhaI[P4_EG3T=HeR@3CNi@oL/<O74;n=KJe`F
+I:962e_NV_1[M@d?E>S[o^Ti]L[jl/1h6LL]LiVOJIl_^nnjYDPK[Ki5O1URVW:l
+V5mKDFLfmaC]U`:dj92bZ;ZFEgUPTB`[WKM@XE?A9mnj_/?6jlXii3i88PTdV5<<
+^fPXHClQ3j@@dO1oDBDQLg54jZWAg>dQI]M^_XIkie[XIAml;lR7@E8YbK0NeK/W
+9f8d_J1fH[[5POd[:7QaRV=dL0e?BlGd3=abafWg_22AIFQ=/ZYCAHG@Y98flRSX
+R/7^o@O[a`Kh_a9NAU9cXDSdP9^aOgig^idChVlIWXCPgGViB64FE[mN8CBjLc@j
+d[9jGm@C<72/>SJUbAaT8G?onQW_NWf9dIbDU3HLnOff?oDYBVlQWU9FLGm6MNPl
+j2fZ<6h6?bj6d4UW_aoV_>m5hPVZDRQBIBlkBU@BYSN;dNalA19FON;7TlMi/Tkc
+m>6/Sci`Yg4dAEngn=Gbj5Bnie_AUYGhTAI7RQU8Tbm>f`CdWCDDaWca3[296V2?
+SKoh[QZN>U=?Ob/mIUJR/o2lHW@QheK:YUZQG8@f9Z1<eg<29DFO78J7lO6CS1S0
+nPKS`Do=;>8JKEnT:8YFENb[GjZkmN;`eYECMN/GCPLH[FYXadGGRV3:Q]iSKKTn
+F[2jSEnSXTO3j2Yh/Lohc/ohF?D;n^I7MfASj@R?/>N;K8hfglJ[]e>A=N:dc5^l
+CN5jJ2iill2lFF0RmPNNUiKYcE0iAmfaf833CiMJgT/kY/ShYGEAH?Oh40eD?743
+5=X:lPE`e=UDAg]N0>J[7:FM>WE]lPCk2AH<aO][Pk@OjlVEZT@Jo/C662GSf1:T
+V_Hnj:ennoK[^0Ml7d611;gCGWDeCiWkHF>76BT`c>/^hbZSFeGSmIDl3e4bAg9;
+B^RZ?=fjSkhnW9R/k>`96m6mU]YeY1Q6Jd?UPPEa_gf0UJS00QoJ6Ele3D4_nIfj
+g=3gbMKhUQI<V7M>TNO[hhX3RKKjhGF@cBAfHU@jemQh=3nE0:ZJP2O@4Z;IJC5m
+F?lcRQ3Igb[[[IGk6bnKi9<j6YlJ<M?j1idGXVY[JKM5oREF9SbMmQLgo>hD0Fla
+NJj`RE8LO5n43MY@10:kb=iNE_P`_f=f4T^W4QCB[;4@R7[=[jJJFHZcBb5P@Roe
+G?9=Ton/<AnJo3LZnhS`o?f/R^bC@3hP:`?g3]4TBT]l>iGK`=VVO0=oP>UT2;SU
+YhSEO>fK6J@79T_KYIkWC7K_CVa9O]FPm`KGSY5:J1Ihk19RUH_b9oQbnB03[:TX
+I96>2efSnlcl3N9:H9[fSVRA[>UO=SJHFgaVOPQnF=WK0:akakKJ[GoVGlQPj774
+SAQ;>6]GcYnf6le^]G7QNY?`FUa2B_aL;[0U9XATf:bP[N8J2@nHV1SUgo3iYYIj
+6R5>Lj[[55AlBCW3=adQ8]Wk8k/gEMVmlf[Hm@bS^6PaZ?V1Zn>RhnL<fE8nnZ=]
+ilUJJne?BjLAC>X?Id>EPQNLgYIgA5DJ7_GO9KS>2l@QfVjo=^d<?Q6`434a3S]D
+NN6HTWR3[a::jEm8bGKWKN46llVhCodL=TbC`K[U5:TG2SFFaEWEg5;0?<maf3=m
+0QZ^6l@HBUE63Bod[Q4^_dV@gUo4/C=6Mi=eoRQ0^6_6S@@NjSIT_JHADN@D=bi6
+Aon/=]Pk//Z/91dh[BXnI>LhHH15=9DWPdGcF1TYo2La=aJ_8/o=JZ@NEcca1K=d
+=JkoVjCHd[L0FnU;>nkN]2TUdAKYT0=?h]?UXhE9TLX53R7SnM?572DBCU<Ji1IN
+9j;9o[2[g<:1kSVl@J8>hCPFBWRBHl=:EV:NP?YdG8SK_6O]EeFgXj:W?V;DEkFa
+YbUAP2ncW]VE/KhMdLjNCJS^BGBcUE0/^KS^X651djlo^mCIQGD3V?G3Lag>Y^4D
+6OQ<n_9YFoV>g==TP7@Fcm5^Vc:<84ZWViNd8LOkcLnTYCIU?KOD7KjDNC[dU1Tg
+/DEg0P;3^fR/HJCX1^ZgFCH@KPMdMUmWI<TPLPiD>=Oe9h/`K=:EGHSP:[47GjU5
+`?PF?d11`?cBBF:GbojbnRNj?OOKA1883bn9]l^_SCk]YZ9=4_TN_0K:XLH>kAaV
+FieEkIoO<98MiKYR:/RAlnkXNcSm9M5IXJB<mnnD=/oHLAiMKGGF]9DhX`A/Ec4A
+QGGU;_9Eh6beLKe^OUVmUTJgLef`aVI898gJHOn/KO5UISNVka^g6mIKnJR_V`TN
+QOMVJcRdb[^FLmQa14=IL_Nh<L0`>a_TUdJm6HL>U>o/iA@WdG/Je@JUW_WXnclb
+CJ0gD26jl5B=H?4;kY_[2AC1[VP<bcGIjkNkh?H:EaL]I=0LX519?VKKYGEa_dPY
+/]CbJlj^l2//62=@F_BPXLb</Y0:oeaic3SDBVF1ElBGW8RiQc8Ik7QRhZWBLB=C
+oRDB5noQmUb]eV;2Y;HjmN9`jlId21P[h/eHc;To=0nBgP@a6XHTb5:RDHI8kVFa
+]5hbeFNXiCiJUcCO0j]DSi@a4=W6Ac`C:aQ_;0]4<obhTG65JS8@bAKZYGP^2cgR
+c8c[]_6f@MFLJ9DcjZ0^Bl7>UPjJoJ8RX3AClSHEKUn0Q=lMQ[oQYWMOijY=A3fZ
+J]A6:i`OMXmFPY]e8/_DQYmZJn@K^iOT;gR2jKfJ1/=VjVhOTGQgGchO53P_GAJ<
+=:Sb?YU[VBnR1RWN`_>;fA=VQBR;:a7<2cSH0DCaPi>Z]]3ARal_:KeY0RF188>^
+hDV980VlJQS<g7GX_EO0iFJ1LYYiKAfVJY4l`k::34/]mAoCmFU^Lbc0jkTTJLgh
+LB<XiDA/V`ZkeULAAiG5XWk8bCaU>7GMGN>he2:SGICiZ=Fi/Ec=4PlJQ1>dA2bV
+LdIKTASV3m:mSGM1:K]iV4[HHM<?ihojPUN3?5Pk`K/Q]GYZAJ`kPgXA`jB8<B8:
+fhFKO^l>7jAhEeM@X/TBDYIPGX3cEBe3KU9QiEVZS1C:N[ofK7K6aEd>FggNMOU;
+9hoIBaM3O^QN/1X1n]fMhP5[?IEY91feDHm`AX22eaBiRSQ;OfW7[Ee1GMPm]Po_
+VLPe<XkKV5?fJ?aKZ_^WoBGm=7RjVgVB<DF]YhA1OBmhSmOVJFHgO[9UU4IJinAS
+X`3h=PgdmQ/PNbQO_45UQZl:3cl41Ym[KkN93C2l5ln]MXAmjSQYP`T?OU1DKXn7
+RHOg]`Z:Y?EnOJA4;joc@mk1mghAc_=mPd^nCS=?Q`FWh?;=<54>agj3X=AXOT@Q
+DA<b4M>U6>BS2UaQ8YDek/7YQeO[4U=`42eahCVEE]nnUR;Q@^9ESXa7nJ^i7ZT?
+>6i=cKLaXSO/Ne8eAeS/?:VN]1b9YhfUE1i]FAX`_h6@Jj3T;9UMUL1dLiNGVJmk
+bHmD]bI<<=e^]c9NoC1jUjjYl@mlmkYOSXWCaJJV]<Pj;WP<;1WiA2<dWcioLIdG
+XD::JZ6o9h4J>FJG>6Jo4dd5MK:0[6:;53Cj3Vbn:QVA>U[e7Q@;gd?/<]K_Sf=L
+9]RZ0YcJ;=jl?c<NKoK;d;>/W=4KjQBOEeJM`/MbJbk[Z<7TcJO4Q:IhA;:l6_7m
+a>2J:IkF?NngM[=R>;ghgL@eFfTZ[1^@DnCni_]UIm:?5mlHlnTWa=n68AgSa?9@
+cohjOaW3AcM>[1fW_:ZOMDY7SX?>RTcDMSe<Y8n5>jA4/TY2<F9M5oj;g^TlBZm@
+5HGgO3kjXhRCePC7Lfm>WGJdFAIWmKU?cBP?fFU5kbec33AK_Q:bjeH:3Yi4>PVb
+L1h84`RElj;DeHOQWgcPVVR;oCa;U<G/1L9cmUC0:a?7EmcobNNcbXBIVgm5?m=2
+M@moC4P@lJflh;;BGinE?/OoYJM9DB3;/bO;HV5WYgcCb>?2KJo^L/>HlH`Hib[:
+^JV<kAkQE;FV?S6;DnViCj3kLL=A[H@S3o:8HnY9Yg`jfTjWS9TS@Tb@h7676GAU
+_Vd9g3=mJ1LmH>EMR/Te7[1i2I9ldac]l0@OCcaQQ7FSfkWONKK2NU2oST?dSHb3
+<:7@X]DFIkER8B_KhAjgTUOUU?@^lG[lVS2oUFn0Mac0YZn@_hc/`?ZE8L67NH3U
+PIhQQV;NEaYTQST]QFOV75cgN]PMIUaT94Y8^BN5<5HaG_h=B4OB6o5XU`l]YFW_
+a8i6][E6g64oj`h/iIe0k`XQ/oHl`dmk`ji<g[eY7^0mQNi]ki3c?2DToc`/SdHi
+5;:SA2c5eOICdJ4N42?6dGJdnLH75CZj=dXW7o=TFBD@3KEeLVmcJJ>XIGQ;Fh0D
+ie7E2?N_^ER7SjBEcDP_/3liQn/K<A@482^Y0;b>4S_k;983lN?eCTm6jIBOOBi_
+efMEh`CiJ=/K8U6VWFo`1fjP:YHQBa4D=bMkF9D1D?BO_^PeN@T]JhTOE7YF]^;c
+MV0n`EO2j?:k?O;1MX:AJ]n9;5f]9[c?o2c[]F>S9iL3XlVKLKmZS]IkG2==J?Ea
+U8::7/lce4n9H:=<eI[led5;;R799cQa7`iBg7]66U`B1@m4X/;mWmEi[^il`n6i
+NlEmYd]AnJH8;6a;ni5/N5@LFKWXC3PeFBE?/9kK[HSbORNY/[4D8TIa]UY4<RE9
+i638nmheMNLbHX2jLSo?@aUIo2KFG9eUb__mMh=WiQETo7LJc`U;1fR>/BNDBPZ6
+@CfW4c6OmfG<0^d=acH5AX;kPPkk_dVchVAJD9ZjSG2K?25N[UC9R3W8bQohoVBl
+B7ORUKP5bW?jad<JieK^JCdkY>>O8[Zo=AHbP=CigGnDn/NBOhC;Dn6<bI37nC:P
+<C@Dla3gX8KCM6BR^Y/^bRQ=?5b>ZK4P6jggaP]4j]VhJF/JcikVh`VI?:mLISB9
+>2SH7S]g3OZ:fCGl1^:>E3KohNW[[P98Rc[gdl?<L1Lb<akL=:EZ`bNBfmSUY2[1
+3O22;>0<DK;1nDVFRJ[;71N1P]mYDDEFM:Dj`3[E1U<6PlD@ibMYT9YTlfMPWio9
+^FEZcgQ8D8VTW3>J74O5lP4MHeM`2>ZUF7kUllef7jdc0Vb:Rh:MPEKRa<mP_U4f
+GoYCk/knPEF1gZLSjh<ehj;]AYI`^ekR]_ak?D?Z^/TRM_YIRD=/o0>RT6YbioKY
+WRc6`O4/c0_MDn`39agdVF6E^Ag2FZ/Dh_/WE86=2A]2_G6I@kG`UMXOB8nAjIg]
+YK`72C3Ua4@6ag:]ZUkk68XiG@dI>Nk_LgY^25LNhIUbCUSXIPGa3LH^AVmgN_Xl
+:CV:9HW6/9ECOEO_LIdg`432HAC/iHff[71nDWS6L2=THU0e/VIj<Q:ZjEfSEUBK
+E:g@m8Tla<KhUG[_3Q/8ne_4FEWK;:@c9f7UT7heGE@kFM>nZF9<=/VRCb^>^L_Z
+<KCaRJ0R>DGA<7CUmBjio8Mb5jSWC52EO6eFMchJ2Zi3:dUe:kC8_=ndZK19FX1/
+7RLamO6neS1N@/]HA/91BNI0BiA/ef9m0NLJ<EY_g2aki>=7Q??eA2:/U3DJ3:KU
+k7?cfJ7knPJNlNF6cgTf/@ej7@9<d0[TG[I6P_?I`1j30==0[ccOaIgFD<4:]m0B
+oeiJD0[?XL_WRG_CORgU>_GhM;OHE2l7jYa32ag]_HXlWdF]el<L^=YDbg]7XBlI
+XcYb^UUMmo^7]20;Nm;hCMK^^EEU8P]cN>BQ^H[l7:^M/gf`km<b:5L3O^QA99Ek
+R3o]m:0@f_NBNT<M0:M??b7Gf5e8j4QL[03ISBQQ57NK4/7P?17ZZnmOB>0kfBIb
+:2nJa?=TI6Z=_RZLUIZCJPk66KYLUERj]B;gk[XGVN=9l4V5N>AIUDJ/LCk<^:9<
+/EPJM>XCGDQ_EK<Vf51BnD>5:>d_Pmi6dGTeLlZ60ccL7POG^DCHNZZcl?:X;gig
+Hhn0M0:8=4I/^d`hT=oh]jcE11[96eiEB/odMoj:>XOT=;PcKZ;VfZjSY]SQa?YV
+oJ8=gfhQ1Zk<Xi<8D=oZjHP_gj0Y18PG0jUS[g/W>A8PglaVF;o>lNiAW/FEYb^o
+D>BJ4oOPRj]V4C5EcBaIJ2=J]Uk7R6j75Rek<Zo@MX?9UeDUV`/eRNO2]g:kGCfZ
+K_M?HFJhVQM;kIYQhdFijA:I2_]?]WWQ::Rim8c6kaRIKf:IeaMlX_T>?YmflTYI
+B8CCJZ[g`5NQI1`AC1MWTSC70U>1UeBj4UKTB_ZYGDcaFW/Kn`KEcddDFaQKEf2?
+[l8_F<]`><_ZEY`NEGHc@4lXHX<KVIUk5@83gogjJ[Rm=OkcO>j6<[Io@oRX0WKG
+<kBDED6:ONMV7TFBJAJniA>Nami>4`MD_6^FHUVXb>/?ddGYiW>VLE3g_8S23fWo
+E<gQF4JFbFnjSVmbMDW_T:7a48ki8SCf/TU3cB9dPWEWKomngSGlT8=^nm[P<YLj
+^nkh_G<5SG^1n4ES=/i7RHA^N8]4lBhH<Xen^B7:OJ<7d?]0Ul/^BN7]l>>kOjWC
+e]1>KV2Xc_X[G1Y/idG[0/OHWGe=0@]]VmNi;oOf];>8hbM_I1^ZPj96Eg_?cF7P
+;jJiE5n?E8L6bIBk7h/WdTc;^XhoGf/KB9XdmJWkS_VPj4FR`b5KHbZ][OM:QPEC
+TIZ>k5VV_5A?D9dDIT@IZ[2iATmRA15^NmO?J]m0CeiGWikE`92UW5[cYYjmP6e2
+d]<lhC73H/T_5[JiGb0S@^V^;c9AbMn//m6I<CfE7B>>Q20g_?8<5adohB_2Ve8K
+32jH;2fAj>US;jBPaM7bC/K[Z`ROLBYeD/:18OdbnEAZn`5kXJ_B2@gS`Kg:j`kP
+L6=I/<C^:;04M?^L8lWh;NS[NbAI60O7CP8Xm8F[N6Xn3LJCT=@Ni>UGHbn@W2<;
+_[TfgQLUVfG;?0:C^_JbBVPj>;i6Okn26C=DTYo62Moa1Y[/=TJedZ[KKF^B9ijS
+GgoiV7RA5[knXiZ18V:L`D[OJ/i>MMF5C@0S;lEGiSZL@J7l0h9h]8XdW4OR9kHb
+hd[I?/TXB;MNUJ9/EF<_?nbl/Bh`lEL2h@bl1X/99;Gkj8YAE]>6SNe/@nC6oYR`
+I2jmnb@V;mkjEC]OlHeYED4QRO=>@=hFAj]TWOC4o?2ThDXFUXPa[6=H@CE04YC6
+^WcdX/FEASSjX6MQ?X`b/ljD9=Dk?W_[o=ReOPTX?fcod]JK1I^@IDiBOI`DCkR_
+i7Dcg:dPGefbKg@/QUlm=8Wo1e^b?WiFI2]L?Ki^R5EDZYM`2dHToJJ9MB2hWCJX
+SVaPKUlBWO3TG?RflB4L;Ygo<MD4dQ8fH``R[e/om/g8WUL679PYbQcHIFf/94lh
+<WJ6EERcG4LUlJdWh<Y>9F[O_Se]d>S:;Hd;]DiXR:UCUa761e4<blm6:h:4V?E?
+j2>g<M]P_G7UQaG[:4T64`DU[nTTDZo3PO]D8CRFIEoMR<al84o2NQ?>Y=?3WFKe
+_cCZMML]icQV8k<WLC2nfYN?icI/WQhLjEi@Z:Pl_;9D[WG7`UZRA0lfKF9Ck7[i
+g^iBhc0o]GN[CJfY36]SVhkDW3N2=HMmXJ9Fl6Pnk[UVLHX40KZl^6A0CZImKcM`
+X^RJWI1Q<9=h=;O4AVShlJ^;@9AWfS_8Ade3Ni5YN:eTnfnU=1/O>CD5`ZBk:[6b
+2dMW6D555:W/V5S/5L:d/9?YlYU2cNE=ORlKob<fNN@P__oQ0oPOk7cogn6_3?do
+TPL;1k2I2`cZJ>IR3oQOhf88N`YUKVAcM79UHFd:IFiTKf9Z2S<`830PKf9Z2SPa
+<38:IFiTKf9Z2S<a830PKf9Z2S4b=C4:IFiTKf9Z2S<b830PKf9Z2SLb=cP:IFiT
+Kf9Z2S<c830PKf9Z2SDd<0YUKVA_HVX:<c@P<21_HVX::4eQHb1?Db1H834`;S4`
+;S8PDGEQLWAj8514AT=_KWAUN7@Y2VE^I6mRJPXc=B0`86mRJPXXA3Xb<34e<3@`
+>34i<c4b<eX`<2L`<2LY2VE^I6mRJPXa830PKf9Z2S`l82m@LVmTMF=ULR0c=20`
+858P;d=bIF5dJFm^A65dIB0c=B0`858P;de_I4AQM6DP<cDP<21B83hn2VE^I6mR
+JPYhLVEV2S0P<cH:<30`<30`<30`<20f=CDc=B1V80X`<30`<38g=C8g830`<30`
+86hP2S0`<30`<3<h<3HP<30`<30PKR0:<30`<30`=S0`=b0`<30`<21^80X`<30`
+<30`<38b830`<30`86hP2S0`<30`<3<g>3HP<30`<30PKR0:<30`<30`=30b=R0`
+<30`<21^80X`<30`<34a=3@e830`<30`86hP2S0`<30`<3Da=C@P<30`<30PKR0:
+<30`<30`=CTg<B0`<30`<21^80X`<30`<30f<C@`830`<30`86hP2S0`<30`<CPe
+<CDP<30`<30PKR0:<30`<30`=34i>B0`<30`<21^80X`<30`<30d<S@e830`<30`
+86hP2S0`<30`<3@b>C<P<30`<30PKR0:<30`<30`=C4c=20`<30`<21^80X`<30`
+<30e<CT`830`<30`86hP2S0`<30`<3Di=C4P<30`<30PKR0:<30`<30`=S0i<20`
+<30`<21^80X`<30`<30f<cDa830`<30`86hP2S0`<30`<3He=c4P<30`<30PKR0:
+<30`<30a<C@b=20`<30`<21^80X`<30`<34a=cTe830`<30`86hP2S0`<30`<C8`
+<SLP<30`<30PKR0:<30`<30a>3@c<R0`<30`<21^80X`<30`<34h=3Dc830`<30`
+86hP2S0`<30`<CPd=c@P<30`<30PKR0:<30`<30a>3@i=B0`<30`<21^80X`<30`
+<34h>3Td830`<30`86hP2S0`<30`<CTa<S<P<30`<30PKR0:<30`<30b=c<d>B0`
+<30`<21^80X`<30`<38g<cL`830`<30`86hP2S0`<30`<SLc>C4P<30`<30PKR0:
+<30`<30b=c@a<R0`<30`<21^80X`<30`<38g=3<b830`<30`86hP2S0`<30`<SLd
+>3DP<30`<30PKR0:M79QJFaULPXl?20_DfUjIB0c=R0_DVm_M20a>20`858P;dU^
+IVlP<B0`858P;dU485/P?64g=FDg=V8gI3QQHC0g=F<fISLc=fDi<CLfIS1QIF@c
+?PXlHCLeICLfHSMT>65Q<3LeHcIV=c<gICTa=cIV<65UI3<n85dP?Sh:LgAQLWAh
+LVEV2S8g=S0b2RDUADm62P\>"], "Graphics",
+ ImageSize->{360.82879638671875`, 338.2351925440285},
+ ImageMargins->0]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Kempe Chain Switch", "Section",
+ CellChangeTimes->{{3.637515346828308*^9, 3.6375153621060553`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Definition 6.3.",
+  FontWeight->"Bold"],
+ " Let G be a properly colored graph and suppose K is a ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]]],
+ "-Kempe chain containing vertex ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " colored ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". A ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]],
+  FontWeight->"Bold"],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]],
+  FontWeight->"Bold"],
+ StyleBox["-Kempe chain switch",
+  FontWeight->"Bold"],
+ " of K interchanges the colors ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]]],
+ " on the vertices of K."
+}], "Subsection",
+ CellChangeTimes->{{3.637515381665449*^9, 3.637515495484326*^9}}],
+
+Cell["Why we care...", "Text",
+ CellChangeTimes->{{3.637515516243534*^9, 3.637515519299018*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Proposition 6.4.  ",
+  FontWeight->"Bold"],
+ "A Kempe chain switch in a properly vertex-colored graph yields a properly \
+vertex-colored graph."
+}], "Subsection",
+ CellChangeTimes->{{3.637515530882354*^9, 3.637515574520556*^9}}],
+
+Cell[TextData[{
+ StyleBox["Proof. ",
+  FontWeight->"Bold"],
+ "Exercise."
+}], "Text",
+ CellChangeTimes->{{3.637515577281952*^9, 3.637515588215872*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The Five Color Theorem", "Section",
+ CellChangeTimes->{{3.637515600056913*^9, 3.637515605775062*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Theorem 6.5 [The 5-color theorem for planar graphs]", "Subsection",
+ CellChangeTimes->{{3.637515613494389*^9, 3.6375156334617853`*^9}}],
+
+Cell["Let G be a planar graph. Then \[Chi](G) \[LessEqual] 5.", "Text",
+ CellChangeTimes->{{3.637515641123911*^9, 3.637515660788371*^9}}],
+
+Cell[TextData[StyleBox["Proof. ",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.637515662777087*^9, 3.6375156988363867`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Assume that all planar graphs with fewer than n vertices can be properly \
+vertex-colored with five or fewer colors. What are your bases cases?\
+\>", "Item",
+ CellChangeTimes->{{3.637515662777087*^9, 3.637515742300695*^9}}],
+
+Cell["\<\
+Re-run the proof of Theorem 6.3 up to the point where we examine the five \
+neighbors of V.\
+\>", "Item",
+ CellChangeTimes->{{3.637515662777087*^9, 3.63751581125277*^9}}],
+
+Cell["Assume the five given colors are 1,2,3,4,5.", "Item",
+ CellChangeTimes->{{3.637515662777087*^9, 3.637515835026636*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Case 1. ",
+  FontWeight->"Bold"],
+ "If deg(V) < 5, then there will be a color left over from among 1,2,3,4,5 to \
+use on V and we are done."
+}], "Subitem",
+ CellChangeTimes->{{3.637515662777087*^9, 3.63751589441761*^9}}],
+
+Cell[TextData[{
+ StyleBox["Case 2. ",
+  FontWeight->"Bold"],
+ "If deg(V) = 5 but not all of the colors 1,2,3,4,5 are used on the neighbors \
+of V, then there is a color left over to use on V."
+}], "Subitem",
+ CellChangeTimes->{{3.637515662777087*^9, 3.63751595027975*^9}}],
+
+Cell[TextData[{
+ StyleBox["Case 3. ",
+  FontWeight->"Bold"],
+ "If deg(V) = 5 and vertex ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "i"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " is colored ",
+ StyleBox["i ",
+  FontSlant->"Italic"],
+ "for i = 1, \[Ellipsis], 5, then there is work to be done."
+}], "Subitem",
+ CellChangeTimes->{{3.637515662777087*^9, 3.637516006908943*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Five Color Theorem proof; case 3", "Section",
+ CellChangeTimes->{{3.6375160242135277`*^9, 3.637516030963566*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Back at the ranch we have deg(V) = 5 and the neighbors of V are ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]]],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Ellipsis]", ",", 
+    SubscriptBox["v", "5"]}], TraditionalForm]]],
+ " and are colored 1,2,3,4,5, respectively."
+}], "Item",
+ CellChangeTimes->{{3.637516044099069*^9, 3.6375161096152477`*^9}, {
+  3.6521055696738033`*^9, 3.652105569682181*^9}}],
+
+Cell[TextData[{
+ "                                                  ",
+ Cell[BoxData[
+  GraphicsBox[{
+    {Thickness[0.006], 
+     LineBox[{{-95.10565162951538, 30.90169943749484}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{-58.77852522924726, -80.90169943749468}, {0, 0}}]}, 
+    {Thickness[0.006], LineBox[{{-7.044813998280223*^-14, 100.}, {0, 0}}]}, 
+    {Thickness[0.006], LineBox[{{0, 0}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{58.77852522924738, -80.90169943749481}, {0, 0}}]}, 
+    {Thickness[0.006], 
+     LineBox[{{95.10565162951534, 30.901699437494635`}, {0, 0}}]}, 
+    {RGBColor[1, 0, 0], DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+    {GrayLevel[0], InsetBox[
+      SubscriptBox["c", "1"], {-95.10565162951538, 30.90169943749484},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+    {RGBColor[0, 1, 0], 
+     DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+    {GrayLevel[0], InsetBox[
+      SubscriptBox["c", "2"], {-58.77852522924726, -80.90169943749468},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+    {RGBColor[0.94, 0.88, 0.94], 
+     DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+    {GrayLevel[0], InsetBox[
+      SubscriptBox["c", "3"], {58.77852522924738, -80.90169943749481},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+    {RGBColor[1, 0.5, 0], 
+     DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+    {GrayLevel[0], InsetBox[
+      SubscriptBox["c", "4"], {95.10565162951534, 30.901699437494635`},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+    {RGBColor[0, 0, 1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], 
+     CircleBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+    {GrayLevel[0], InsetBox[
+      SubscriptBox["c", "5"], {-7.044813998280223*^-14, 100.},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+    {GrayLevel[1], DiskBox[{0, 0}, 20]}, 
+    {GrayLevel[0], Thickness[0.006], CircleBox[{0, 0}, 20]}, 
+    {GrayLevel[0], InsetBox["v", {0, 0},
+      BaseStyle->{
+       FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}}]], 
+  "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{{3.6521059276632338`*^9, 3.652105998690939*^9}, {
+   3.652106030491044*^9, 3.652106053060072*^9}}]
+}], "Item",
+ CellChangeTimes->{{3.637516044099069*^9, 3.6375161096152477`*^9}, 
+   3.6521055696738033`*^9, {3.652105683595572*^9, 3.652105700388294*^9}, 
+   3.652106080976387*^9, {3.6521061492896357`*^9, 3.6521061780791283`*^9}, {
+   3.652106210411345*^9, 3.652106210412085*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Subcase 3.1. ",
+  FontWeight->"Bold"],
+ "Consider K = ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "3"], TraditionalForm]], "Item"],
+ "-Kempe chain containing ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]]],
+ ". "
+}], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516230518688*^9}, {
+   3.6375163163427*^9, 3.6375163166226997`*^9}, 3.652105519835209*^9}],
+
+Cell[TextData[{
+ "If K does not contain vertex ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]]],
+ " then a ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "3"], TraditionalForm]]],
+ "-Kempe chain switch on K will leave ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]]],
+ " available for V."
+}], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.6375162859681273`*^9}, 
+   3.6376003797905407`*^9, 3.652105514222331*^9}],
+
+Cell[TextData[{
+ StyleBox["Subcase 3.2. ",
+  FontWeight->"Bold"],
+ "Thus WLOG K contains both ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]]],
+ "."
+}], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516352046949*^9}, {
+  3.65210684186442*^9, 3.652106841874103*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ GraphicsBox[{
+   {Thickness[0.006], 
+    LineBox[{{-95.10565162951538, 30.90169943749484}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{-58.77852522924726, -80.90169943749468}, {0, 0}}]}, 
+   {Thickness[0.006], LineBox[{{-7.044813998280223*^-14, 100.}, {0, 0}}]}, 
+   {Thickness[0.006], LineBox[{{0, 0}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{58.77852522924738, -80.90169943749481}, {0, 0}}]}, 
+   {Thickness[0.006], 
+    LineBox[{{95.10565162951534, 30.901699437494635`}, {0, 0}}]}, 
+   {RGBColor[1, 0, 0], 
+    DiskBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-95.10565162951538, 30.90169943749484}, 20]}, 
+   {GrayLevel[0], InsetBox[
+     SubscriptBox["c", "1"], {-95.10565162951538, 30.90169943749484},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {RGBColor[0, 1, 0], DiskBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-58.77852522924726, -80.90169943749468}, 20]}, 
+   {GrayLevel[0], InsetBox[
+     SubscriptBox["c", "2"], {-58.77852522924726, -80.90169943749468},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {RGBColor[0.94, 0.88, 0.94], 
+    DiskBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{58.77852522924738, -80.90169943749481}, 20]}, 
+   {GrayLevel[0], InsetBox[
+     SubscriptBox["c", "3"], {58.77852522924738, -80.90169943749481},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {RGBColor[1, 0.5, 0], 
+    DiskBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{95.10565162951534, 30.901699437494635`}, 20]}, 
+   {GrayLevel[0], InsetBox[
+     SubscriptBox["c", "4"], {95.10565162951534, 30.901699437494635`},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {RGBColor[0, 0, 1], DiskBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], 
+    CircleBox[{-7.044813998280223*^-14, 100.}, 20]}, 
+   {GrayLevel[0], InsetBox[
+     SubscriptBox["c", "5"], {-7.044813998280223*^-14, 100.},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {GrayLevel[1], DiskBox[{0, 0}, 20]}, 
+   {GrayLevel[0], Thickness[0.006], CircleBox[{0, 0}, 20]}, 
+   {GrayLevel[0], InsetBox["v", {0, 0},
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 40, FontFamily -> "Arial"}]}, 
+   {RGBColor[1, 0, 0], PointBox[{170, 170}]}, 
+   {RGBColor[1, 0, 0], PointBox[{-170, -170}]}, 
+   {GrayLevel[0], 
+    InsetBox["\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
+\\(1\\)]\\)\\!\\(\\*SubscriptBox[\\(c\\), \\(3\\)]\\)-Kempe Chain\"\>", {-90, -135},
+     
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 20, FontFamily -> "Arial"}]}, 
+   {GrayLevel[0], 
+    InsetBox["\<\"\\!\\(\\*SubscriptBox[\\(c\\), \
+\\(1\\)]\\)\\!\\(\\*SubscriptBox[\\(c\\), \\(4\\)]\\)-Kempe Chain\"\>", {77, 153},
+     
+     BaseStyle->{
+      FontWeight -> "Bold", FontSize -> 20, FontFamily -> "Arial"}]}, 
+   {Thickness[0.006], LineBox[CompressedData["
+1:eJx11HtUzFkcAPApr1bZQpRFkjBGnJRjWo91q6F3Mz1M86yZZCqG0oZCGiXm
+CI3nnKEykUfZOiGkpG+dPKOmlB3JptWaocWoVkWxv/6Y+/vD8cc993zuued7
+vt977vc7MzIueJ0phUJJINbwnrEw3hAcwgc1fczlmGga+lYZ1N1gHgEy83jG
+1C1+YLR2A7+ipi4IO/uXhdICXTA2pXRV06OcNZAj0avaUsLhwPgu15MtYd95
+qWWq+5sPQrjoebsgL5UL992av8lBCINTX9tSpTzwOQQ09mEhaHw+X9kxjw8d
+1IFokYcQrBDfccEaAcQFB86hTBRCorJ2p/0rARguLA16TOzed7STE9VC2NWY
+ZbmxVACKB8ruuQfDweJL52OLDAG8zKsSFydHwEFWY/8zIo51SJXdIlcRFJzd
+sWVKHx++xj7oaj0sAtpAtPr1PT6UTPqqbNaKwMt/wvQ5sXygsoWz7MzEwK4L
+GX10LB9OOpmt20UXQ4Ld17SmSzyYsDHacE8ihp7f3xad3smD/UV3d4w/IQbL
+e8do7dN5kLb81eD5a2LIMbzR73rPhc87PeSGTjEUxc1v6soivUwlU2SKuOCi
+tylQD4rB17Ymud+EC9KQdw9Y1pEg2SD9RD/LwU7lHw63nE162kjq6GnKMGyn
+9NgPcjfS9+dTlMcL2dhpc90rOirXYBcPOM08RCHNmznqyhjrUOxDUc0n7Ogh
+2OVLYPBhcjA2p52d/2dXEM6/d987v04h6SPOe3oMDSxc723TeG7OBNL6JWFN
+puMCIanuW8ryFjHYv7hUt5sZgI2eL8zlH/HHTtqdrmxt9sM+ljp6fakNaY3G
+9ebjLz4wmL65cvMdMVg4iM107d7YjPvXTCQOpJsry6dpM1dhW5VDdeZ4BnbU
+1Sq6738e2Be3aEbV33TH7rw7FKrLQdhm+02YadUrsZOeFrrLVv+Gbai/nqkL
+WoattpHMUgncsOMdz17v1S/G5sRyerjJztiykjKzSQfnYb98l5zVQXXAFilH
+rM3YO4m87z38oT5XYTv11EgFvStrbbOzq4sI39Ct2NsyGWFf9hgb5eeIvBvH
+tX3KIfKbq1WoaAuw9cP5j3RFZkRA4V4xUIbrTaRja3P7bHPzliONophVtInI
+bw/Tq0+OUKvJkQYbJhFP7nPGc4QHMvaTd+fmp29TPLGtjjL2NaoYSFTtwqif
+IYay99KKJOvVyNiPIt/jH2ZkeSG97EnZHoMIDMETL+yL8UFbC6nbHKtFEFP/
+cays3Q8dOGpXuD1SBM4ptRWSL/7I2P9WxDg6UBaA2nRvhmRTRdCfvb3rRl8A
+Eqn5K66b/9i3XiySjOyPgJc+mk1J7ECkdW7721NFmKj3r9JAFMNblPcqlnTi
+s4T9LGJOgl9Adu5EJrJO+8lFSMzFi/1nZkQkMJFzy9XibLtwkJ8jDhqZqISm
+fhZLzEmjH6X4sgsUpNsGM1dOdiEdM6dj6Jop6aRzDjqHfAH2sf5HayNXkc7f
+9nNAw2s+9uK8teZxN0gj+3O9zzmkQ02l3SVTSEftLno+vYKHLe1W8OSnSMua
+wzhCAWlFiMr94RAXGENZ52tsWEjd1Eqjn+ZC6ZOlegcvFro1O+PCVkS69gRR
+kT1pxr+hQcUfOaQHqOXutaT911v8+kc+B6iF/8xL3/q9WUI3jW0TaWM84/v/
+yP8DsuG9SQ==
+     "]]}, 
+   {Thickness[0.006], LineBox[CompressedData["
+1:eJx11Hk0lWkYAPA79kJcOQhZ6opkGyTHdh+6U7jiXut393stXclxaWXKZEyl
+mVKERjKiLGnsMRk1+g6ytKhkqRNRl0xjyTYnW8ydOcf3zanjj/e85/fP+7zP
++z7PYxgs8g2TIhAIP0jWf3vAqKnyQyZqm9sk1LvlDjN5GRupISw0N6j7fUs+
+sqqlyslud6wZmGcslxDvVNytHLXpPG8mZtOaY9SMXiZIG/bI1cqw0HXBz9oD
+HFlgMhQqFXyaib6biognarGh2IFubhnERD09O7tkCtlgH1o40m7MRC0+bmXc
+l+FAc/JCcdQsAy3Jc7aYteHAbvFwp2Pbl75mxSxP9uNAl5Jz2qvLDFRdXnZy
+LJEDk7xhFR1HBhrLjfJ4o8oFQr/JXFIvgrIVmx7libiQk3QvN90bQeuDzY0y
+PnHhAeNXOdfUINSg7lL8mbM8MFhK7LisEYjWpIzZdVD54LIoW3CQEYAaCzNj
+rY/xYfbjrrZ7kf7oS7XHJLMGPpAeWFtGlvuhdD+zisOTfBil1DgZhfqiUst8
+tsheAFqaedeeFdLRQ12KOU+EAmgvZ1fVZNFQy6nNbTYXBDAhnWrVVOeDhnPm
+3osLBXByLoNqR9qD5rW2r02vF4DJcYc6zQkPdOAX5LB5twBmNNPbFbJ3rWov
+IWVioYGCGeU226e/d8OcMkYdjLFzwhxr/ZVhT/MOzHxD2Sp5dVvMqmjY32MC
+K8wJRFNt8ktT3Ghabp+6zqpGt46m7SiSwl2273ROFwFW8kMbeTSHrdqYcxV1
+73ZGGWPWEtOWr5/bsaonJPV39ogz5gSL6Am1acDPI0fy3hZQMCtcPT/elbUb
+c2aRUqHzIQ/MBpL0FUuomFNUSkcz3bxh5X8Iyp3haZE0WPm/ipf9OgUtdLCe
+812qFgkgfE2MWM/ND+aS4/tkEEl8SbiwZH9Iut1xJd9EAMg+ZDquOADc37p/
+rUgUgK7Wtnz+/UDoVsz5cPMNH6InfNcPVwbBJTv1U8QHfKDoCUsdRAhwHrqE
+Cqr4cG7Tlh/HWQwg8fftrMziA5/msNltAxNK9NfWCvfzodok+GKrLAsOVtv+
+fNuPD2cCj5jpNrJg4WCXYhRJUp+l/SdV6GxQcwxI1/mLB16yHn1S/WxYqX+r
+qhx+ozMHysQjjiZsST/YcI4GZnPASdl1vsUM90r/aDXEzY7c4UDrc9X85T4u
+KOy0VzmhzYXBLXcMyCe4cHyDmNbvwYXQ40VUJRoXRj8kXyTHcWGqYHFNiQEX
+IrPyhAducCHhCb2VOsnBLGXkMq3VIHHy46XXXV96pd8HQmKBLMuDlXkgeY7E
+q7Y8qCq/kjk/w8ZMQ6xBXsgG9zay9HZ/HgQ7zDn3GuOeCPFePDbLwnxeaej6
+mQjcda+frtleysS8V644qwxlwGBM903XZi5YfL/thvAwAinjXUMG9lwI70A+
+JjCCwEmj7EgWlQPWe17JOKwLBH+5569jHrOBq98S8Y4WANGMeFZlFBvmWyQD
+tcEfEl7UU/RU2aCho3DBOtQfdL+XDPBEFlQ35tiRu/2g9t9+mmFCk9uAfslR
+Pxhc6JkT2zFhIOOn7BEtP1Btb+SlxDFgXP3RKaTOF0zq/2wRLiCwlKYsus/y
+hdph59Pyj3BTiGmUomwEzv0RbB5mhlt7+PaIzCc6ZhJyJULUhzu/NCnDqQx3
+md5+9aLzuGsveKcRRbh/y960mO9Kx+J/bkrz0TqKGu5mndAhopiG2f+b369X
+3qJh+Xzut1HrgukncUdnhhhM+uOeGvOh1hvhJlh6rr876oNZlUgkppbiJk33
+rNsbhdskpyKUoIqbMsl8Q670xu/z3LBf/QBu5Lt52/L1uA89y68cr96DOYXk
+Y2ERiDtfTsNMWhN3NihK27zwwlyxqYOgcBl3idO3HRYuuFE916fSy1TMvTEj
+Xjtzcc82ZbQluv7Poij9jWLPL/wPxarOkQ==
+     "]]}},
+  ImagePadding->{{0., 1.}, {1., 0.}},
+  ImageSize->500,
+  PlotRange->{{-177.08333333333334`, 177.08333333333334`}, {-176.8, 176.8}},
+  PlotRangePadding->Automatic]], "Input",
+ CellChangeTimes->{{3.652106728548442*^9, 
+  3.652106741414966*^9}}]], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516352046949*^9}, {
+  3.65210684186442*^9, 3.6521068432249317`*^9}}],
+
+Cell[TextData[{
+ "Then ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "5"], TraditionalForm]]],
+ " cannot be contained in J=",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "5"], TraditionalForm]]],
+ "-Kempe chain containing ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]]],
+ " because K forms a ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "1"], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "3"], TraditionalForm]]],
+ " barrier."
+}], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516439011696*^9}, {
+  3.637600488474885*^9, 3.637600488474936*^9}}],
+
+Cell[TextData[{
+ "In that case a ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]]],
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "5"], TraditionalForm]]],
+ "-Kempe chain switch on J leaves ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["c", "2"], TraditionalForm]]],
+ " available for V. Done"
+}], "Subsubitem",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516478047215*^9}, {
+  3.637600537735942*^9, 3.637600542108375*^9}}]
+}, Open  ]],
+
+Cell["\<\
+In all cases, we have inductively colored G with at most five colors and \
+hence \[Chi](G) \[LessEqual] 5. \[FilledRectangle]\
+\>", "Item",
+ CellChangeTimes->{{3.637516044099069*^9, 3.637516110223762*^9}, {
+  3.637516483750967*^9, 3.6375165109018173`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Four Color Theorem", "Section",
+ CellChangeTimes->{{3.637516532758224*^9, 3.637516535556632*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Theorem 6.6 [The Four Color Theorem]", "Subsection",
+ CellChangeTimes->{{3.637516546108213*^9, 3.637516555579496*^9}}],
+
+Cell["\<\
+Let G be a simple planar graph. Then \[Chi](G) \[LessEqual] 4 and the bound \
+is sharp.\
+\>", "Text",
+ CellChangeTimes->{{3.637516563708742*^9, 3.637516585250312*^9}}],
+
+Cell[TextData[StyleBox["Proof.",
+ FontWeight->"Bold"]], "Text",
+ CellChangeTimes->{{3.6375165915779953`*^9, 3.637516592337908*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Re-run the proofs of Theorems 6.3 and 6.5 up to the point where we examine a \
+vertex V of degree 5 or less.\
+\>", "Item",
+ CellChangeTimes->{{3.637516611633233*^9, 3.637516660685781*^9}}],
+
+Cell[TextData[{
+ StyleBox["Case 1. ",
+  FontWeight->"Bold"],
+ "If the neighbors of V are collectively colored with three or fewer colors \
+then simply replace V and color it with a left over color and done."
+}], "Item",
+ CellChangeTimes->{{3.637516611633233*^9, 3.637516718371314*^9}}],
+
+Cell[TextData[{
+ StyleBox["Case 2. ",
+  FontWeight->"Bold"],
+ "Assume deg(V) = 4 and the neighbors of V in the plane embedding of G\\V are \
+",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", colored R, G, B, and Y respectively. "
+}], "Item",
+ CellChangeTimes->{{3.637516611633233*^9, 3.6375167874570427`*^9}, {
+  3.637516876654439*^9, 3.6375169059716263`*^9}}],
+
+Cell[TextData[{
+ "As in Theorem 6.5, WLOG assume that  ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " are contained in the same RB-Kempe chain. "
+}], "Item",
+ CellChangeTimes->{{3.637516611633233*^9, 3.6375167874570427`*^9}, {
+  3.637516876654439*^9, 3.637516937649617*^9}}],
+
+Cell[TextData[{
+ "Then ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " cannot be contained in the same GY-Kempe chain and thus a GY-Kempe chain \
+switch will leave a color available for V."
+}], "Item",
+ CellChangeTimes->{{3.637516611633233*^9, 3.6375167874570427`*^9}, {
+  3.637516876654439*^9, 3.637517021294367*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Four Color Theorem, proof", "Section",
+ CellChangeTimes->{{3.6375170373845*^9, 3.6375170460382643`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["Case 3. ",
+  FontWeight->"Bold"],
+ "Assume deg(V) = 5 and WLOG all four colors are used on the neighbors of V."
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.6375170919388657`*^9}}],
+
+Cell[TextData[{
+ StyleBox["Remark. ",
+  FontWeight->"Bold"],
+ "Exactly one color will be used twice (on the neighbors of V)  in this \
+scenario. Why?"
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.63751712755195*^9}}],
+
+Cell["Assume that color is G(reen).", "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517143744281*^9}}],
+
+Cell["Then either the two Gs are next to each other (RGGBY) or,", "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517163334362*^9}, {
+  3.637524931888343*^9, 3.6375249508715277`*^9}}],
+
+Cell["the two Gs are separated by one vertex (RGBGY). Why?", "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517184191045*^9}, {
+  3.637524928088579*^9, 3.637524972030796*^9}, {3.637525523222995*^9, 
+  3.637525523233695*^9}}],
+
+Cell[TextData[{
+ StyleBox["Subcase 3.1: ",
+  FontWeight->"Bold"],
+ "The two Gs are next to each other ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["v", "2"], 
+    SubscriptBox["v", "3"], 
+    SubscriptBox["v", "4"], 
+    SubscriptBox["v", "5"]}], TraditionalForm]]],
+ " = RGGBY."
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517184191045*^9}, {
+  3.637524928088579*^9, 3.637524972030796*^9}, {3.637525523222995*^9, 
+  3.637525527485367*^9}, {3.6375258958623734`*^9, 3.6375259035565977`*^9}, {
+  3.6375261065727777`*^9, 3.637526113259053*^9}}],
+
+Cell[TextData[{
+ "If the RB-Kempe chain containing ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " does not contain ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " then an RB-Kempe chain switch leaves color R available for V."
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517194262566*^9}, 
+   3.637524919834394*^9, {3.637524993141691*^9, 3.637525071264608*^9}}],
+
+Cell[TextData[{
+ "Thus WLOG ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", 
+    RowBox[{"1", " "}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " are on the same RB Kempe chain. "
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517194262566*^9}, 
+   3.637524919834394*^9, {3.637524993141691*^9, 3.637525094273026*^9}, {
+   3.637525366814254*^9, 3.6375253874677267`*^9}}],
+
+Cell[TextData[{
+ "Then the YG-Kempe chain containing ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "5"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " cannot contain either of ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " or ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517194262566*^9}, 
+   3.637524919834394*^9, {3.637524993141691*^9, 3.637525094273026*^9}, {
+   3.637525366814254*^9, 3.63752543816934*^9}}],
+
+Cell["\<\
+Hence a YG-Kempe chain switch leaves color Y available for V. Done.\
+\>", "Item",
+ CellChangeTimes->{{3.637517058780745*^9, 3.637517194262566*^9}, 
+   3.637524919834394*^9, {3.637524993141691*^9, 3.637525094273026*^9}, {
+   3.637525366814254*^9, 3.637525465712229*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Four Color Theorem, proof", "Section",
+ CellChangeTimes->{3.6375254952360077`*^9}],
+
+Cell[TextData[{
+ StyleBox["Subcase 3.2: ",
+  FontWeight->"Bold"],
+ "The two Gs are separated by one vertex ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["v", "2"], 
+    SubscriptBox["v", "3"], 
+    SubscriptBox["v", "4"], 
+    SubscriptBox["v", "5"]}], TraditionalForm]]],
+ "=RGBGY. "
+}], "Text",
+ CellChangeTimes->{{3.637525921053185*^9, 3.637525938865337*^9}, {
+  3.637525976289551*^9, 3.637526030518976*^9}, {3.637526085733994*^9, 
+  3.63752608622044*^9}, {3.637526120925462*^9, 3.637526132506379*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "WLOG there is an RB-Kempe chain that contains both ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and "
+}], "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526174076376*^9}}],
+
+Cell[TextData[{
+ "there is a YB-Kempe chain that contains both ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "3"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "5"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "."
+}], "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526177320359*^9}, {
+  3.637526210910755*^9, 3.637526236889916*^9}}],
+
+Cell[TextData[{
+ "Morever, there is no GY-Kempe chain that includes both ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "2"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "5"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", and"
+}], "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526177320359*^9}, {
+  3.637526210910755*^9, 3.6375262368775797`*^9}, {3.637526268564198*^9, 
+  3.637526294832505*^9}}],
+
+Cell[TextData[{
+ "there is no RG-Kempe chain that contains both ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "1"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "4"], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " (because of the RB- and YB-Kempe chains above)."
+}], "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526177320359*^9}, {
+  3.637526210910755*^9, 3.6375262368775797`*^9}, {3.637526268564198*^9, 
+  3.637526352204524*^9}}],
+
+Cell["\<\
+Perform both the YB- ad RB-Kempe chain switches, thus leaving color G \
+available for V.\
+\>", "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526177320359*^9}, {
+  3.637526210910755*^9, 3.6375262368775797`*^9}, {3.637526268564198*^9, 
+  3.637526394899282*^9}}],
+
+Cell["QED????????", "Item",
+ CellChangeTimes->{{3.6375261440977507`*^9, 3.637526177320359*^9}, {
+  3.637526210910755*^9, 3.6375262368775797`*^9}, {3.637526268564198*^9, 
+  3.637526404782072*^9}}]
+}, Open  ]],
+
+Cell["Find the flaw in Kempe\[CloseCurlyQuote]s proof!", "Text",
+ CellChangeTimes->{{3.637526407132641*^9, 3.63752641754981*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1374, 698},
+WindowMargins->{{13, Automatic}, {Automatic, 0}},
+TaggingRules->{"SlideShow" -> True},
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->FrontEnd`FileName[{"SlideShow"}, "Garnet.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4257, 95, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[7590, 199, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[14219, 363, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[20496, 517, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22065, 577, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24006, 650, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24830, 676, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[26073, 722, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[26515, 740, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[31214, 855, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[35969, 973, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[39449, 1056, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[41381, 1127, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[80315, 1737, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[119606, 2358, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[121553, 2438, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[123789, 2515, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[138002, 2868, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[140969, 2975, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[144845, 3102, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 148557, 3230}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4257, 95, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4840, 119, 301, 7, 356, "Title"],
+Cell[5144, 128, 315, 4, 236, "Title"],
+Cell[CellGroupData[{
+Cell[5484, 136, 181, 2, 114, "Section"],
+Cell[CellGroupData[{
+Cell[5690, 142, 213, 4, 85, "Subsection"],
+Cell[5906, 148, 323, 9, 89, "Text"],
+Cell[6232, 159, 140, 2, 51, "Text"],
+Cell[6375, 163, 676, 13, 279, "Text"],
+Cell[7054, 178, 158, 5, 89, "Text"],
+Cell[CellGroupData[{
+Cell[7237, 187, 138, 1, 49, "Item"],
+Cell[7378, 190, 139, 1, 49, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7590, 199, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7679, 204, 99, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[7803, 209, 158, 3, 122, "Subsection"],
+Cell[7964, 214, 167, 2, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8168, 221, 164, 3, 122, "Subsection"],
+Cell[CellGroupData[{
+Cell[8357, 228, 253, 5, 49, "Item"],
+Cell[8613, 235, 307, 6, 49, "Item"],
+Cell[8923, 243, 291, 6, 49, "Item"]
+}, Open  ]],
+Cell[9229, 252, 4929, 104, 432, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14219, 363, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[14308, 368, 131, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[14464, 373, 346, 6, 121, "Item"],
+Cell[14813, 381, 481, 18, 49, "Item"],
+Cell[15297, 401, 206, 3, 49, "Item"]
+}, Open  ]],
+Cell[15518, 407, 4929, 104, 432, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20496, 517, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20585, 522, 98, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[20708, 527, 175, 4, 85, "Subsection"],
+Cell[CellGroupData[{
+Cell[20908, 535, 422, 12, 85, "Item"],
+Cell[21333, 549, 357, 10, 85, "Item"],
+Cell[21693, 561, 299, 8, 85, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22065, 577, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22154, 582, 182, 2, 114, "Section"],
+Cell[CellGroupData[{
+Cell[22361, 588, 134, 1, 49, "ItemNumbered"],
+Cell[22498, 591, 137, 1, 49, "ItemNumbered"],
+Cell[22638, 594, 276, 8, 50, "ItemNumbered"],
+Cell[22917, 604, 226, 7, 50, "ItemNumbered"],
+Cell[23146, 613, 799, 30, 51, "ItemNumbered"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24006, 650, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24095, 655, 188, 2, 185, "Section"],
+Cell[24286, 659, 495, 11, 203, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24830, 676, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24919, 681, 157, 3, 185, "Section"],
+Cell[CellGroupData[{
+Cell[25101, 688, 205, 4, 85, "Item"],
+Cell[25309, 694, 238, 7, 49, "Item"],
+Cell[25550, 703, 269, 5, 85, "Item"],
+Cell[25822, 710, 190, 5, 49, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26073, 722, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26162, 727, 98, 1, 114, "Section"],
+Cell[26263, 730, 203, 4, 185, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26515, 740, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26604, 745, 125, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[26754, 750, 139, 1, 85, "Subsection"],
+Cell[26896, 753, 139, 1, 51, "Text"],
+Cell[27038, 756, 209, 6, 51, "Text"],
+Cell[CellGroupData[{
+Cell[27272, 766, 128, 1, 49, "Item"],
+Cell[27403, 769, 270, 6, 85, "Item"],
+Cell[27676, 777, 291, 7, 85, "Item"],
+Cell[27970, 786, 406, 7, 85, "Item"],
+Cell[28379, 795, 310, 4, 49, "Item"],
+Cell[28692, 801, 2216, 41, 361, "Item"],
+Cell[30911, 844, 230, 3, 49, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31214, 855, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[31281, 858, 129, 1, 356, "Title"],
+Cell[CellGroupData[{
+Cell[31435, 863, 358, 6, 49, "Item"],
+Cell[31796, 871, 257, 3, 49, "Item"],
+Cell[32056, 876, 1237, 23, 361, "Item"],
+Cell[33296, 901, 264, 5, 49, "Item"],
+Cell[33563, 908, 168, 2, 49, "Item"],
+Cell[33734, 912, 774, 25, 87, "Item"],
+Cell[34511, 939, 1409, 28, 361, "Item"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35969, 973, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[36036, 976, 158, 2, 271, "Title"],
+Cell[CellGroupData[{
+Cell[36219, 982, 386, 7, 49, "Item"],
+Cell[36608, 991, 2262, 45, 361, "Item"],
+Cell[38873, 1038, 304, 5, 49, "Item"]
+}, Open  ]],
+Cell[39192, 1046, 220, 5, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39449, 1056, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[39538, 1061, 122, 1, 114, "Section"],
+Cell[39663, 1064, 264, 5, 89, "Text"],
+Cell[CellGroupData[{
+Cell[39952, 1073, 115, 1, 85, "Subsection"],
+Cell[40070, 1076, 1250, 44, 165, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41381, 1127, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[41470, 1132, 109, 1, 114, "Section"],
+Cell[41582, 1135, 38684, 596, 606, "Graphics"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80315, 1737, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[80404, 1742, 107, 1, 114, "Section"],
+Cell[80514, 1745, 354, 9, 279, "Text"],
+Cell[80871, 1756, 38686, 596, 347, "Graphics"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[119606, 2358, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[119695, 2363, 105, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[119825, 2368, 1123, 42, 184, "Subsection"],
+Cell[120951, 2412, 96, 1, 51, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[121084, 2418, 255, 6, 134, "Subsection"],
+Cell[121342, 2426, 150, 5, 51, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[121553, 2438, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[121642, 2443, 107, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[121774, 2448, 141, 1, 85, "Subsection"],
+Cell[121918, 2451, 137, 1, 51, "Text"],
+Cell[122058, 2454, 132, 2, 51, "Text"],
+Cell[CellGroupData[{
+Cell[122215, 2460, 233, 4, 85, "Item"],
+Cell[122451, 2466, 180, 4, 49, "Item"],
+Cell[122634, 2472, 125, 1, 49, "Item"],
+Cell[CellGroupData[{
+Cell[122784, 2477, 247, 6, 82, "Subitem"],
+Cell[123034, 2485, 272, 6, 82, "Subitem"],
+Cell[123309, 2493, 395, 13, 48, "Subitem"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[123789, 2515, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[123878, 2520, 119, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[124022, 2525, 448, 13, 86, "Item"],
+Cell[124473, 2540, 3169, 66, 361, "Item"],
+Cell[CellGroupData[{
+Cell[127667, 2610, 501, 17, 46, "Subsubitem"],
+Cell[128171, 2629, 552, 19, 79, "Subsubitem"],
+Cell[128726, 2650, 389, 14, 45, "Subsubitem"],
+Cell[129118, 2666, 7393, 142, 512, "Subsubitem"],
+Cell[136514, 2810, 693, 26, 79, "Subsubitem"],
+Cell[137210, 2838, 450, 15, 45, "Subsubitem"]
+}, Open  ]],
+Cell[137675, 2856, 266, 5, 49, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[138002, 2868, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[138091, 2873, 103, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[138219, 2878, 124, 1, 85, "Subsection"],
+Cell[138346, 2881, 177, 4, 51, "Text"],
+Cell[138526, 2887, 131, 2, 51, "Text"],
+Cell[CellGroupData[{
+Cell[138682, 2893, 198, 4, 85, "Item"],
+Cell[138883, 2899, 285, 6, 85, "Item"],
+Cell[139171, 2907, 766, 27, 87, "Item"],
+Cell[139940, 2936, 455, 14, 50, "Item"],
+Cell[140398, 2952, 498, 15, 86, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[140969, 2975, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[141058, 2980, 110, 1, 114, "Section"],
+Cell[CellGroupData[{
+Cell[141193, 2985, 218, 5, 49, "Item"],
+Cell[141414, 2992, 227, 6, 49, "Item"],
+Cell[141644, 3000, 111, 1, 49, "Item"],
+Cell[141758, 3003, 190, 2, 49, "Item"],
+Cell[141951, 3007, 232, 3, 49, "Item"],
+Cell[142186, 3012, 675, 20, 50, "Item"],
+Cell[142864, 3034, 504, 14, 86, "Item"],
+Cell[143371, 3050, 511, 16, 50, "Item"],
+Cell[143885, 3068, 617, 20, 50, "Item"],
+Cell[144505, 3090, 279, 5, 49, "Item"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[144845, 3102, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[144934, 3107, 88, 1, 114, "Section"],
+Cell[145025, 3110, 623, 19, 51, "Text"],
+Cell[CellGroupData[{
+Cell[145673, 3133, 382, 13, 50, "Item"],
+Cell[146058, 3148, 421, 14, 50, "Item"],
+Cell[146482, 3164, 486, 15, 50, "Item"],
+Cell[146971, 3181, 520, 15, 86, "Item"],
+Cell[147494, 3198, 280, 6, 49, "Item"],
+Cell[147777, 3206, 195, 3, 49, "Item"]
+}, Open  ]],
+Cell[147987, 3212, 129, 1, 51, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

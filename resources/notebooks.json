@@ -1,6 +1,10 @@
 [
-  {
-    "name": "Mathematica Learning Site",
-    "link": "http://sitelic.colorado.edu/mathematica/algorithms"
-  }
+	{
+		"name": "Week 7b",
+		"link": "notebooks/gradAlgorithmsWeek7Part2.nb"
+	},
+	{
+	"name": "Mathematica Learning Site",
+	"link": "http://sitelic.colorado.edu/mathematica/algorithms"
+	}
 ]
