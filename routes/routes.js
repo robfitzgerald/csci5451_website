@@ -1,3 +1,5 @@
+var express = require('express');
+var path = require('path');
 // app/routes.js
 module.exports = function (app, passport) {
 
@@ -51,23 +53,31 @@ module.exports = function (app, passport) {
     res.json(require('../resources/slides.json'));
   });
 
-  app.get('/resources/:type/:name', isLoggedIn, isLoggedIn, function(req, res, next) {
-    var options = {
-      root: __dirname + '/public/'
-    };
-    var fileName = 'resources/' + req.param.type + '/' + req.param.name;
-    res.sendFile(fileName, options, function(err) {
-      if (err) {
-        console.log(err);
-        res.status(err.status).end();
-      }
-      else {
-        console.log('Sent:', fileName);
-      }
-    })
-  });
+  // @TODO: this stuff
+  // we want to move the resources to the server and use something like a regex to get the calls
+  // perhaps you should apply your thinking for the deveco solution to this.
+  // one directory for all resources.  all calls are for resources/files with 1:1 naming to server path
+
+  //app.get('/resources/:type/:name', isLoggedIn, function(req, res, next) {
+  //  var options = {
+  //    root: __dirname + '/public/'
+  //  };
+  //  var fileName = 'resources/' + req.param.type + '/' + req.param.name;
+  //  res.sendFile(fileName, options, function(err) {
+  //    if (err) {
+  //      console.log(err);
+  //      res.status(err.status).end();
+  //    }
+  //    else {
+  //      console.log('Sent:', fileName);
+  //    }
+  //  })
+  //});
+
+  //app.use('*', isLoggedIn, express.static(path.join(__dirname, 'public')));
 
 };
+
 
 
 // route middleware to make sure a user is logged in

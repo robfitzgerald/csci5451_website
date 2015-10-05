@@ -9,7 +9,7 @@
     .directive('navbar', navbarDirective);
 
   angular.module('algoSite')
-    .directive('assignmentCardDirective', assignmentCardDirective);
+    .directive('assignmentCard', assignmentCardDirective);
 
   // TODO: filter to only display due dates if they are relevant (in the future)
   //angular.module('algoSite')
