@@ -4,7 +4,11 @@
 		"link": "notebooks/gradAlgorithmsWeek7Part2.nb"
 	},
 	{
-	"name": "Mathematica Learning Site",
-	"link": "http://sitelic.colorado.edu/mathematica/algorithms"
+		"name": "Four Color Theorem Flaw",
+		"link": "notebooks/FourColorTheoremLab5451_Fall2015.nb"
+	},	
+	{
+		"name": "Mathematica Learning Site",
+		"link": "http://sitelic.colorado.edu/mathematica/algorithms"
 	}
 ]
