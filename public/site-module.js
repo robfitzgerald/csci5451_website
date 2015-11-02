@@ -24,6 +24,7 @@
     vm.notebooks = [];
     vm.people = [];
     vm.slides = [];
+    vm.presentations = [];
 
     activate();
 
@@ -33,6 +34,7 @@
       call('notebooks');
       call('people');
       call('slides');
+      call('presentations');
     }
 
     function call(endpoint) {

@@ -1,0 +1,31 @@
+doctype html
+html(ng-app="algoSite")
+    head
+        title CSCI 5451 Graduate Algorithms Course Website
+        link(href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    body.container.light-blue.lighten-5(ng-controller='viewController as ctrl')
+        div.row
+            navbar
+        div.row
+            div.col.s12.m12.l12.splash
+                h6 UC Denver
+                h6 Dr Ellen Gethner
+                h6 CSCI-5451
+                h6 Graduate Algorithms (Fall 2015)
+                h6 TA: Kha Man (KHA.MAN@UCDENVER.EDU) office hrs: MW 1:00p-5:00p LW-830 (Lawrence Building)
+                img(src="https://linhartphotography.files.wordpress.com/2013/09/dsc_003001.jpg")
+        div.row
+            div
+                div.collection.with-header.teal.lighten-2
+                    div.s12.m12.l12
+                        h5.collection-header.teal Presentations
+                    div.row
+                        div.people(ng-repeat='arr in ctrl.presentations')
+                            a.collection-item.col.s12.m12.l12.waves-effect.waves-light.teal.white-text.center-align.card.hoverable(href="{{arr.link}}") {{arr.name}}
+        script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js")
+        script(type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js")
+        script(src='site-module.js')
