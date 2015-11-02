@@ -13,6 +13,10 @@ module.exports = function (app, passport) {
     res.render('people');
   });
 
+  app.get('/pres', isLoggedIn, function (req, res) {
+    res.render('presentations');
+  });
+
 
   app.get('/login', function (req, res) {
     res.render('login', {message: req.flash('loginMessage')});
@@ -52,6 +56,10 @@ module.exports = function (app, passport) {
   app.get('/resources/slides', isLoggedIn, function(req, res, next) {
     res.json(require('../resources/slides.json'));
   });
+
+  app.get('/resources/presentations', isLoggedIn, function(req, res, next) {
+    res.json(require('../resources/presentations.json'))
+  })
 
   // @TODO: this stuff
   // we want to move the resources to the server and use something like a regex to get the calls
