@@ -1,5 +1,9 @@
 [
 	{
+	 	"name": "Shamir's Secret Sharing Scheme (for problem 6)",
+	  	"link": "notebooks/secretSharingGradAlgoHW.nb"
+	},
+	{
 		"name": "Week 7b",
 		"link": "notebooks/gradAlgorithmsWeek7Part2.nb"
 	},
