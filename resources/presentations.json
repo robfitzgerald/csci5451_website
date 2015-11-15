@@ -1,22 +1,42 @@
 [
   {
-    "name": "Iris, Kuiling and Manh",
+    "name": "Presentation 2: Iris, Kuiling and Manh",
     "link": "presentations/linck_manh_wang.zip"
   },
   {
-    "name": "Jeff and Rob",
+    "name": "Presentation 2: Jeff and Rob",
     "link": "presentations/fitzgerald_flower.odp"
   },
   {
-  	"name": "Carlos and Hector",
+  	"name": "Presentation 2: Carlos and Hector",
   	"link": "presentations/Robles_Soriano.pdf"
   },
   {
-    "name": "Trevor",
+    "name": "Presentation 2: Trevor",
     "link": "http://cs.trevorsimonton.com/algs/p2.html"
   },
   {
-    "name": "Cliff",
+    "name": "Presentation 2: Cliff",
     "link": "http://cliffmin.github.io/"
+  },
+  {
+    "name": "Presentation 3: Iris, Kuiling and Manh",
+    "link": "presentations/Presentation3_v1.pptx"
+  },
+  {
+    "name": "Presentation 3: Hector, Carlos, Trevor, and Cliff: Powerpoint",
+    "link": "presentations/Nov 12 Presentation.pptx"
+  },
+  {
+  "name": "Presentation 3: Hector, Carlos, Trevor, and Cliff: Thickness",
+  "link": "http://cliffmin.github.io/"
+  },
+  {
+    "name": "Presentation 3: Hector, Carlos, Trevor, and Cliff: Coloring",
+    "link": "http://cs.trevorsimonton.com/algs/cycles/"
+  },
+  {
+    "name": "Presentation 3: Jeff, Matt, Matthew, and Rob",
+    "link": "https://github.com/robfitzgerald/csci5451-graph-thickness-and-coloring"
   }
 ]
